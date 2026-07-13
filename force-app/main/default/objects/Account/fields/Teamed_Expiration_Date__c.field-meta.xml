@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Teamed_Expiration_Date__c</fullName>
+    <description>Date that indicates when an AE and an AM are working together for the first year of a first contract for a customer</description>
+    <inlineHelpText>Date that indicates when an AE and an AM are working together for the first year of a first contract for a customer</inlineHelpText>
+    <label>Teamed Expiration Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

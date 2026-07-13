@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_SAVO_Opportunities__c</fullName>
+    <description>indicates how many SAVO opportunities this account has; used to help identify whether a previous SAVO prospect account needs to be retained or purged</description>
+    <label>Number of SAVO Opportunities</label>
+    <summaryForeignKey>SavoOpportunity__c.Account__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

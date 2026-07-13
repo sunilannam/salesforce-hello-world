@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Target_Enrichment_Date__c</fullName>
+    <description>GTMS-4100 - Set by Zoominfo/Ringlead Integration when the Lead to Contact match/enrichment was updated on any related contact.  NOTE:  Not all related contacts would be updated on this date.  Contacts with same Target Enrichment Date would apply.</description>
+    <inlineHelpText>Set by Zoominfo/Ringlead Integration when the Lead to Contact match/enrichment was updated on any related contact.  NOTE:  Not all related contacts would be updated on this date.  Contacts with same Target Enrichment Date would apply.</inlineHelpText>
+    <label>Contact Target Enrichment Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

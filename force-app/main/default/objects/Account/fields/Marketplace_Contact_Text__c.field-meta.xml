@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketplace_Contact_Text__c</fullName>
+    <description>Created for SFTM-8074. This field is stamped with the value of the name of the contact in the Marketplace Contact account field, so it can be referenced by the Marketplace Contact formula field on the opportunity. Had to do it this way because we had already hit the limit on unique object references on the opportunity object.</description>
+    <externalId>false</externalId>
+    <label>Marketplace Contact (Text)</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

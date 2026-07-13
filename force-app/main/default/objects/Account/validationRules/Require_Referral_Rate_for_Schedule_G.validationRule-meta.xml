@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Referral_Rate_for_Schedule_G</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    INCLUDES(Signed_Schedule_Type__c, &quot;Schedule G - Partner Referral to Seismic&quot;),
+    ISBLANK(Referral_to_Seismic_Rate__c),
+    $RecordType.Name = &quot;Partner&quot;
+)</errorConditionFormula>
+    <errorDisplayField>Referral_to_Seismic_Rate__c</errorDisplayField>
+    <errorMessage>Referral to Seismic Rate is required when &apos;Schedule G - Partner Referral to Seismic&apos; is selected</errorMessage>
+</ValidationRule>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referenceable_Customer__c</fullName>
+    <businessStatus>DeprecateCandidate</businessStatus>
+    <description>Must use Reference Edge for the Source not this field.
+10/20 - Removed access from everyone.</description>
+    <inlineHelpText>LOGO: Public use of Logo -- 
+MARKETING APPROVED: Open to case studies &amp; externally shared webinars. No Marketing approval needed. --
+SALES REFERENCE: Willing to take sales reference calls. (Does not mean they are okay with being in marketing material.)</inlineHelpText>
+    <label>Referenceable Customer</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Logo</fullName>
+                <default>false</default>
+                <label>Logo</label>
+            </value>
+            <value>
+                <fullName>Marketing Approved</fullName>
+                <default>false</default>
+                <label>Marketing Approved</label>
+            </value>
+            <value>
+                <fullName>Sales Reference</fullName>
+                <default>false</default>
+                <label>Sales Reference</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Activity_blank_or_greater_than_30__c</fullName>
+    <formula>(TODAY() - LastActivityDate) &gt; 30 || ISBLANK(LastActivityDate)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Last Activity blank or greater than 30</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

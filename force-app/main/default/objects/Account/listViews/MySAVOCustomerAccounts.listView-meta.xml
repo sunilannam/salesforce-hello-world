@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MySAVOCustomerAccounts</fullName>
+    <booleanFilter>1 AND 2 AND 3</booleanFilter>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>SAVO_Products__c</columns>
+    <columns>KnowledgeTree_Products__c</columns>
+    <columns>SAVO_Next_Renewal_Date__c</columns>
+    <columns>Customer_Success_Director__c</columns>
+    <columns>Revenue_Lifecycle_Stages__c</columns>
+    <columns>Account_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Customer</value>
+    </filters>
+    <filters>
+        <field>Active_SAVO_Client__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Owner_User__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>My SAVO Customer Accounts</label>
+    <sharedTo>
+        <group>SAVO_CS_Team</group>
+    </sharedTo>
+</ListView>

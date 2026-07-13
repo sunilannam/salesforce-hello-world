@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Latest_Opportunity_Close_Date__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>This field is used by Customer Success in reporting to compare Latest Oppty Close date with expiration and last login dates of tenants.</description>
+    <label>Latest Opportunity Close Date</label>
+    <summarizedField>Opportunity.CloseDate</summarizedField>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

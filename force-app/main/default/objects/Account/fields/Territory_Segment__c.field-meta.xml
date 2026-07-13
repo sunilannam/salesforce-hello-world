@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory_Segment__c</fullName>
+    <description>The territory Segment assigned for determining sales group segment</description>
+    <externalId>false</externalId>
+    <formula>CurrentTerritorySegment__c</formula>
+    <inlineHelpText>Classification based on the Sales Group assigned to the account and the number of employees.</inlineHelpText>
+    <label>Territory Segment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

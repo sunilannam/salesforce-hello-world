@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CallCenterPlatform__c</fullName>
+    <label>Call Center Platform</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3CLogic</fullName>
+                <default>false</default>
+                <label>3CLogic</label>
+            </value>
+            <value>
+                <fullName>8x8 Contact Center</fullName>
+                <default>false</default>
+                <label>8x8 Contact Center</label>
+            </value>
+            <value>
+                <fullName>8x8 ContactNow</fullName>
+                <default>false</default>
+                <label>8x8 ContactNow</label>
+            </value>
+            <value>
+                <fullName>8x8 Virtual Contact Center</fullName>
+                <default>false</default>
+                <label>8x8 Virtual Contact Center</label>
+            </value>
+            <value>
+                <fullName>Acqueon</fullName>
+                <default>false</default>
+                <label>Acqueon</label>
+            </value>
+            <value>
+                <fullName>Aheeva</fullName>
+                <default>false</default>
+                <label>Aheeva</label>
+            </value>
+            <value>
+                <fullName>Aircall</fullName>
+                <default>false</default>
+                <label>Aircall</label>
+            </value>
+            <value>
+                <fullName>Akkadian Console Operator</fullName>
+                <default>false</default>
+                <label>Akkadian Console Operator</label>
+            </value>
+            <value>
+                <fullName>Alcatel-Lucent OmniTouch</fullName>
+                <default>false</default>
+                <label>Alcatel-Lucent OmniTouch</label>
+            </value>
+            <value>
+                <fullName>Aloware</fullName>
+                <default>false</default>
+                <label>Aloware</label>
+            </value>
+            <value>
+                <fullName>Altitude Contact Center Software</fullName>
+                <default>false</default>
+                <label>Altitude Contact Center Software</label>
+            </value>
+            <value>
+                <fullName>Altivon</fullName>
+                <default>false</default>
+                <label>Altivon</label>
+            </value>
+            <value>
+                <fullName>Amazon Connect</fullName>
+                <default>false</default>
+                <label>Amazon Connect</label>
+            </value>
+            <value>
+                <fullName>Ameyo</fullName>
+                <default>false</default>
+                <label>Ameyo</label>
+            </value>
+            <value>
+                <fullName>AMTELCO Call Center Systems</fullName>
+                <default>false</default>
+                <label>AMTELCO Call Center Systems</label>
+            </value>
+            <value>
+                <fullName>Aspect</fullName>
+                <default>false</default>
+                <label>Aspect</label>
+            </value>
+            <value>
+                <fullName>Aspect CallCenter ACD</fullName>
+                <default>false</default>
+                <label>Aspect CallCenter ACD</label>
+            </value>
+            <value>
+                <fullName>Aspect Spectrum ACD</fullName>
+                <default>false</default>
+                <label>Aspect Spectrum ACD</label>
+            </value>
+            <value>
+                <fullName>Aspect Unified IP</fullName>
+                <default>false</default>
+                <label>Aspect Unified IP</label>
+            </value>
+            <value>
+                <fullName>Aspect Zipwire</fullName>
+                <default>false</default>
+                <label>Aspect Zipwire</label>
+            </value>
+            <value>
+                <fullName>Autonomy etalk</fullName>
+                <default>false</default>
+                <label>Autonomy etalk</label>
+            </value>
+            <value>
+                <fullName>Avaya Aura Call Center Elite</fullName>
+                <default>false</default>
+                <label>Avaya Aura Call Center Elite</label>
+            </value>
+            <value>
+                <fullName>Avaya Aura Contact Center</fullName>
+                <default>false</default>
+                <label>Avaya Aura Contact Center</label>
+            </value>
+            <value>
+                <fullName>Avaya BCMS</fullName>
+                <default>false</default>
+                <label>Avaya BCMS</label>
+            </value>
+            <value>
+                <fullName>Avaya Call Center ACD</fullName>
+                <default>false</default>
+                <label>Avaya Call Center ACD</label>
+            </value>
+            <value>
+                <fullName>Avaya Call Management System</fullName>
+                <default>false</default>
+                <label>Avaya Call Management System</label>
+            </value>
+            <value>
+                <fullName>Avaya CentreVu Supervisor</fullName>
+                <default>false</default>
+                <label>Avaya CentreVu Supervisor</label>
+            </value>
+            <value>
+                <fullName>Avaya Contact Analyzer</fullName>
+                <default>false</default>
+                <label>Avaya Contact Analyzer</label>
+            </value>
+            <value>
+                <fullName>Avaya Contact Center Communications</fullName>
+                <default>false</default>
+                <label>Avaya Contact Center Communications</label>
+            </value>
+            <value>
+                <fullName>Avaya Contact Center Control Manager</fullName>
+                <default>false</default>
+                <label>Avaya Contact Center Control Manager</label>
+            </value>
+            <value>
+                <fullName>Avaya Extension to Cellular</fullName>
+                <default>false</default>
+                <label>Avaya Extension to Cellular</label>
+            </value>
+            <value>
+                <fullName>Avaya Predictive Dialer</fullName>
+                <default>false</default>
+                <label>Avaya Predictive Dialer</label>
+            </value>
+            <value>
+                <fullName>Avaya Proactive Contact</fullName>
+                <default>false</default>
+                <label>Avaya Proactive Contact</label>
+            </value>
+            <value>
+                <fullName>Balto</fullName>
+                <default>false</default>
+                <label>Balto</label>
+            </value>
+            <value>
+                <fullName>bluArc</fullName>
+                <default>false</default>
+                <label>bluArc</label>
+            </value>
+            <value>
+                <fullName>BT Intelligent Contact Manager (ICM)</fullName>
+                <default>false</default>
+                <label>BT Intelligent Contact Manager (ICM)</label>
+            </value>
+            <value>
+                <fullName>Calabrio</fullName>
+                <default>false</default>
+                <label>Calabrio</label>
+            </value>
+            <value>
+                <fullName>Calabrio One</fullName>
+                <default>false</default>
+                <label>Calabrio One</label>
+            </value>
+            <value>
+                <fullName>CallMiner Eureka</fullName>
+                <default>false</default>
+                <label>CallMiner Eureka</label>
+            </value>
+            <value>
+                <fullName>Calltools</fullName>
+                <default>false</default>
+                <label>Calltools</label>
+            </value>
+            <value>
+                <fullName>CCaaS</fullName>
+                <default>false</default>
+                <label>CCaaS</label>
+            </value>
+            <value>
+                <fullName>CCXML</fullName>
+                <default>false</default>
+                <label>CCXML</label>
+            </value>
+            <value>
+                <fullName>Cisco Customer Journey Platform (CJP)</fullName>
+                <default>false</default>
+                <label>Cisco Customer Journey Platform (CJP)</label>
+            </value>
+            <value>
+                <fullName>Cisco Gatekeeper</fullName>
+                <default>false</default>
+                <label>Cisco Gatekeeper</label>
+            </value>
+            <value>
+                <fullName>Cisco IP Call Center</fullName>
+                <default>false</default>
+                <label>Cisco IP Call Center</label>
+            </value>
+            <value>
+                <fullName>Cisco Packaged Contact Center</fullName>
+                <default>false</default>
+                <label>Cisco Packaged Contact Center</label>
+            </value>
+            <value>
+                <fullName>Cisco Unified Contact Center Enterprise</fullName>
+                <default>false</default>
+                <label>Cisco Unified Contact Center Enterprise</label>
+            </value>
+            <value>
+                <fullName>Cisco Unified Contact Center Express</fullName>
+                <default>false</default>
+                <label>Cisco Unified Contact Center Express</label>
+            </value>
+            <value>
+                <fullName>Cisco Unified Intelligence Suite</fullName>
+                <default>false</default>
+                <label>Cisco Unified Intelligence Suite</label>
+            </value>
+            <value>
+                <fullName>Cisco Unified Intelligent Contact Management Enterprise</fullName>
+                <default>false</default>
+                <label>Cisco Unified Intelligent Contact Management Enterprise</label>
+            </value>
+            <value>
+                <fullName>Cisco Unified SIP Proxy</fullName>
+                <default>false</default>
+                <label>Cisco Unified SIP Proxy</label>
+            </value>
+            <value>
+                <fullName>Clarity Connect</fullName>
+                <default>false</default>
+                <label>Clarity Connect</label>
+            </value>
+            <value>
+                <fullName>Clear nexus</fullName>
+                <default>false</default>
+                <label>Clear nexus</label>
+            </value>
+            <value>
+                <fullName>Cloud Contact Center CCaaS</fullName>
+                <default>false</default>
+                <label>Cloud Contact Center CCaaS</label>
+            </value>
+            <value>
+                <fullName>Collab</fullName>
+                <default>false</default>
+                <label>Collab</label>
+            </value>
+            <value>
+                <fullName>Comcast Business VoiceEdge</fullName>
+                <default>false</default>
+                <label>Comcast Business VoiceEdge</label>
+            </value>
+            <value>
+                <fullName>Connect First</fullName>
+                <default>false</default>
+                <label>Connect First</label>
+            </value>
+            <value>
+                <fullName>Convoso (SafeSoft Solutions)</fullName>
+                <default>false</default>
+                <label>Convoso (SafeSoft Solutions)</label>
+            </value>
+            <value>
+                <fullName>CosmoCom</fullName>
+                <default>false</default>
+                <label>CosmoCom</label>
+            </value>
+            <value>
+                <fullName>CrazyCall</fullName>
+                <default>false</default>
+                <label>CrazyCall</label>
+            </value>
+            <value>
+                <fullName>CSI Virtual Observer</fullName>
+                <default>false</default>
+                <label>CSI Virtual Observer</label>
+            </value>
+            <value>
+                <fullName>dnc.com</fullName>
+                <default>false</default>
+                <label>dnc.com</label>
+            </value>
+            <value>
+                <fullName>eCAS</fullName>
+                <default>false</default>
+                <label>eCAS</label>
+            </value>
+            <value>
+                <fullName>Echopass Contact Center On-Demand</fullName>
+                <default>false</default>
+                <label>Echopass Contact Center On-Demand</label>
+            </value>
+            <value>
+                <fullName>Enghouse Interactive</fullName>
+                <default>false</default>
+                <label>Enghouse Interactive</label>
+            </value>
+            <value>
+                <fullName>Envision Click2Coach</fullName>
+                <default>false</default>
+                <label>Envision Click2Coach</label>
+            </value>
+            <value>
+                <fullName>Five9</fullName>
+                <default>false</default>
+                <label>Five9</label>
+            </value>
+            <value>
+                <fullName>Fonolo</fullName>
+                <default>false</default>
+                <label>Fonolo</label>
+            </value>
+            <value>
+                <fullName>Genesys</fullName>
+                <default>false</default>
+                <label>Genesys</label>
+            </value>
+            <value>
+                <fullName>Genesys Customer Engagement</fullName>
+                <default>false</default>
+                <label>Genesys Customer Engagement</label>
+            </value>
+            <value>
+                <fullName>Genesys Inbound Voice</fullName>
+                <default>false</default>
+                <label>Genesys Inbound Voice</label>
+            </value>
+            <value>
+                <fullName>Genesys PureConnect</fullName>
+                <default>false</default>
+                <label>Genesys PureConnect</label>
+            </value>
+            <value>
+                <fullName>Genesys PureEngage</fullName>
+                <default>false</default>
+                <label>Genesys PureEngage</label>
+            </value>
+            <value>
+                <fullName>Genesys Virtual Contact Center (VCC)</fullName>
+                <default>false</default>
+                <label>Genesys Virtual Contact Center (VCC)</label>
+            </value>
+            <value>
+                <fullName>Global Connect</fullName>
+                <default>false</default>
+                <label>Global Connect</label>
+            </value>
+            <value>
+                <fullName>Global Response</fullName>
+                <default>false</default>
+                <label>Global Response</label>
+            </value>
+            <value>
+                <fullName>Google CCAI</fullName>
+                <default>false</default>
+                <label>Google CCAI</label>
+            </value>
+            <value>
+                <fullName>Guru</fullName>
+                <default>false</default>
+                <label>Guru</label>
+            </value>
+            <value>
+                <fullName>HealthLine Sharp Focus</fullName>
+                <default>false</default>
+                <label>HealthLine Sharp Focus</label>
+            </value>
+            <value>
+                <fullName>IBM Sterling Call center application</fullName>
+                <default>false</default>
+                <label>IBM Sterling Call center application</label>
+            </value>
+            <value>
+                <fullName>Imagicle Attendant Console</fullName>
+                <default>false</default>
+                <label>Imagicle Attendant Console</label>
+            </value>
+            <value>
+                <fullName>inConcert</fullName>
+                <default>false</default>
+                <label>inConcert</label>
+            </value>
+            <value>
+                <fullName>injixo</fullName>
+                <default>false</default>
+                <label>injixo</label>
+            </value>
+            <value>
+                <fullName>Inova Call Center Reporting</fullName>
+                <default>false</default>
+                <label>Inova Call Center Reporting</label>
+            </value>
+            <value>
+                <fullName>Inova LightLink</fullName>
+                <default>false</default>
+                <label>Inova LightLink</label>
+            </value>
+            <value>
+                <fullName>InsideSales.com Dialer</fullName>
+                <default>false</default>
+                <label>InsideSales.com Dialer</label>
+            </value>
+            <value>
+                <fullName>Interaction Dialer</fullName>
+                <default>false</default>
+                <label>Interaction Dialer</label>
+            </value>
+            <value>
+                <fullName>Interactive Intelligence CaaS</fullName>
+                <default>false</default>
+                <label>Interactive Intelligence CaaS</label>
+            </value>
+            <value>
+                <fullName>Interactive Intelligence Customer Interaction Center</fullName>
+                <default>false</default>
+                <label>Interactive Intelligence Customer Interaction Center</label>
+            </value>
+            <value>
+                <fullName>Intradiem</fullName>
+                <default>false</default>
+                <label>Intradiem</label>
+            </value>
+            <value>
+                <fullName>ISI Infortel</fullName>
+                <default>false</default>
+                <label>ISI Infortel</label>
+            </value>
+            <value>
+                <fullName>Jack Henry jhaCall Center</fullName>
+                <default>false</default>
+                <label>Jack Henry jhaCall Center</label>
+            </value>
+            <value>
+                <fullName>KnoahSoft</fullName>
+                <default>false</default>
+                <label>KnoahSoft</label>
+            </value>
+            <value>
+                <fullName>LikeBillions</fullName>
+                <default>false</default>
+                <label>LikeBillions</label>
+            </value>
+            <value>
+                <fullName>LiveOps</fullName>
+                <default>false</default>
+                <label>LiveOps</label>
+            </value>
+            <value>
+                <fullName>LiveVox</fullName>
+                <default>false</default>
+                <label>LiveVox</label>
+            </value>
+            <value>
+                <fullName>Locus Dialogue</fullName>
+                <default>false</default>
+                <label>Locus Dialogue</label>
+            </value>
+            <value>
+                <fullName>Maestro</fullName>
+                <default>false</default>
+                <label>Maestro</label>
+            </value>
+            <value>
+                <fullName>MaestroQA</fullName>
+                <default>false</default>
+                <label>MaestroQA</label>
+            </value>
+            <value>
+                <fullName>McKesson CareEnhance Call Center</fullName>
+                <default>false</default>
+                <label>McKesson CareEnhance Call Center</label>
+            </value>
+            <value>
+                <fullName>Mitel Anywhere</fullName>
+                <default>false</default>
+                <label>Mitel Anywhere</label>
+            </value>
+            <value>
+                <fullName>Mitel Collaboration Advanced</fullName>
+                <default>false</default>
+                <label>Mitel Collaboration Advanced</label>
+            </value>
+            <value>
+                <fullName>Mitel Communications Director</fullName>
+                <default>false</default>
+                <label>Mitel Communications Director</label>
+            </value>
+            <value>
+                <fullName>Mitel Connect Contact Center</fullName>
+                <default>false</default>
+                <label>Mitel Connect Contact Center</label>
+            </value>
+            <value>
+                <fullName>Mitel Micontact Center Enterprise</fullName>
+                <default>false</default>
+                <label>Mitel Micontact Center Enterprise</label>
+            </value>
+            <value>
+                <fullName>Monet Software</fullName>
+                <default>false</default>
+                <label>Monet Software</label>
+            </value>
+            <value>
+                <fullName>MSFT Dynamics</fullName>
+                <default>false</default>
+                <label>MSFT Dynamics</label>
+            </value>
+            <value>
+                <fullName>MSFT Dynamics (Service)</fullName>
+                <default>false</default>
+                <label>MSFT Dynamics (Service)</label>
+            </value>
+            <value>
+                <fullName>Netcall</fullName>
+                <default>false</default>
+                <label>Netcall</label>
+            </value>
+            <value>
+                <fullName>NetFortris</fullName>
+                <default>false</default>
+                <label>NetFortris</label>
+            </value>
+            <value>
+                <fullName>NetLert N-Focus</fullName>
+                <default>false</default>
+                <label>NetLert N-Focus</label>
+            </value>
+            <value>
+                <fullName>NewVoiceMedia</fullName>
+                <default>false</default>
+                <label>NewVoiceMedia</label>
+            </value>
+            <value>
+                <fullName>NICE</fullName>
+                <default>false</default>
+                <label>NICE</label>
+            </value>
+            <value>
+                <fullName>NICE inContact</fullName>
+                <default>false</default>
+                <label>NICE inContact</label>
+            </value>
+            <value>
+                <fullName>Noble Systems</fullName>
+                <default>false</default>
+                <label>Noble Systems</label>
+            </value>
+            <value>
+                <fullName>Noble Systems CCS</fullName>
+                <default>false</default>
+                <label>Noble Systems CCS</label>
+            </value>
+            <value>
+                <fullName>Noble Systems Dialer</fullName>
+                <default>false</default>
+                <label>Noble Systems Dialer</label>
+            </value>
+            <value>
+                <fullName>Nortel Call Center MIS</fullName>
+                <default>false</default>
+                <label>Nortel Call Center MIS</label>
+            </value>
+            <value>
+                <fullName>Nortel Contact Center</fullName>
+                <default>false</default>
+                <label>Nortel Contact Center</label>
+            </value>
+            <value>
+                <fullName>Nortel Symposium Call Center Server</fullName>
+                <default>false</default>
+                <label>Nortel Symposium Call Center Server</label>
+            </value>
+            <value>
+                <fullName>Nuasis</fullName>
+                <default>false</default>
+                <label>Nuasis</label>
+            </value>
+            <value>
+                <fullName>OAISYS</fullName>
+                <default>false</default>
+                <label>OAISYS</label>
+            </value>
+            <value>
+                <fullName>Observe.ai</fullName>
+                <default>false</default>
+                <label>Observe.ai</label>
+            </value>
+            <value>
+                <fullName>ObserveAI</fullName>
+                <default>false</default>
+                <label>ObserveAI</label>
+            </value>
+            <value>
+                <fullName>ONE System</fullName>
+                <default>false</default>
+                <label>ONE System</label>
+            </value>
+            <value>
+                <fullName>OpenText Qfiniti (Formerly HP Qfiniti)</fullName>
+                <default>false</default>
+                <label>OpenText Qfiniti (Formerly HP Qfiniti)</label>
+            </value>
+            <value>
+                <fullName>Oracle Contact Center Anywhere</fullName>
+                <default>false</default>
+                <label>Oracle Contact Center Anywhere</label>
+            </value>
+            <value>
+                <fullName>Oracle Contact On Demand</fullName>
+                <default>false</default>
+                <label>Oracle Contact On Demand</label>
+            </value>
+            <value>
+                <fullName>Oracle Service Cloud</fullName>
+                <default>false</default>
+                <label>Oracle Service Cloud</label>
+            </value>
+            <value>
+                <fullName>PinDrop</fullName>
+                <default>false</default>
+                <label>PinDrop</label>
+            </value>
+            <value>
+                <fullName>PlayVox</fullName>
+                <default>false</default>
+                <label>PlayVox</label>
+            </value>
+            <value>
+                <fullName>PureCloud</fullName>
+                <default>false</default>
+                <label>PureCloud</label>
+            </value>
+            <value>
+                <fullName>PureConnect</fullName>
+                <default>false</default>
+                <label>PureConnect</label>
+            </value>
+            <value>
+                <fullName>ReadyMode</fullName>
+                <default>false</default>
+                <label>ReadyMode</label>
+            </value>
+            <value>
+                <fullName>RingCentral Contact Center</fullName>
+                <default>false</default>
+                <label>RingCentral Contact Center</label>
+            </value>
+            <value>
+                <fullName>Salesforce Service Cloud</fullName>
+                <default>false</default>
+                <label>Salesforce Service Cloud</label>
+            </value>
+            <value>
+                <fullName>SAP Contact Center</fullName>
+                <default>false</default>
+                <label>SAP Contact Center</label>
+            </value>
+            <value>
+                <fullName>SAP Hybris Contact Center</fullName>
+                <default>false</default>
+                <label>SAP Hybris Contact Center</label>
+            </value>
+            <value>
+                <fullName>Screen Pop Software</fullName>
+                <default>false</default>
+                <label>Screen Pop Software</label>
+            </value>
+            <value>
+                <fullName>Serenova</fullName>
+                <default>false</default>
+                <label>Serenova</label>
+            </value>
+            <value>
+                <fullName>ServiceNow</fullName>
+                <default>false</default>
+                <label>ServiceNow</label>
+            </value>
+            <value>
+                <fullName>ShoreTel ECC</fullName>
+                <default>false</default>
+                <label>ShoreTel ECC</label>
+            </value>
+            <value>
+                <fullName>Siebel Contact Center</fullName>
+                <default>false</default>
+                <label>Siebel Contact Center</label>
+            </value>
+            <value>
+                <fullName>Siemens HiPath ProCenter</fullName>
+                <default>false</default>
+                <label>Siemens HiPath ProCenter</label>
+            </value>
+            <value>
+                <fullName>SingleComm</fullName>
+                <default>false</default>
+                <label>SingleComm</label>
+            </value>
+            <value>
+                <fullName>sparkcentral</fullName>
+                <default>false</default>
+                <label>sparkcentral</label>
+            </value>
+            <value>
+                <fullName>Talkdesk</fullName>
+                <default>false</default>
+                <label>Talkdesk</label>
+            </value>
+            <value>
+                <fullName>TDS Metrocom</fullName>
+                <default>false</default>
+                <label>TDS Metrocom</label>
+            </value>
+            <value>
+                <fullName>Techsee</fullName>
+                <default>false</default>
+                <label>Techsee</label>
+            </value>
+            <value>
+                <fullName>Telax</fullName>
+                <default>false</default>
+                <label>Telax</label>
+            </value>
+            <value>
+                <fullName>TeleTech</fullName>
+                <default>false</default>
+                <label>TeleTech</label>
+            </value>
+            <value>
+                <fullName>TelStrat</fullName>
+                <default>false</default>
+                <label>TelStrat</label>
+            </value>
+            <value>
+                <fullName>Tiger Communications</fullName>
+                <default>false</default>
+                <label>Tiger Communications</label>
+            </value>
+            <value>
+                <fullName>T-Metrics Call Center Software</fullName>
+                <default>false</default>
+                <label>T-Metrics Call Center Software</label>
+            </value>
+            <value>
+                <fullName>Trysis Tapit EX</fullName>
+                <default>false</default>
+                <label>Trysis Tapit EX</label>
+            </value>
+            <value>
+                <fullName>UJET</fullName>
+                <default>false</default>
+                <label>UJET</label>
+            </value>
+            <value>
+                <fullName>Unify OpenScape Contact Center Enterprise</fullName>
+                <default>false</default>
+                <label>Unify OpenScape Contact Center Enterprise</label>
+            </value>
+            <value>
+                <fullName>Uptivity</fullName>
+                <default>false</default>
+                <label>Uptivity</label>
+            </value>
+            <value>
+                <fullName>UserTalk</fullName>
+                <default>false</default>
+                <label>UserTalk</label>
+            </value>
+            <value>
+                <fullName>Veramark eCas</fullName>
+                <default>false</default>
+                <label>Veramark eCas</label>
+            </value>
+            <value>
+                <fullName>Verint</fullName>
+                <default>false</default>
+                <label>Verint</label>
+            </value>
+            <value>
+                <fullName>VICIdial</fullName>
+                <default>false</default>
+                <label>VICIdial</label>
+            </value>
+            <value>
+                <fullName>Vocalcom</fullName>
+                <default>false</default>
+                <label>Vocalcom</label>
+            </value>
+            <value>
+                <fullName>Vocollect Voice</fullName>
+                <default>false</default>
+                <label>Vocollect Voice</label>
+            </value>
+            <value>
+                <fullName>VoiceLog</fullName>
+                <default>false</default>
+                <label>VoiceLog</label>
+            </value>
+            <value>
+                <fullName>Vonage Contact Center (formerly NewVoiceMedia)</fullName>
+                <default>false</default>
+                <label>Vonage Contact Center (formerly NewVoiceMedia)</label>
+            </value>
+            <value>
+                <fullName>Zendesk</fullName>
+                <default>false</default>
+                <label>Zendesk</label>
+            </value>
+            <value>
+                <fullName>Zendesk Talk</fullName>
+                <default>false</default>
+                <label>Zendesk Talk</label>
+            </value>
+            <value>
+                <fullName>Zingtree</fullName>
+                <default>false</default>
+                <label>Zingtree</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

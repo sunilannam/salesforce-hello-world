@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X6sense_Segment__c</fullName>
+    <description>There can be multiple segments per account.</description>
+    <inlineHelpText>Identifies the various 6sense segments to which the account belongs.</inlineHelpText>
+    <label>6s Segments</label>
+    <length>1000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

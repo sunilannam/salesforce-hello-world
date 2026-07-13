@@ -1,0 +1,1810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRM__c</fullName>
+    <label>CRM</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>17hats</fullName>
+                <default>false</default>
+                <label>17hats</label>
+            </value>
+            <value>
+                <fullName>1CRM</fullName>
+                <default>false</default>
+                <label>1CRM</label>
+            </value>
+            <value>
+                <fullName>Access CRM</fullName>
+                <default>false</default>
+                <label>Access CRM</label>
+            </value>
+            <value>
+                <fullName>Act!</fullName>
+                <default>false</default>
+                <label>Act!</label>
+            </value>
+            <value>
+                <fullName>Acteol</fullName>
+                <default>false</default>
+                <label>Acteol</label>
+            </value>
+            <value>
+                <fullName>AddressTwo</fullName>
+                <default>false</default>
+                <label>AddressTwo</label>
+            </value>
+            <value>
+                <fullName>AdLuge</fullName>
+                <default>false</default>
+                <label>AdLuge</label>
+            </value>
+            <value>
+                <fullName>Affinity</fullName>
+                <default>false</default>
+                <label>Affinity</label>
+            </value>
+            <value>
+                <fullName>Agile CRM</fullName>
+                <default>false</default>
+                <label>Agile CRM</label>
+            </value>
+            <value>
+                <fullName>Aislelabs</fullName>
+                <default>false</default>
+                <label>Aislelabs</label>
+            </value>
+            <value>
+                <fullName>AltaReturn CRM</fullName>
+                <default>false</default>
+                <label>AltaReturn CRM</label>
+            </value>
+            <value>
+                <fullName>Amdocs Clarify CRM</fullName>
+                <default>false</default>
+                <label>Amdocs Clarify CRM</label>
+            </value>
+            <value>
+                <fullName>amoCRM</fullName>
+                <default>false</default>
+                <label>amoCRM</label>
+            </value>
+            <value>
+                <fullName>Aplicor 3C CRM</fullName>
+                <default>false</default>
+                <label>Aplicor 3C CRM</label>
+            </value>
+            <value>
+                <fullName>Apptivo</fullName>
+                <default>false</default>
+                <label>Apptivo</label>
+            </value>
+            <value>
+                <fullName>Aptean Onyx CRM</fullName>
+                <default>false</default>
+                <label>Aptean Onyx CRM</label>
+            </value>
+            <value>
+                <fullName>Aptean Pivotal CRM</fullName>
+                <default>false</default>
+                <label>Aptean Pivotal CRM</label>
+            </value>
+            <value>
+                <fullName>Aptos Clienteling</fullName>
+                <default>false</default>
+                <label>Aptos Clienteling</label>
+            </value>
+            <value>
+                <fullName>Aptos CRM</fullName>
+                <default>false</default>
+                <label>Aptos CRM</label>
+            </value>
+            <value>
+                <fullName>Ardexus</fullName>
+                <default>false</default>
+                <label>Ardexus</label>
+            </value>
+            <value>
+                <fullName>Argus Lease CRM</fullName>
+                <default>false</default>
+                <label>Argus Lease CRM</label>
+            </value>
+            <value>
+                <fullName>Ascendix</fullName>
+                <default>false</default>
+                <label>Ascendix</label>
+            </value>
+            <value>
+                <fullName>Astute Solutions ePowerCenter</fullName>
+                <default>false</default>
+                <label>Astute Solutions ePowerCenter</label>
+            </value>
+            <value>
+                <fullName>Autotask PSA</fullName>
+                <default>false</default>
+                <label>Autotask PSA</label>
+            </value>
+            <value>
+                <fullName>AVALOQ</fullName>
+                <default>false</default>
+                <label>AVALOQ</label>
+            </value>
+            <value>
+                <fullName>Avature CRM</fullName>
+                <default>false</default>
+                <label>Avature CRM</label>
+            </value>
+            <value>
+                <fullName>AXLR8</fullName>
+                <default>false</default>
+                <label>AXLR8</label>
+            </value>
+            <value>
+                <fullName>Backstop</fullName>
+                <default>false</default>
+                <label>Backstop</label>
+            </value>
+            <value>
+                <fullName>Batch</fullName>
+                <default>false</default>
+                <label>Batch</label>
+            </value>
+            <value>
+                <fullName>Batchbook</fullName>
+                <default>false</default>
+                <label>Batchbook</label>
+            </value>
+            <value>
+                <fullName>Betrend</fullName>
+                <default>false</default>
+                <label>Betrend</label>
+            </value>
+            <value>
+                <fullName>Blackbaud CRM</fullName>
+                <default>false</default>
+                <label>Blackbaud CRM</label>
+            </value>
+            <value>
+                <fullName>Blitz Sales Software</fullName>
+                <default>false</default>
+                <label>Blitz Sales Software</label>
+            </value>
+            <value>
+                <fullName>BlueCamroo</fullName>
+                <default>false</default>
+                <label>BlueCamroo</label>
+            </value>
+            <value>
+                <fullName>BSI CRM</fullName>
+                <default>false</default>
+                <label>BSI CRM</label>
+            </value>
+            <value>
+                <fullName>BSI Software</fullName>
+                <default>false</default>
+                <label>BSI Software</label>
+            </value>
+            <value>
+                <fullName>Builder1440 Sales1440</fullName>
+                <default>false</default>
+                <label>Builder1440 Sales1440</label>
+            </value>
+            <value>
+                <fullName>Built.io</fullName>
+                <default>false</default>
+                <label>Built.io</label>
+            </value>
+            <value>
+                <fullName>BureauLink</fullName>
+                <default>false</default>
+                <label>BureauLink</label>
+            </value>
+            <value>
+                <fullName>Buzzient</fullName>
+                <default>false</default>
+                <label>Buzzient</label>
+            </value>
+            <value>
+                <fullName>C2CRM</fullName>
+                <default>false</default>
+                <label>C2CRM</label>
+            </value>
+            <value>
+                <fullName>CallPro CRM</fullName>
+                <default>false</default>
+                <label>CallPro CRM</label>
+            </value>
+            <value>
+                <fullName>CampaignerCRM</fullName>
+                <default>false</default>
+                <label>CampaignerCRM</label>
+            </value>
+            <value>
+                <fullName>Campus Management CampusNexus</fullName>
+                <default>false</default>
+                <label>Campus Management CampusNexus</label>
+            </value>
+            <value>
+                <fullName>Capsule</fullName>
+                <default>false</default>
+                <label>Capsule</label>
+            </value>
+            <value>
+                <fullName>CA Service Operations Insight</fullName>
+                <default>false</default>
+                <label>CA Service Operations Insight</label>
+            </value>
+            <value>
+                <fullName>Cegedim Relationship Management</fullName>
+                <default>false</default>
+                <label>Cegedim Relationship Management</label>
+            </value>
+            <value>
+                <fullName>CGI Scripting</fullName>
+                <default>false</default>
+                <label>CGI Scripting</label>
+            </value>
+            <value>
+                <fullName>Channelinsight channel CRM (cCRM)</fullName>
+                <default>false</default>
+                <label>Channelinsight channel CRM (cCRM)</label>
+            </value>
+            <value>
+                <fullName>Channeltivity</fullName>
+                <default>false</default>
+                <label>Channeltivity</label>
+            </value>
+            <value>
+                <fullName>Channeltivity (subdomains only)</fullName>
+                <default>false</default>
+                <label>Channeltivity (subdomains only)</label>
+            </value>
+            <value>
+                <fullName>Chaos Software</fullName>
+                <default>false</default>
+                <label>Chaos Software</label>
+            </value>
+            <value>
+                <fullName>CiviCRM</fullName>
+                <default>false</default>
+                <label>CiviCRM</label>
+            </value>
+            <value>
+                <fullName>Claritysoft</fullName>
+                <default>false</default>
+                <label>Claritysoft</label>
+            </value>
+            <value>
+                <fullName>Clear C2</fullName>
+                <default>false</default>
+                <label>Clear C2</label>
+            </value>
+            <value>
+                <fullName>ClearCare CRM</fullName>
+                <default>false</default>
+                <label>ClearCare CRM</label>
+            </value>
+            <value>
+                <fullName>ClientSpace</fullName>
+                <default>false</default>
+                <label>ClientSpace</label>
+            </value>
+            <value>
+                <fullName>Close.com</fullName>
+                <default>false</default>
+                <label>Close.com</label>
+            </value>
+            <value>
+                <fullName>Close.io</fullName>
+                <default>false</default>
+                <label>Close.io</label>
+            </value>
+            <value>
+                <fullName>Cobra</fullName>
+                <default>false</default>
+                <label>Cobra</label>
+            </value>
+            <value>
+                <fullName>Coheris</fullName>
+                <default>false</default>
+                <label>Coheris</label>
+            </value>
+            <value>
+                <fullName>Commence CRM</fullName>
+                <default>false</default>
+                <label>Commence CRM</label>
+            </value>
+            <value>
+                <fullName>CompanyHub</fullName>
+                <default>false</default>
+                <label>CompanyHub</label>
+            </value>
+            <value>
+                <fullName>ConnectWise Manage</fullName>
+                <default>false</default>
+                <label>ConnectWise Manage</label>
+            </value>
+            <value>
+                <fullName>Conrep Customer Management</fullName>
+                <default>false</default>
+                <label>Conrep Customer Management</label>
+            </value>
+            <value>
+                <fullName>ContactEase CRM</fullName>
+                <default>false</default>
+                <label>ContactEase CRM</label>
+            </value>
+            <value>
+                <fullName>Contactually</fullName>
+                <default>false</default>
+                <label>Contactually</label>
+            </value>
+            <value>
+                <fullName>ContactWise</fullName>
+                <default>false</default>
+                <label>ContactWise</label>
+            </value>
+            <value>
+                <fullName>ContentNet</fullName>
+                <default>false</default>
+                <label>ContentNet</label>
+            </value>
+            <value>
+                <fullName>Copper CRM</fullName>
+                <default>false</default>
+                <label>Copper CRM</label>
+            </value>
+            <value>
+                <fullName>Cosential</fullName>
+                <default>false</default>
+                <label>Cosential</label>
+            </value>
+            <value>
+                <fullName>CourseTrends</fullName>
+                <default>false</default>
+                <label>CourseTrends</label>
+            </value>
+            <value>
+                <fullName>Creatui</fullName>
+                <default>false</default>
+                <label>Creatui</label>
+            </value>
+            <value>
+                <fullName>CRM4D</fullName>
+                <default>false</default>
+                <label>CRM4D</label>
+            </value>
+            <value>
+                <fullName>CRM4Legal</fullName>
+                <default>false</default>
+                <label>CRM4Legal</label>
+            </value>
+            <value>
+                <fullName>CRMNEXT</fullName>
+                <default>false</default>
+                <label>CRMNEXT</label>
+            </value>
+            <value>
+                <fullName>D+H CRM</fullName>
+                <default>false</default>
+                <label>D+H CRM</label>
+            </value>
+            <value>
+                <fullName>Daxko Engage</fullName>
+                <default>false</default>
+                <label>Daxko Engage</label>
+            </value>
+            <value>
+                <fullName>Daylite</fullName>
+                <default>false</default>
+                <label>Daylite</label>
+            </value>
+            <value>
+                <fullName>DealCloud</fullName>
+                <default>false</default>
+                <label>DealCloud</label>
+            </value>
+            <value>
+                <fullName>Deltek CRM</fullName>
+                <default>false</default>
+                <label>Deltek CRM</label>
+            </value>
+            <value>
+                <fullName>Deltek Vision CRM</fullName>
+                <default>false</default>
+                <label>Deltek Vision CRM</label>
+            </value>
+            <value>
+                <fullName>DialSource Denali</fullName>
+                <default>false</default>
+                <label>DialSource Denali</label>
+            </value>
+            <value>
+                <fullName>Digital Alchemy</fullName>
+                <default>false</default>
+                <label>Digital Alchemy</label>
+            </value>
+            <value>
+                <fullName>Dito</fullName>
+                <default>false</default>
+                <label>Dito</label>
+            </value>
+            <value>
+                <fullName>DonorStudio</fullName>
+                <default>false</default>
+                <label>DonorStudio</label>
+            </value>
+            <value>
+                <fullName>eCommerce Industries Acsellerate</fullName>
+                <default>false</default>
+                <label>eCommerce Industries Acsellerate</label>
+            </value>
+            <value>
+                <fullName>EC SCRM</fullName>
+                <default>false</default>
+                <label>EC SCRM</label>
+            </value>
+            <value>
+                <fullName>edrone</fullName>
+                <default>false</default>
+                <label>edrone</label>
+            </value>
+            <value>
+                <fullName>Efficy CRM</fullName>
+                <default>false</default>
+                <label>Efficy CRM</label>
+            </value>
+            <value>
+                <fullName>Ellie Mae (MortgageCEO)</fullName>
+                <default>false</default>
+                <label>Ellie Mae (MortgageCEO)</label>
+            </value>
+            <value>
+                <fullName>Ellucian CRM Recruit</fullName>
+                <default>false</default>
+                <label>Ellucian CRM Recruit</label>
+            </value>
+            <value>
+                <fullName>EMAS Pro</fullName>
+                <default>false</default>
+                <label>EMAS Pro</label>
+            </value>
+            <value>
+                <fullName>Encompass CRM</fullName>
+                <default>false</default>
+                <label>Encompass CRM</label>
+            </value>
+            <value>
+                <fullName>Engage121</fullName>
+                <default>false</default>
+                <label>Engage121</label>
+            </value>
+            <value>
+                <fullName>Epicor Clientele</fullName>
+                <default>false</default>
+                <label>Epicor Clientele</label>
+            </value>
+            <value>
+                <fullName>Epicor CRM</fullName>
+                <default>false</default>
+                <label>Epicor CRM</label>
+            </value>
+            <value>
+                <fullName>Facebook Share</fullName>
+                <default>false</default>
+                <label>Facebook Share</label>
+            </value>
+            <value>
+                <fullName>Fieldbook</fullName>
+                <default>false</default>
+                <label>Fieldbook</label>
+            </value>
+            <value>
+                <fullName>FirstCall</fullName>
+                <default>false</default>
+                <label>FirstCall</label>
+            </value>
+            <value>
+                <fullName>Fiserv EnAct</fullName>
+                <default>false</default>
+                <label>Fiserv EnAct</label>
+            </value>
+            <value>
+                <fullName>FortressGB CRM</fullName>
+                <default>false</default>
+                <label>FortressGB CRM</label>
+            </value>
+            <value>
+                <fullName>Freshsales</fullName>
+                <default>false</default>
+                <label>Freshsales</label>
+            </value>
+            <value>
+                <fullName>Fujitsu CustomerCENTER</fullName>
+                <default>false</default>
+                <label>Fujitsu CustomerCENTER</label>
+            </value>
+            <value>
+                <fullName>GA CONNECTOR</fullName>
+                <default>false</default>
+                <label>GA CONNECTOR</label>
+            </value>
+            <value>
+                <fullName>Gingr</fullName>
+                <default>false</default>
+                <label>Gingr</label>
+            </value>
+            <value>
+                <fullName>GoldMine</fullName>
+                <default>false</default>
+                <label>GoldMine</label>
+            </value>
+            <value>
+                <fullName>Gold-Vision</fullName>
+                <default>false</default>
+                <label>Gold-Vision</label>
+            </value>
+            <value>
+                <fullName>Greenrope</fullName>
+                <default>false</default>
+                <label>Greenrope</label>
+            </value>
+            <value>
+                <fullName>Gremln</fullName>
+                <default>false</default>
+                <label>Gremln</label>
+            </value>
+            <value>
+                <fullName>Guestfolio</fullName>
+                <default>false</default>
+                <label>Guestfolio</label>
+            </value>
+            <value>
+                <fullName>HandsOn Connect</fullName>
+                <default>false</default>
+                <label>HandsOn Connect</label>
+            </value>
+            <value>
+                <fullName>Highrise</fullName>
+                <default>false</default>
+                <label>Highrise</label>
+            </value>
+            <value>
+                <fullName>Home grown</fullName>
+                <default>false</default>
+                <label>Home grown</label>
+            </value>
+            <value>
+                <fullName>HubSpot</fullName>
+                <default>false</default>
+                <label>HubSpot</label>
+            </value>
+            <value>
+                <fullName>Hubspot CRM</fullName>
+                <default>false</default>
+                <label>Hubspot CRM</label>
+            </value>
+            <value>
+                <fullName>HubSpot Sales Hub</fullName>
+                <default>false</default>
+                <label>HubSpot Sales Hub</label>
+            </value>
+            <value>
+                <fullName>i2 CRM</fullName>
+                <default>false</default>
+                <label>i2 CRM</label>
+            </value>
+            <value>
+                <fullName>IBM Client Success Portal</fullName>
+                <default>false</default>
+                <label>IBM Client Success Portal</label>
+            </value>
+            <value>
+                <fullName>iDSS</fullName>
+                <default>false</default>
+                <label>iDSS</label>
+            </value>
+            <value>
+                <fullName>InfoFlo</fullName>
+                <default>false</default>
+                <label>InfoFlo</label>
+            </value>
+            <value>
+                <fullName>Infor CRM</fullName>
+                <default>false</default>
+                <label>Infor CRM</label>
+            </value>
+            <value>
+                <fullName>Infor CRM Epiphany Sales</fullName>
+                <default>false</default>
+                <label>Infor CRM Epiphany Sales</label>
+            </value>
+            <value>
+                <fullName>Infusionsoft</fullName>
+                <default>false</default>
+                <label>Infusionsoft</label>
+            </value>
+            <value>
+                <fullName>Innova</fullName>
+                <default>false</default>
+                <label>Innova</label>
+            </value>
+            <value>
+                <fullName>Insightly</fullName>
+                <default>false</default>
+                <label>Insightly</label>
+            </value>
+            <value>
+                <fullName>Insightly CRM</fullName>
+                <default>false</default>
+                <label>Insightly CRM</label>
+            </value>
+            <value>
+                <fullName>InStream</fullName>
+                <default>false</default>
+                <label>InStream</label>
+            </value>
+            <value>
+                <fullName>intelecrm</fullName>
+                <default>false</default>
+                <label>intelecrm</label>
+            </value>
+            <value>
+                <fullName>Intelliworks</fullName>
+                <default>false</default>
+                <label>Intelliworks</label>
+            </value>
+            <value>
+                <fullName>IntroHive</fullName>
+                <default>false</default>
+                <label>IntroHive</label>
+            </value>
+            <value>
+                <fullName>IQ Tracker CRM</fullName>
+                <default>false</default>
+                <label>IQ Tracker CRM</label>
+            </value>
+            <value>
+                <fullName>Iris CRM</fullName>
+                <default>false</default>
+                <label>Iris CRM</label>
+            </value>
+            <value>
+                <fullName>Ivinex</fullName>
+                <default>false</default>
+                <label>Ivinex</label>
+            </value>
+            <value>
+                <fullName>Jack Henry Synapsys</fullName>
+                <default>false</default>
+                <label>Jack Henry Synapsys</label>
+            </value>
+            <value>
+                <fullName>JobNimbus</fullName>
+                <default>false</default>
+                <label>JobNimbus</label>
+            </value>
+            <value>
+                <fullName>Junxure</fullName>
+                <default>false</default>
+                <label>Junxure</label>
+            </value>
+            <value>
+                <fullName>KANA CRM</fullName>
+                <default>false</default>
+                <label>KANA CRM</label>
+            </value>
+            <value>
+                <fullName>Kana Software</fullName>
+                <default>false</default>
+                <label>Kana Software</label>
+            </value>
+            <value>
+                <fullName>Kapture</fullName>
+                <default>false</default>
+                <label>Kapture</label>
+            </value>
+            <value>
+                <fullName>karmaCRM</fullName>
+                <default>false</default>
+                <label>karmaCRM</label>
+            </value>
+            <value>
+                <fullName>Knowledge Suite</fullName>
+                <default>false</default>
+                <label>Knowledge Suite</label>
+            </value>
+            <value>
+                <fullName>Konnektive CRM</fullName>
+                <default>false</default>
+                <label>Konnektive CRM</label>
+            </value>
+            <value>
+                <fullName>KORE ProSports Sponsorship</fullName>
+                <default>false</default>
+                <label>KORE ProSports Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Kustomer</fullName>
+                <default>false</default>
+                <label>Kustomer</label>
+            </value>
+            <value>
+                <fullName>LeadJet</fullName>
+                <default>false</default>
+                <label>LeadJet</label>
+            </value>
+            <value>
+                <fullName>LeadMaster</fullName>
+                <default>false</default>
+                <label>LeadMaster</label>
+            </value>
+            <value>
+                <fullName>Leasepath</fullName>
+                <default>false</default>
+                <label>Leasepath</label>
+            </value>
+            <value>
+                <fullName>Less Annoying CRM</fullName>
+                <default>false</default>
+                <label>Less Annoying CRM</label>
+            </value>
+            <value>
+                <fullName>LexisNexis atVantage</fullName>
+                <default>false</default>
+                <label>LexisNexis atVantage</label>
+            </value>
+            <value>
+                <fullName>LexisNexis InterAction</fullName>
+                <default>false</default>
+                <label>LexisNexis InterAction</label>
+            </value>
+            <value>
+                <fullName>Liferay Portal</fullName>
+                <default>false</default>
+                <label>Liferay Portal</label>
+            </value>
+            <value>
+                <fullName>Lime CRM</fullName>
+                <default>false</default>
+                <label>Lime CRM</label>
+            </value>
+            <value>
+                <fullName>LoanXEngine</fullName>
+                <default>false</default>
+                <label>LoanXEngine</label>
+            </value>
+            <value>
+                <fullName>LogNet Systems</fullName>
+                <default>false</default>
+                <label>LogNet Systems</label>
+            </value>
+            <value>
+                <fullName>LPTracker</fullName>
+                <default>false</default>
+                <label>LPTracker</label>
+            </value>
+            <value>
+                <fullName>LTV-lab</fullName>
+                <default>false</default>
+                <label>LTV-lab</label>
+            </value>
+            <value>
+                <fullName>Luxor CRM</fullName>
+                <default>false</default>
+                <label>Luxor CRM</label>
+            </value>
+            <value>
+                <fullName>Magentrix</fullName>
+                <default>false</default>
+                <label>Magentrix</label>
+            </value>
+            <value>
+                <fullName>MarketSharp</fullName>
+                <default>false</default>
+                <label>MarketSharp</label>
+            </value>
+            <value>
+                <fullName>MARS CRM</fullName>
+                <default>false</default>
+                <label>MARS CRM</label>
+            </value>
+            <value>
+                <fullName>Matrix SalesCenter</fullName>
+                <default>false</default>
+                <label>Matrix SalesCenter</label>
+            </value>
+            <value>
+                <fullName>Maximizer CRM</fullName>
+                <default>false</default>
+                <label>Maximizer CRM</label>
+            </value>
+            <value>
+                <fullName>MDC DOT</fullName>
+                <default>false</default>
+                <label>MDC DOT</label>
+            </value>
+            <value>
+                <fullName>Median</fullName>
+                <default>false</default>
+                <label>Median</label>
+            </value>
+            <value>
+                <fullName>MediMobile</fullName>
+                <default>false</default>
+                <label>MediMobile</label>
+            </value>
+            <value>
+                <fullName>MeetingBroker</fullName>
+                <default>false</default>
+                <label>MeetingBroker</label>
+            </value>
+            <value>
+                <fullName>Membrain</fullName>
+                <default>false</default>
+                <label>Membrain</label>
+            </value>
+            <value>
+                <fullName>Metafile ResultsPlus</fullName>
+                <default>false</default>
+                <label>Metafile ResultsPlus</label>
+            </value>
+            <value>
+                <fullName>Method:CRM</fullName>
+                <default>false</default>
+                <label>Method:CRM</label>
+            </value>
+            <value>
+                <fullName>Microdec</fullName>
+                <default>false</default>
+                <label>Microdec</label>
+            </value>
+            <value>
+                <fullName>Micros iCare</fullName>
+                <default>false</default>
+                <label>Micros iCare</label>
+            </value>
+            <value>
+                <fullName>Microsoft Dynamics</fullName>
+                <default>false</default>
+                <label>Microsoft Dynamics</label>
+            </value>
+            <value>
+                <fullName>Microsoft Dynamics CRM</fullName>
+                <default>false</default>
+                <label>Microsoft Dynamics CRM</label>
+            </value>
+            <value>
+                <fullName>Microsoft Dynamics CRM 2011</fullName>
+                <default>false</default>
+                <label>Microsoft Dynamics CRM 2011</label>
+            </value>
+            <value>
+                <fullName>Microsoft Dynamics CRM 2016</fullName>
+                <default>false</default>
+                <label>Microsoft Dynamics CRM 2016</label>
+            </value>
+            <value>
+                <fullName>Microsoft Dynamics CRM 4.0</fullName>
+                <default>false</default>
+                <label>Microsoft Dynamics CRM 4.0</label>
+            </value>
+            <value>
+                <fullName>MICROS Relate Retail CRM</fullName>
+                <default>false</default>
+                <label>MICROS Relate Retail CRM</label>
+            </value>
+            <value>
+                <fullName>Mosaic CRM</fullName>
+                <default>false</default>
+                <label>Mosaic CRM</label>
+            </value>
+            <value>
+                <fullName>Mothernode</fullName>
+                <default>false</default>
+                <label>Mothernode</label>
+            </value>
+            <value>
+                <fullName>mySAP Business Suite</fullName>
+                <default>false</default>
+                <label>mySAP Business Suite</label>
+            </value>
+            <value>
+                <fullName>mySAP CRM</fullName>
+                <default>false</default>
+                <label>mySAP CRM</label>
+            </value>
+            <value>
+                <fullName>Netage</fullName>
+                <default>false</default>
+                <label>Netage</label>
+            </value>
+            <value>
+                <fullName>Nethunt CRM</fullName>
+                <default>false</default>
+                <label>Nethunt CRM</label>
+            </value>
+            <value>
+                <fullName>NetSuite</fullName>
+                <default>false</default>
+                <label>NetSuite</label>
+            </value>
+            <value>
+                <fullName>NetSuite CRM</fullName>
+                <default>false</default>
+                <label>NetSuite CRM</label>
+            </value>
+            <value>
+                <fullName>NexJ Contact</fullName>
+                <default>false</default>
+                <label>NexJ Contact</label>
+            </value>
+            <value>
+                <fullName>Nimble</fullName>
+                <default>false</default>
+                <label>Nimble</label>
+            </value>
+            <value>
+                <fullName>Nimble CRM</fullName>
+                <default>false</default>
+                <label>Nimble CRM</label>
+            </value>
+            <value>
+                <fullName>Novu</fullName>
+                <default>false</default>
+                <label>Novu</label>
+            </value>
+            <value>
+                <fullName>Nutshell</fullName>
+                <default>false</default>
+                <label>Nutshell</label>
+            </value>
+            <value>
+                <fullName>Odoo CRM</fullName>
+                <default>false</default>
+                <label>Odoo CRM</label>
+            </value>
+            <value>
+                <fullName>Onalytica IRM</fullName>
+                <default>false</default>
+                <label>Onalytica IRM</label>
+            </value>
+            <value>
+                <fullName>OnContact</fullName>
+                <default>false</default>
+                <label>OnContact</label>
+            </value>
+            <value>
+                <fullName>OnePageCRM</fullName>
+                <default>false</default>
+                <label>OnePageCRM</label>
+            </value>
+            <value>
+                <fullName>ONESolution Work Management</fullName>
+                <default>false</default>
+                <label>ONESolution Work Management</label>
+            </value>
+            <value>
+                <fullName>OnyX</fullName>
+                <default>false</default>
+                <label>OnyX</label>
+            </value>
+            <value>
+                <fullName>Oracle/Seibel</fullName>
+                <default>false</default>
+                <label>Oracle/Seibel</label>
+            </value>
+            <value>
+                <fullName>Oracle Collective Intellect</fullName>
+                <default>false</default>
+                <label>Oracle Collective Intellect</label>
+            </value>
+            <value>
+                <fullName>Oracle CRM</fullName>
+                <default>false</default>
+                <label>Oracle CRM</label>
+            </value>
+            <value>
+                <fullName>Oracle CRM On Demand</fullName>
+                <default>false</default>
+                <label>Oracle CRM On Demand</label>
+            </value>
+            <value>
+                <fullName>Oracle Mobile Sales Assistant</fullName>
+                <default>false</default>
+                <label>Oracle Mobile Sales Assistant</label>
+            </value>
+            <value>
+                <fullName>Oracle OnDemand</fullName>
+                <default>false</default>
+                <label>Oracle OnDemand</label>
+            </value>
+            <value>
+                <fullName>Oracle Opower</fullName>
+                <default>false</default>
+                <label>Oracle Opower</label>
+            </value>
+            <value>
+                <fullName>Oracle PeopleSoft CRM</fullName>
+                <default>false</default>
+                <label>Oracle PeopleSoft CRM</label>
+            </value>
+            <value>
+                <fullName>Oracle Sales Cloud</fullName>
+                <default>false</default>
+                <label>Oracle Sales Cloud</label>
+            </value>
+            <value>
+                <fullName>Oracle Siebel</fullName>
+                <default>false</default>
+                <label>Oracle Siebel</label>
+            </value>
+            <value>
+                <fullName>Oracle Siebel Enterprise Marketing</fullName>
+                <default>false</default>
+                <label>Oracle Siebel Enterprise Marketing</label>
+            </value>
+            <value>
+                <fullName>Oracle Siebel PRM</fullName>
+                <default>false</default>
+                <label>Oracle Siebel PRM</label>
+            </value>
+            <value>
+                <fullName>Oracle Siebel Universal Customer Master</fullName>
+                <default>false</default>
+                <label>Oracle Siebel Universal Customer Master</label>
+            </value>
+            <value>
+                <fullName>Oracle TeleService</fullName>
+                <default>false</default>
+                <label>Oracle TeleService</label>
+            </value>
+            <value>
+                <fullName>OrderGroove</fullName>
+                <default>false</default>
+                <label>OrderGroove</label>
+            </value>
+            <value>
+                <fullName>OroCRM</fullName>
+                <default>false</default>
+                <label>OroCRM</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>P2 CRM</fullName>
+                <default>false</default>
+                <label>P2 CRM</label>
+            </value>
+            <value>
+                <fullName>Pareto Platform</fullName>
+                <default>false</default>
+                <label>Pareto Platform</label>
+            </value>
+            <value>
+                <fullName>PayPanther</fullName>
+                <default>false</default>
+                <label>PayPanther</label>
+            </value>
+            <value>
+                <fullName>Paywizard</fullName>
+                <default>false</default>
+                <label>Paywizard</label>
+            </value>
+            <value>
+                <fullName>Pega CRM</fullName>
+                <default>false</default>
+                <label>Pega CRM</label>
+            </value>
+            <value>
+                <fullName>PegaSystems</fullName>
+                <default>false</default>
+                <label>PegaSystems</label>
+            </value>
+            <value>
+                <fullName>PeopleVine</fullName>
+                <default>false</default>
+                <label>PeopleVine</label>
+            </value>
+            <value>
+                <fullName>Perka</fullName>
+                <default>false</default>
+                <label>Perka</label>
+            </value>
+            <value>
+                <fullName>Pinnacle CRM</fullName>
+                <default>false</default>
+                <label>Pinnacle CRM</label>
+            </value>
+            <value>
+                <fullName>Pipedrive</fullName>
+                <default>false</default>
+                <label>Pipedrive</label>
+            </value>
+            <value>
+                <fullName>PipelineDeals</fullName>
+                <default>false</default>
+                <label>PipelineDeals</label>
+            </value>
+            <value>
+                <fullName>Pipeliner</fullName>
+                <default>false</default>
+                <label>Pipeliner</label>
+            </value>
+            <value>
+                <fullName>Pipeliner CRM</fullName>
+                <default>false</default>
+                <label>Pipeliner CRM</label>
+            </value>
+            <value>
+                <fullName>Planet IRM</fullName>
+                <default>false</default>
+                <label>Planet IRM</label>
+            </value>
+            <value>
+                <fullName>PlanPlus Online</fullName>
+                <default>false</default>
+                <label>PlanPlus Online</label>
+            </value>
+            <value>
+                <fullName>PremiumWebCart</fullName>
+                <default>false</default>
+                <label>PremiumWebCart</label>
+            </value>
+            <value>
+                <fullName>Promoter.io</fullName>
+                <default>false</default>
+                <label>Promoter.io</label>
+            </value>
+            <value>
+                <fullName>Prophet CRM</fullName>
+                <default>false</default>
+                <label>Prophet CRM</label>
+            </value>
+            <value>
+                <fullName>ProsperWorks</fullName>
+                <default>false</default>
+                <label>ProsperWorks</label>
+            </value>
+            <value>
+                <fullName>Provider Atruvia</fullName>
+                <default>false</default>
+                <label>Provider Atruvia</label>
+            </value>
+            <value>
+                <fullName>Pyxis Mobile mWholesaler</fullName>
+                <default>false</default>
+                <label>Pyxis Mobile mWholesaler</label>
+            </value>
+            <value>
+                <fullName>ReadyCloud (formerly TrueShip)</fullName>
+                <default>false</default>
+                <label>ReadyCloud (formerly TrueShip)</label>
+            </value>
+            <value>
+                <fullName>Really Simple Systems CRM</fullName>
+                <default>false</default>
+                <label>Really Simple Systems CRM</label>
+            </value>
+            <value>
+                <fullName>Realvolve</fullName>
+                <default>false</default>
+                <label>Realvolve</label>
+            </value>
+            <value>
+                <fullName>Redtail CRM</fullName>
+                <default>false</default>
+                <label>Redtail CRM</label>
+            </value>
+            <value>
+                <fullName>Relationals CRM</fullName>
+                <default>false</default>
+                <label>Relationals CRM</label>
+            </value>
+            <value>
+                <fullName>Relavis</fullName>
+                <default>false</default>
+                <label>Relavis</label>
+            </value>
+            <value>
+                <fullName>Relayware</fullName>
+                <default>false</default>
+                <label>Relayware</label>
+            </value>
+            <value>
+                <fullName>Relenta</fullName>
+                <default>false</default>
+                <label>Relenta</label>
+            </value>
+            <value>
+                <fullName>Repsly</fullName>
+                <default>false</default>
+                <label>Repsly</label>
+            </value>
+            <value>
+                <fullName>Resco Mobile CRM</fullName>
+                <default>false</default>
+                <label>Resco Mobile CRM</label>
+            </value>
+            <value>
+                <fullName>retailCRM</fullName>
+                <default>false</default>
+                <label>retailCRM</label>
+            </value>
+            <value>
+                <fullName>Revolution Online</fullName>
+                <default>false</default>
+                <label>Revolution Online</label>
+            </value>
+            <value>
+                <fullName>Riddle</fullName>
+                <default>false</default>
+                <label>Riddle</label>
+            </value>
+            <value>
+                <fullName>Riva CRM Integration</fullName>
+                <default>false</default>
+                <label>Riva CRM Integration</label>
+            </value>
+            <value>
+                <fullName>ROI Solutions</fullName>
+                <default>false</default>
+                <label>ROI Solutions</label>
+            </value>
+            <value>
+                <fullName>roundCorner</fullName>
+                <default>false</default>
+                <label>roundCorner</label>
+            </value>
+            <value>
+                <fullName>Ryan Solutions</fullName>
+                <default>false</default>
+                <label>Ryan Solutions</label>
+            </value>
+            <value>
+                <fullName>Sage ACT!</fullName>
+                <default>false</default>
+                <label>Sage ACT!</label>
+            </value>
+            <value>
+                <fullName>Sage CRM</fullName>
+                <default>false</default>
+                <label>Sage CRM</label>
+            </value>
+            <value>
+                <fullName>SalesBabu</fullName>
+                <default>false</default>
+                <label>SalesBabu</label>
+            </value>
+            <value>
+                <fullName>Salesboom</fullName>
+                <default>false</default>
+                <label>Salesboom</label>
+            </value>
+            <value>
+                <fullName>Salesbox</fullName>
+                <default>false</default>
+                <label>Salesbox</label>
+            </value>
+            <value>
+                <fullName>Salesflare</fullName>
+                <default>false</default>
+                <label>Salesflare</label>
+            </value>
+            <value>
+                <fullName>SalesFocus Solutions</fullName>
+                <default>false</default>
+                <label>SalesFocus Solutions</label>
+            </value>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+            <value>
+                <fullName>SalesforceIQ</fullName>
+                <default>false</default>
+                <label>SalesforceIQ</label>
+            </value>
+            <value>
+                <fullName>Salesforce NGO Connect</fullName>
+                <default>false</default>
+                <label>Salesforce NGO Connect</label>
+            </value>
+            <value>
+                <fullName>Salesforce PRM</fullName>
+                <default>false</default>
+                <label>Salesforce PRM</label>
+            </value>
+            <value>
+                <fullName>Salesforce Sales Cloud</fullName>
+                <default>false</default>
+                <label>Salesforce Sales Cloud</label>
+            </value>
+            <value>
+                <fullName>Salesforce Sales Performance Accelerator</fullName>
+                <default>false</default>
+                <label>Salesforce Sales Performance Accelerator</label>
+            </value>
+            <value>
+                <fullName>SalesJunction</fullName>
+                <default>false</default>
+                <label>SalesJunction</label>
+            </value>
+            <value>
+                <fullName>SalesLogix (Infor)</fullName>
+                <default>false</default>
+                <label>SalesLogix (Infor)</label>
+            </value>
+            <value>
+                <fullName>Salesnet</fullName>
+                <default>false</default>
+                <label>Salesnet</label>
+            </value>
+            <value>
+                <fullName>SalesNexus</fullName>
+                <default>false</default>
+                <label>SalesNexus</label>
+            </value>
+            <value>
+                <fullName>SalesNOW Software</fullName>
+                <default>false</default>
+                <label>SalesNOW Software</label>
+            </value>
+            <value>
+                <fullName>SalesOptima</fullName>
+                <default>false</default>
+                <label>SalesOptima</label>
+            </value>
+            <value>
+                <fullName>SalesOutlook CRM</fullName>
+                <default>false</default>
+                <label>SalesOutlook CRM</label>
+            </value>
+            <value>
+                <fullName>SalesPage CRM</fullName>
+                <default>false</default>
+                <label>SalesPage CRM</label>
+            </value>
+            <value>
+                <fullName>SalesSeek</fullName>
+                <default>false</default>
+                <label>SalesSeek</label>
+            </value>
+            <value>
+                <fullName>Salestrackr</fullName>
+                <default>false</default>
+                <label>Salestrackr</label>
+            </value>
+            <value>
+                <fullName>Salsa CRM</fullName>
+                <default>false</default>
+                <label>Salsa CRM</label>
+            </value>
+            <value>
+                <fullName>Salytics</fullName>
+                <default>false</default>
+                <label>Salytics</label>
+            </value>
+            <value>
+                <fullName>SAP</fullName>
+                <default>false</default>
+                <label>SAP</label>
+            </value>
+            <value>
+                <fullName>SAP Cloud for Sales (formerly Sales OnDemand)</fullName>
+                <default>false</default>
+                <label>SAP Cloud for Sales (formerly Sales OnDemand)</label>
+            </value>
+            <value>
+                <fullName>SAP CRM</fullName>
+                <default>false</default>
+                <label>SAP CRM</label>
+            </value>
+            <value>
+                <fullName>SAP CRM Web Channel</fullName>
+                <default>false</default>
+                <label>SAP CRM Web Channel</label>
+            </value>
+            <value>
+                <fullName>SAP Customer Interaction Center (CIC)</fullName>
+                <default>false</default>
+                <label>SAP Customer Interaction Center (CIC)</label>
+            </value>
+            <value>
+                <fullName>SAP Digital CRM</fullName>
+                <default>false</default>
+                <label>SAP Digital CRM</label>
+            </value>
+            <value>
+                <fullName>SAP Hybris Cloud for Customer</fullName>
+                <default>false</default>
+                <label>SAP Hybris Cloud for Customer</label>
+            </value>
+            <value>
+                <fullName>SAP Hybris Sales Cloud</fullName>
+                <default>false</default>
+                <label>SAP Hybris Sales Cloud</label>
+            </value>
+            <value>
+                <fullName>SAP Incentive Administration</fullName>
+                <default>false</default>
+                <label>SAP Incentive Administration</label>
+            </value>
+            <value>
+                <fullName>Saratoga CRM</fullName>
+                <default>false</default>
+                <label>Saratoga CRM</label>
+            </value>
+            <value>
+                <fullName>SatuitCRM</fullName>
+                <default>false</default>
+                <label>SatuitCRM</label>
+            </value>
+            <value>
+                <fullName>Scrummy</fullName>
+                <default>false</default>
+                <label>Scrummy</label>
+            </value>
+            <value>
+                <fullName>Second CRM</fullName>
+                <default>false</default>
+                <label>Second CRM</label>
+            </value>
+            <value>
+                <fullName>Sellsy</fullName>
+                <default>false</default>
+                <label>Sellsy</label>
+            </value>
+            <value>
+                <fullName>Selltis CRM</fullName>
+                <default>false</default>
+                <label>Selltis CRM</label>
+            </value>
+            <value>
+                <fullName>Shark Byte CRM</fullName>
+                <default>false</default>
+                <label>Shark Byte CRM</label>
+            </value>
+            <value>
+                <fullName>Sidekick CRM</fullName>
+                <default>false</default>
+                <label>Sidekick CRM</label>
+            </value>
+            <value>
+                <fullName>Siebel Credit Origination</fullName>
+                <default>false</default>
+                <label>Siebel Credit Origination</label>
+            </value>
+            <value>
+                <fullName>Siebel eEnergy</fullName>
+                <default>false</default>
+                <label>Siebel eEnergy</label>
+            </value>
+            <value>
+                <fullName>Siebel Web Services</fullName>
+                <default>false</default>
+                <label>Siebel Web Services</label>
+            </value>
+            <value>
+                <fullName>Simpleview CRM</fullName>
+                <default>false</default>
+                <label>Simpleview CRM</label>
+            </value>
+            <value>
+                <fullName>Simplify 360</fullName>
+                <default>false</default>
+                <label>Simplify 360</label>
+            </value>
+            <value>
+                <fullName>SkyDesk</fullName>
+                <default>false</default>
+                <label>SkyDesk</label>
+            </value>
+            <value>
+                <fullName>Slate CRM</fullName>
+                <default>false</default>
+                <label>Slate CRM</label>
+            </value>
+            <value>
+                <fullName>SmartHub</fullName>
+                <default>false</default>
+                <label>SmartHub</label>
+            </value>
+            <value>
+                <fullName>SmartOffice</fullName>
+                <default>false</default>
+                <label>SmartOffice</label>
+            </value>
+            <value>
+                <fullName>Snapforce CRM</fullName>
+                <default>false</default>
+                <label>Snapforce CRM</label>
+            </value>
+            <value>
+                <fullName>Snappy Kraken</fullName>
+                <default>false</default>
+                <label>Snappy Kraken</label>
+            </value>
+            <value>
+                <fullName>Soffront CRM</fullName>
+                <default>false</default>
+                <label>Soffront CRM</label>
+            </value>
+            <value>
+                <fullName>SofterWare</fullName>
+                <default>false</default>
+                <label>SofterWare</label>
+            </value>
+            <value>
+                <fullName>StayinFront CRM</fullName>
+                <default>false</default>
+                <label>StayinFront CRM</label>
+            </value>
+            <value>
+                <fullName>Streak</fullName>
+                <default>false</default>
+                <label>Streak</label>
+            </value>
+            <value>
+                <fullName>SugarCRM</fullName>
+                <default>false</default>
+                <label>SugarCRM</label>
+            </value>
+            <value>
+                <fullName>Sugester</fullName>
+                <default>false</default>
+                <label>Sugester</label>
+            </value>
+            <value>
+                <fullName>SuiteCRM</fullName>
+                <default>false</default>
+                <label>SuiteCRM</label>
+            </value>
+            <value>
+                <fullName>Sun Bear</fullName>
+                <default>false</default>
+                <label>Sun Bear</label>
+            </value>
+            <value>
+                <fullName>SuperOffice</fullName>
+                <default>false</default>
+                <label>SuperOffice</label>
+            </value>
+            <value>
+                <fullName>Surefire CRM</fullName>
+                <default>false</default>
+                <label>Surefire CRM</label>
+            </value>
+            <value>
+                <fullName>SutiCRM</fullName>
+                <default>false</default>
+                <label>SutiCRM</label>
+            </value>
+            <value>
+                <fullName>Synergy!</fullName>
+                <default>false</default>
+                <label>Synergy!</label>
+            </value>
+            <value>
+                <fullName>Synergy! 360</fullName>
+                <default>false</default>
+                <label>Synergy! 360</label>
+            </value>
+            <value>
+                <fullName>Talisma CRM</fullName>
+                <default>false</default>
+                <label>Talisma CRM</label>
+            </value>
+            <value>
+                <fullName>Teamgate</fullName>
+                <default>false</default>
+                <label>Teamgate</label>
+            </value>
+            <value>
+                <fullName>Temelio</fullName>
+                <default>false</default>
+                <label>Temelio</label>
+            </value>
+            <value>
+                <fullName>TempWorks WebCenter</fullName>
+                <default>false</default>
+                <label>TempWorks WebCenter</label>
+            </value>
+            <value>
+                <fullName>Tenfold</fullName>
+                <default>false</default>
+                <label>Tenfold</label>
+            </value>
+            <value>
+                <fullName>Teradata CRM</fullName>
+                <default>false</default>
+                <label>Teradata CRM</label>
+            </value>
+            <value>
+                <fullName>Thryv</fullName>
+                <default>false</default>
+                <label>Thryv</label>
+            </value>
+            <value>
+                <fullName>Tigerpaw</fullName>
+                <default>false</default>
+                <label>Tigerpaw</label>
+            </value>
+            <value>
+                <fullName>To Be Determined</fullName>
+                <default>false</default>
+                <label>To Be Determined</label>
+            </value>
+            <value>
+                <fullName>Total Expert</fullName>
+                <default>false</default>
+                <label>Total Expert</label>
+            </value>
+            <value>
+                <fullName>Tour de Force CRM</fullName>
+                <default>false</default>
+                <label>Tour de Force CRM</label>
+            </value>
+            <value>
+                <fullName>Triangle CRM</fullName>
+                <default>false</default>
+                <label>Triangle CRM</label>
+            </value>
+            <value>
+                <fullName>Troops</fullName>
+                <default>false</default>
+                <label>Troops</label>
+            </value>
+            <value>
+                <fullName>Uchide no Kozuchi</fullName>
+                <default>false</default>
+                <label>Uchide no Kozuchi</label>
+            </value>
+            <value>
+                <fullName>Unify CRM</fullName>
+                <default>false</default>
+                <label>Unify CRM</label>
+            </value>
+            <value>
+                <fullName>update CRM</fullName>
+                <default>false</default>
+                <label>update CRM</label>
+            </value>
+            <value>
+                <fullName>Upsales CRM</fullName>
+                <default>false</default>
+                <label>Upsales CRM</label>
+            </value>
+            <value>
+                <fullName>Usermind</fullName>
+                <default>false</default>
+                <label>Usermind</label>
+            </value>
+            <value>
+                <fullName>Vantive</fullName>
+                <default>false</default>
+                <label>Vantive</label>
+            </value>
+            <value>
+                <fullName>VBioPharma CRM</fullName>
+                <default>false</default>
+                <label>VBioPharma CRM</label>
+            </value>
+            <value>
+                <fullName>Veeva</fullName>
+                <default>false</default>
+                <label>Veeva</label>
+            </value>
+            <value>
+                <fullName>Veeva Systems CRM</fullName>
+                <default>false</default>
+                <label>Veeva Systems CRM</label>
+            </value>
+            <value>
+                <fullName>Velociti</fullName>
+                <default>false</default>
+                <label>Velociti</label>
+            </value>
+            <value>
+                <fullName>Voicent CRM</fullName>
+                <default>false</default>
+                <label>Voicent CRM</label>
+            </value>
+            <value>
+                <fullName>voltageCRM</fullName>
+                <default>false</default>
+                <label>voltageCRM</label>
+            </value>
+            <value>
+                <fullName>Vtiger</fullName>
+                <default>false</default>
+                <label>Vtiger</label>
+            </value>
+            <value>
+                <fullName>WDX CRM</fullName>
+                <default>false</default>
+                <label>WDX CRM</label>
+            </value>
+            <value>
+                <fullName>Wealthbox CRM</fullName>
+                <default>false</default>
+                <label>Wealthbox CRM</label>
+            </value>
+            <value>
+                <fullName>WealthEngine</fullName>
+                <default>false</default>
+                <label>WealthEngine</label>
+            </value>
+            <value>
+                <fullName>Whiteboard Mortgage CRM</fullName>
+                <default>false</default>
+                <label>Whiteboard Mortgage CRM</label>
+            </value>
+            <value>
+                <fullName>WingsIT</fullName>
+                <default>false</default>
+                <label>WingsIT</label>
+            </value>
+            <value>
+                <fullName>Wintouch CRM</fullName>
+                <default>false</default>
+                <label>Wintouch CRM</label>
+            </value>
+            <value>
+                <fullName>Witness eQuality Balance</fullName>
+                <default>false</default>
+                <label>Witness eQuality Balance</label>
+            </value>
+            <value>
+                <fullName>Work[etc]</fullName>
+                <default>false</default>
+                <label>Work[etc]</label>
+            </value>
+            <value>
+                <fullName>Workbooks</fullName>
+                <default>false</default>
+                <label>Workbooks</label>
+            </value>
+            <value>
+                <fullName>Xenial</fullName>
+                <default>false</default>
+                <label>Xenial</label>
+            </value>
+            <value>
+                <fullName>You&apos;ve Got Leads!</fullName>
+                <default>false</default>
+                <label>You&apos;ve Got Leads!</label>
+            </value>
+            <value>
+                <fullName>You Don&apos;t Need a CRM</fullName>
+                <default>false</default>
+                <label>You Don&apos;t Need a CRM</label>
+            </value>
+            <value>
+                <fullName>Zendesk Sell</fullName>
+                <default>false</default>
+                <label>Zendesk Sell</label>
+            </value>
+            <value>
+                <fullName>Zoho CRM</fullName>
+                <default>false</default>
+                <label>Zoho CRM</label>
+            </value>
+            <value>
+                <fullName>ZynBit</fullName>
+                <default>false</default>
+                <label>ZynBit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

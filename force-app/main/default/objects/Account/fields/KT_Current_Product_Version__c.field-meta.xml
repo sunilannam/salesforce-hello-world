@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KT_Current_Product_Version__c</fullName>
+    <description>support KT License Management; What is the current release of the software is the customer using?</description>
+    <label>KT Current Product Version</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>KT4SF - Enterprise</fullName>
+                <default>false</default>
+                <label>KT4SF - Enterprise</label>
+            </value>
+            <value>
+                <fullName>LaunchPad</fullName>
+                <default>false</default>
+                <label>LaunchPad</label>
+            </value>
+            <value>
+                <fullName>Enterprise</fullName>
+                <default>false</default>
+                <label>Enterprise</label>
+            </value>
+            <value>
+                <fullName>Company</fullName>
+                <default>false</default>
+                <label>Company</label>
+            </value>
+            <value>
+                <fullName>Private Cloud</fullName>
+                <default>false</default>
+                <label>Private Cloud</label>
+            </value>
+            <value>
+                <fullName>On-premise</fullName>
+                <default>false</default>
+                <label>On-premise</label>
+            </value>
+            <value>
+                <fullName>Professional</fullName>
+                <default>false</default>
+                <label>Professional</label>
+            </value>
+            <value>
+                <fullName>Starter</fullName>
+                <default>false</default>
+                <label>Starter</label>
+            </value>
+            <value>
+                <fullName>Team</fullName>
+                <default>false</default>
+                <label>Team</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

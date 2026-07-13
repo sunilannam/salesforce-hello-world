@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regions_Supported__c</fullName>
+    <label>Regions Supported</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NA</fullName>
+                <default>false</default>
+                <label>NA</label>
+            </value>
+            <value>
+                <fullName>NEMEA</fullName>
+                <default>false</default>
+                <label>NEMEA</label>
+            </value>
+            <value>
+                <fullName>CEMEA</fullName>
+                <default>false</default>
+                <label>CEMEA</label>
+            </value>
+            <value>
+                <fullName>SEMEA</fullName>
+                <default>false</default>
+                <label>SEMEA</label>
+            </value>
+            <value>
+                <fullName>APJ</fullName>
+                <default>false</default>
+                <label>APJ</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

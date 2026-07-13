@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MSA_Agreement__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>GTMS-2601</description>
+    <inlineHelpText>Related ACTIVE MSA Agreement</inlineHelpText>
+    <label>MSA Agreement</label>
+    <referenceTo>Contract</referenceTo>
+    <relationshipLabel>Accounts</relationshipLabel>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

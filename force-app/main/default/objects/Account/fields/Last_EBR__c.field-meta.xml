@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_EBR__c</fullName>
+    <description>Date of last Executive Business Review, formerly called Executive Sponsor Last Meeting</description>
+    <inlineHelpText>Date of last Executive Business Review</inlineHelpText>
+    <label>Last EBR</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

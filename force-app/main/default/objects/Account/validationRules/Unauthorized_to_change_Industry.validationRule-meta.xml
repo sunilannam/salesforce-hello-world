@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unauthorized_to_change_Industry</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(Industry) &amp;&amp;
+NOT($Permission.Validation_rule_Account_Bypass) &amp;&amp;
+(Named_Account__c = True ||
+ISPICKVAL(Type,&apos;Customer&apos;))</errorConditionFormula>
+    <errorMessage>You are unauthorized to change the industry value on this account; please open a Sales Ops support case to have this information updated.</errorMessage>
+</ValidationRule>

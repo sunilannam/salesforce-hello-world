@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Communication_Tools__c</fullName>
+    <label>Communication Tools</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aipo.com</fullName>
+                <default>false</default>
+                <label>Aipo.com</label>
+            </value>
+            <value>
+                <fullName>Alliance Gateway</fullName>
+                <default>false</default>
+                <label>Alliance Gateway</label>
+            </value>
+            <value>
+                <fullName>AT&amp;T Connect</fullName>
+                <default>false</default>
+                <label>AT&amp;T Connect</label>
+            </value>
+            <value>
+                <fullName>AT&amp;T TelePresence</fullName>
+                <default>false</default>
+                <label>AT&amp;T TelePresence</label>
+            </value>
+            <value>
+                <fullName>Avaya Communicator</fullName>
+                <default>false</default>
+                <label>Avaya Communicator</label>
+            </value>
+            <value>
+                <fullName>Axigen</fullName>
+                <default>false</default>
+                <label>Axigen</label>
+            </value>
+            <value>
+                <fullName>Bitrix24</fullName>
+                <default>false</default>
+                <label>Bitrix24</label>
+            </value>
+            <value>
+                <fullName>Bubbl.us</fullName>
+                <default>false</default>
+                <label>Bubbl.us</label>
+            </value>
+            <value>
+                <fullName>Cacoo</fullName>
+                <default>false</default>
+                <label>Cacoo</label>
+            </value>
+            <value>
+                <fullName>CafeX</fullName>
+                <default>false</default>
+                <label>CafeX</label>
+            </value>
+            <value>
+                <fullName>CA Flowdock</fullName>
+                <default>false</default>
+                <label>CA Flowdock</label>
+            </value>
+            <value>
+                <fullName>CalendarWiz</fullName>
+                <default>false</default>
+                <label>CalendarWiz</label>
+            </value>
+            <value>
+                <fullName>CellTrust</fullName>
+                <default>false</default>
+                <label>CellTrust</label>
+            </value>
+            <value>
+                <fullName>Cerner uCern</fullName>
+                <default>false</default>
+                <label>Cerner uCern</label>
+            </value>
+            <value>
+                <fullName>ChatWork</fullName>
+                <default>false</default>
+                <label>ChatWork</label>
+            </value>
+            <value>
+                <fullName>Cisco IPICS</fullName>
+                <default>false</default>
+                <label>Cisco IPICS</label>
+            </value>
+            <value>
+                <fullName>Cisco IP Interoperability and Collaboration System (IPICS)</fullName>
+                <default>false</default>
+                <label>Cisco IP Interoperability and Collaboration System (IPICS)</label>
+            </value>
+            <value>
+                <fullName>Cisco Jabber</fullName>
+                <default>false</default>
+                <label>Cisco Jabber</label>
+            </value>
+            <value>
+                <fullName>Cisco TelePresence Clinical Presence</fullName>
+                <default>false</default>
+                <label>Cisco TelePresence Clinical Presence</label>
+            </value>
+            <value>
+                <fullName>Cisco TelePresence Conductor</fullName>
+                <default>false</default>
+                <label>Cisco TelePresence Conductor</label>
+            </value>
+            <value>
+                <fullName>Cisco TelePresence IX5000 Series</fullName>
+                <default>false</default>
+                <label>Cisco TelePresence IX5000 Series</label>
+            </value>
+            <value>
+                <fullName>Cisco TelePresence MCU 5300 Series</fullName>
+                <default>false</default>
+                <label>Cisco TelePresence MCU 5300 Series</label>
+            </value>
+            <value>
+                <fullName>Cisco TelePresence MCU MSE 8510</fullName>
+                <default>false</default>
+                <label>Cisco TelePresence MCU MSE 8510</label>
+            </value>
+            <value>
+                <fullName>Cisco TelePresence MSE 8000 Series</fullName>
+                <default>false</default>
+                <label>Cisco TelePresence MSE 8000 Series</label>
+            </value>
+            <value>
+                <fullName>Cisco TelePresence SX80 Codec</fullName>
+                <default>false</default>
+                <label>Cisco TelePresence SX80 Codec</label>
+            </value>
+            <value>
+                <fullName>Clickshare</fullName>
+                <default>false</default>
+                <label>Clickshare</label>
+            </value>
+            <value>
+                <fullName>Confluence</fullName>
+                <default>false</default>
+                <label>Confluence</label>
+            </value>
+            <value>
+                <fullName>CoSchedule</fullName>
+                <default>false</default>
+                <label>CoSchedule</label>
+            </value>
+            <value>
+                <fullName>Dropbox Paper</fullName>
+                <default>false</default>
+                <label>Dropbox Paper</label>
+            </value>
+            <value>
+                <fullName>Eko</fullName>
+                <default>false</default>
+                <label>Eko</label>
+            </value>
+            <value>
+                <fullName>Evernote Business</fullName>
+                <default>false</default>
+                <label>Evernote Business</label>
+            </value>
+            <value>
+                <fullName>eXo Platform</fullName>
+                <default>false</default>
+                <label>eXo Platform</label>
+            </value>
+            <value>
+                <fullName>Facebook Workplace</fullName>
+                <default>false</default>
+                <label>Facebook Workplace</label>
+            </value>
+            <value>
+                <fullName>Favro</fullName>
+                <default>false</default>
+                <label>Favro</label>
+            </value>
+            <value>
+                <fullName>Fellow</fullName>
+                <default>false</default>
+                <label>Fellow</label>
+            </value>
+            <value>
+                <fullName>GatherContent (subdomains only)</fullName>
+                <default>false</default>
+                <label>GatherContent (subdomains only)</label>
+            </value>
+            <value>
+                <fullName>Glasscubes</fullName>
+                <default>false</default>
+                <label>Glasscubes</label>
+            </value>
+            <value>
+                <fullName>GlobalMeet Collaboration</fullName>
+                <default>false</default>
+                <label>GlobalMeet Collaboration</label>
+            </value>
+            <value>
+                <fullName>Google Talk</fullName>
+                <default>false</default>
+                <label>Google Talk</label>
+            </value>
+            <value>
+                <fullName>GroupMe</fullName>
+                <default>false</default>
+                <label>GroupMe</label>
+            </value>
+            <value>
+                <fullName>GroupWise</fullName>
+                <default>false</default>
+                <label>GroupWise</label>
+            </value>
+            <value>
+                <fullName>hibox</fullName>
+                <default>false</default>
+                <label>hibox</label>
+            </value>
+            <value>
+                <fullName>HighQ Collaborate</fullName>
+                <default>false</default>
+                <label>HighQ Collaborate</label>
+            </value>
+            <value>
+                <fullName>HipChat</fullName>
+                <default>false</default>
+                <label>HipChat</label>
+            </value>
+            <value>
+                <fullName>IBM Connections Cloud (formerly SmartCloud For Social Business &amp; LotusLive)</fullName>
+                <default>false</default>
+                <label>IBM Connections Cloud (formerly SmartCloud For Social Business &amp; LotusLive)</label>
+            </value>
+            <value>
+                <fullName>IBM Lotus Quickr</fullName>
+                <default>false</default>
+                <label>IBM Lotus Quickr</label>
+            </value>
+            <value>
+                <fullName>IBM Notes</fullName>
+                <default>false</default>
+                <label>IBM Notes</label>
+            </value>
+            <value>
+                <fullName>IBM Rational Team Concert</fullName>
+                <default>false</default>
+                <label>IBM Rational Team Concert</label>
+            </value>
+            <value>
+                <fullName>IBM Sametime</fullName>
+                <default>false</default>
+                <label>IBM Sametime</label>
+            </value>
+            <value>
+                <fullName>IBM Software for On Demand Workplace</fullName>
+                <default>false</default>
+                <label>IBM Software for On Demand Workplace</label>
+            </value>
+            <value>
+                <fullName>IBM WCL</fullName>
+                <default>false</default>
+                <label>IBM WCL</label>
+            </value>
+            <value>
+                <fullName>IceWarp</fullName>
+                <default>false</default>
+                <label>IceWarp</label>
+            </value>
+            <value>
+                <fullName>I Done This</fullName>
+                <default>false</default>
+                <label>I Done This</label>
+            </value>
+            <value>
+                <fullName>Igloo</fullName>
+                <default>false</default>
+                <label>Igloo</label>
+            </value>
+            <value>
+                <fullName>Infor Ming.le</fullName>
+                <default>false</default>
+                <label>Infor Ming.le</label>
+            </value>
+            <value>
+                <fullName>Intuit Brainstorm</fullName>
+                <default>false</default>
+                <label>Intuit Brainstorm</label>
+            </value>
+            <value>
+                <fullName>Jalios</fullName>
+                <default>false</default>
+                <label>Jalios</label>
+            </value>
+            <value>
+                <fullName>Jira Agile</fullName>
+                <default>false</default>
+                <label>Jira Agile</label>
+            </value>
+            <value>
+                <fullName>Kerio Connect</fullName>
+                <default>false</default>
+                <label>Kerio Connect</label>
+            </value>
+            <value>
+                <fullName>LINE WORKS</fullName>
+                <default>false</default>
+                <label>LINE WORKS</label>
+            </value>
+            <value>
+                <fullName>Mattermost</fullName>
+                <default>false</default>
+                <label>Mattermost</label>
+            </value>
+            <value>
+                <fullName>Micro Focus Vibe (formerly Novell Vibe)</fullName>
+                <default>false</default>
+                <label>Micro Focus Vibe (formerly Novell Vibe)</label>
+            </value>
+            <value>
+                <fullName>Microsoft Exchange Server</fullName>
+                <default>false</default>
+                <label>Microsoft Exchange Server</label>
+            </value>
+            <value>
+                <fullName>Microsoft Exchange Server 2010</fullName>
+                <default>false</default>
+                <label>Microsoft Exchange Server 2010</label>
+            </value>
+            <value>
+                <fullName>Microsoft Exchange Server 2013</fullName>
+                <default>false</default>
+                <label>Microsoft Exchange Server 2013</label>
+            </value>
+            <value>
+                <fullName>Microsoft SharePoint</fullName>
+                <default>false</default>
+                <label>Microsoft SharePoint</label>
+            </value>
+            <value>
+                <fullName>Microsoft Sharepoint 2007</fullName>
+                <default>false</default>
+                <label>Microsoft Sharepoint 2007</label>
+            </value>
+            <value>
+                <fullName>Microsoft Sharepoint 2010</fullName>
+                <default>false</default>
+                <label>Microsoft Sharepoint 2010</label>
+            </value>
+            <value>
+                <fullName>Microsoft Sharepoint 2013</fullName>
+                <default>false</default>
+                <label>Microsoft Sharepoint 2013</label>
+            </value>
+            <value>
+                <fullName>Microsoft SharePoint Online</fullName>
+                <default>false</default>
+                <label>Microsoft SharePoint Online</label>
+            </value>
+            <value>
+                <fullName>Microsoft Teams</fullName>
+                <default>false</default>
+                <label>Microsoft Teams</label>
+            </value>
+            <value>
+                <fullName>MindAlign</fullName>
+                <default>false</default>
+                <label>MindAlign</label>
+            </value>
+            <value>
+                <fullName>Miro</fullName>
+                <default>false</default>
+                <label>Miro</label>
+            </value>
+            <value>
+                <fullName>Miro Technologies</fullName>
+                <default>false</default>
+                <label>Miro Technologies</label>
+            </value>
+            <value>
+                <fullName>monday.com</fullName>
+                <default>false</default>
+                <label>monday.com</label>
+            </value>
+            <value>
+                <fullName>moxtra</fullName>
+                <default>false</default>
+                <label>moxtra</label>
+            </value>
+            <value>
+                <fullName>Mural</fullName>
+                <default>false</default>
+                <label>Mural</label>
+            </value>
+            <value>
+                <fullName>Mzinga OmniSocial</fullName>
+                <default>false</default>
+                <label>Mzinga OmniSocial</label>
+            </value>
+            <value>
+                <fullName>Noosh</fullName>
+                <default>false</default>
+                <label>Noosh</label>
+            </value>
+            <value>
+                <fullName>NotifySync</fullName>
+                <default>false</default>
+                <label>NotifySync</label>
+            </value>
+            <value>
+                <fullName>OpenText Portal</fullName>
+                <default>false</default>
+                <label>OpenText Portal</label>
+            </value>
+            <value>
+                <fullName>OpenText Tempo Social</fullName>
+                <default>false</default>
+                <label>OpenText Tempo Social</label>
+            </value>
+            <value>
+                <fullName>Oracle Beehive</fullName>
+                <default>false</default>
+                <label>Oracle Beehive</label>
+            </value>
+            <value>
+                <fullName>Oracle WebCenter Portal</fullName>
+                <default>false</default>
+                <label>Oracle WebCenter Portal</label>
+            </value>
+            <value>
+                <fullName>Parlano</fullName>
+                <default>false</default>
+                <label>Parlano</label>
+            </value>
+            <value>
+                <fullName>Planable</fullName>
+                <default>false</default>
+                <label>Planable</label>
+            </value>
+            <value>
+                <fullName>Podio</fullName>
+                <default>false</default>
+                <label>Podio</label>
+            </value>
+            <value>
+                <fullName>Prysm Cascade</fullName>
+                <default>false</default>
+                <label>Prysm Cascade</label>
+            </value>
+            <value>
+                <fullName>Realtime Board</fullName>
+                <default>false</default>
+                <label>Realtime Board</label>
+            </value>
+            <value>
+                <fullName>RingCentral Glip</fullName>
+                <default>false</default>
+                <label>RingCentral Glip</label>
+            </value>
+            <value>
+                <fullName>Saba Centra</fullName>
+                <default>false</default>
+                <label>Saba Centra</label>
+            </value>
+            <value>
+                <fullName>Salesforce Chatter</fullName>
+                <default>false</default>
+                <label>Salesforce Chatter</label>
+            </value>
+            <value>
+                <fullName>Samepage</fullName>
+                <default>false</default>
+                <label>Samepage</label>
+            </value>
+            <value>
+                <fullName>SAP Jam Collaboration</fullName>
+                <default>false</default>
+                <label>SAP Jam Collaboration</label>
+            </value>
+            <value>
+                <fullName>SAP NetWeaver Portal</fullName>
+                <default>false</default>
+                <label>SAP NetWeaver Portal</label>
+            </value>
+            <value>
+                <fullName>Simian</fullName>
+                <default>false</default>
+                <label>Simian</label>
+            </value>
+            <value>
+                <fullName>Skype</fullName>
+                <default>false</default>
+                <label>Skype</label>
+            </value>
+            <value>
+                <fullName>Slack</fullName>
+                <default>false</default>
+                <label>Slack</label>
+            </value>
+            <value>
+                <fullName>Snapcomms</fullName>
+                <default>false</default>
+                <label>Snapcomms</label>
+            </value>
+            <value>
+                <fullName>SnatchBot</fullName>
+                <default>false</default>
+                <label>SnatchBot</label>
+            </value>
+            <value>
+                <fullName>Sococo</fullName>
+                <default>false</default>
+                <label>Sococo</label>
+            </value>
+            <value>
+                <fullName>Spike</fullName>
+                <default>false</default>
+                <label>Spike</label>
+            </value>
+            <value>
+                <fullName>Stackoverflow</fullName>
+                <default>false</default>
+                <label>Stackoverflow</label>
+            </value>
+            <value>
+                <fullName>Teachme Biz</fullName>
+                <default>false</default>
+                <label>Teachme Biz</label>
+            </value>
+            <value>
+                <fullName>Teamworks</fullName>
+                <default>false</default>
+                <label>Teamworks</label>
+            </value>
+            <value>
+                <fullName>TeamWox</fullName>
+                <default>false</default>
+                <label>TeamWox</label>
+            </value>
+            <value>
+                <fullName>Teem</fullName>
+                <default>false</default>
+                <label>Teem</label>
+            </value>
+            <value>
+                <fullName>Teliris Telepresence Solutions</fullName>
+                <default>false</default>
+                <label>Teliris Telepresence Solutions</label>
+            </value>
+            <value>
+                <fullName>TextUS</fullName>
+                <default>false</default>
+                <label>TextUS</label>
+            </value>
+            <value>
+                <fullName>tibbr</fullName>
+                <default>false</default>
+                <label>tibbr</label>
+            </value>
+            <value>
+                <fullName>Tobit Software david</fullName>
+                <default>false</default>
+                <label>Tobit Software david</label>
+            </value>
+            <value>
+                <fullName>Verint Nextiva</fullName>
+                <default>false</default>
+                <label>Verint Nextiva</label>
+            </value>
+            <value>
+                <fullName>VGo Robot</fullName>
+                <default>false</default>
+                <label>VGo Robot</label>
+            </value>
+            <value>
+                <fullName>VMware Socialcast</fullName>
+                <default>false</default>
+                <label>VMware Socialcast</label>
+            </value>
+            <value>
+                <fullName>WolfVsion</fullName>
+                <default>false</default>
+                <label>WolfVsion</label>
+            </value>
+            <value>
+                <fullName>Yalla</fullName>
+                <default>false</default>
+                <label>Yalla</label>
+            </value>
+            <value>
+                <fullName>Yammer</fullName>
+                <default>false</default>
+                <label>Yammer</label>
+            </value>
+            <value>
+                <fullName>Zeplin</fullName>
+                <default>false</default>
+                <label>Zeplin</label>
+            </value>
+            <value>
+                <fullName>Zimbra</fullName>
+                <default>false</default>
+                <label>Zimbra</label>
+            </value>
+            <value>
+                <fullName>Zyncro</fullName>
+                <default>false</default>
+                <label>Zyncro</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

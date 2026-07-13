@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Updates_to_DCD_CDR_are_not_allowed</fullName>
+    <active>true</active>
+    <description>REQ2330 - to limit who can update these fields</description>
+    <errorConditionFormula>AND(NOT( $Permission.Validation_rule_Account_Bypass ),
+OR((ISCHANGED(DCD__c)),
+ISCHANGED(CDR__c))
+)</errorConditionFormula>
+    <errorMessage>You are not authorized to change the DCD or CDR on this account, please open an Enhancement Request with the Rev Ops Team to have this information changed.</errorMessage>
+</ValidationRule>

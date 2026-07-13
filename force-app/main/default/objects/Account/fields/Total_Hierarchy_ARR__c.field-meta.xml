@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Hierarchy_ARR__c</fullName>
+    <description>Populated via the Workato integration, this field retrieves the Total ARR by ZoomInfo Ultimate Parent Customer (UPC) value from Snowflake. Reference GTMS-4926</description>
+    <inlineHelpText>This field represents the total ARR value based on ZoomInfo’s account hierarchy. In most cases, this aligns with the Salesforce account hierarchy, though exceptions may occur.</inlineHelpText>
+    <label>Total Hierarchy ARR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sync_to_ServiceNow__c</fullName>
+    <description>Set date so that the account will be picked up in the nightly sync job.</description>
+    <inlineHelpText>Set date so that the account will be picked up in the nightly sync job.</inlineHelpText>
+    <label>Sync to ServiceNow</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

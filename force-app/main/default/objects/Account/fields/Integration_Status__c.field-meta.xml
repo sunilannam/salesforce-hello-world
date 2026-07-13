@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Integration_Status__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>Used by the Partner team to track progress of integrations in flight.</description>
+    <inlineHelpText>Used by the Partner team to track progress of integrations in flight.</inlineHelpText>
+    <label>Integration Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Custom Integration</fullName>
+                <default>false</default>
+                <label>Custom Integration</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>No Integration</fullName>
+                <default>false</default>
+                <label>No Integration</label>
+            </value>
+            <value>
+                <fullName>Partner Managed Integration</fullName>
+                <default>false</default>
+                <label>Partner Managed Integration</label>
+            </value>
+            <value>
+                <fullName>Productized</fullName>
+                <default>false</default>
+                <label>Productized</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

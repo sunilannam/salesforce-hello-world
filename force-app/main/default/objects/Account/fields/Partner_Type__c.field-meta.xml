@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Type__c</fullName>
+    <label>Partner Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ISV</fullName>
+                <default>false</default>
+                <label>ISV</label>
+            </value>
+            <value>
+                <fullName>Data</fullName>
+                <default>false</default>
+                <label>Data</label>
+            </value>
+            <value>
+                <fullName>OEM</fullName>
+                <default>false</default>
+                <label>OEM</label>
+            </value>
+            <value>
+                <fullName>Subcontractor</fullName>
+                <default>false</default>
+                <label>Subcontractor</label>
+            </value>
+            <value>
+                <fullName>System Integrator Consultant</fullName>
+                <default>false</default>
+                <label>System Integrator/Consultant</label>
+            </value>
+            <value>
+                <fullName>Global System Integrator</fullName>
+                <default>false</default>
+                <label>Global System Integrator</label>
+            </value>
+            <value>
+                <fullName>Strategic</fullName>
+                <default>false</default>
+                <label>Strategic</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Prospective Partner</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <valueName>ISV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospective Partner</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <valueName>Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospective Partner</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <valueName>OEM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospective Partner</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <valueName>Subcontractor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospective Partner</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <valueName>System Integrator Consultant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospective Partner</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <valueName>Global System Integrator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospective Partner</controllingFieldValue>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <valueName>Strategic</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

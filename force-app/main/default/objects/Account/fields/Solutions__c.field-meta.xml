@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solutions__c</fullName>
+    <label>Solutions</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business Reporting</fullName>
+                <default>false</default>
+                <label>Business Reporting</label>
+            </value>
+            <value>
+                <fullName>Channel Enablement</fullName>
+                <default>false</default>
+                <label>Channel Enablement</label>
+            </value>
+            <value>
+                <fullName>Client Reporting</fullName>
+                <default>false</default>
+                <label>Client Reporting</label>
+            </value>
+            <value>
+                <fullName>Client Reviews</fullName>
+                <default>false</default>
+                <label>Client Reviews</label>
+            </value>
+            <value>
+                <fullName>Compliance workflow/approval processes</fullName>
+                <default>false</default>
+                <label>Compliance workflow/approval processes</label>
+            </value>
+            <value>
+                <fullName>Content automation</fullName>
+                <default>false</default>
+                <label>Content automation</label>
+            </value>
+            <value>
+                <fullName>Content optimization</fullName>
+                <default>false</default>
+                <label>Content optimization</label>
+            </value>
+            <value>
+                <fullName>Content personalization</fullName>
+                <default>false</default>
+                <label>Content personalization</label>
+            </value>
+            <value>
+                <fullName>Customer Success/Customer Support Enablement</fullName>
+                <default>false</default>
+                <label>Customer Success/Customer Support Enablement</label>
+            </value>
+            <value>
+                <fullName>Customer success snapshots</fullName>
+                <default>false</default>
+                <label>Customer success snapshots</label>
+            </value>
+            <value>
+                <fullName>Data automation</fullName>
+                <default>false</default>
+                <label>Data automation</label>
+            </value>
+            <value>
+                <fullName>Desktop sync</fullName>
+                <default>false</default>
+                <label>Desktop sync</label>
+            </value>
+            <value>
+                <fullName>Fact Sheets</fullName>
+                <default>false</default>
+                <label>Fact Sheets</label>
+            </value>
+            <value>
+                <fullName>Field enablement</fullName>
+                <default>false</default>
+                <label>Field enablement</label>
+            </value>
+            <value>
+                <fullName>Marketing enablement</fullName>
+                <default>false</default>
+                <label>Marketing enablement</label>
+            </value>
+            <value>
+                <fullName>Online/Offline Mobile Access</fullName>
+                <default>false</default>
+                <label>Online/Offline Mobile Access</label>
+            </value>
+            <value>
+                <fullName>Pick &amp; Pack</fullName>
+                <default>false</default>
+                <label>Pick &amp; Pack</label>
+            </value>
+            <value>
+                <fullName>Pitch Books</fullName>
+                <default>false</default>
+                <label>Pitch Books</label>
+            </value>
+            <value>
+                <fullName>Proposals/Contracts</fullName>
+                <default>false</default>
+                <label>Proposals/Contracts</label>
+            </value>
+            <value>
+                <fullName>QBRs</fullName>
+                <default>false</default>
+                <label>QBRs</label>
+            </value>
+            <value>
+                <fullName>RFPs</fullName>
+                <default>false</default>
+                <label>RFPs</label>
+            </value>
+            <value>
+                <fullName>ROI Calculator</fullName>
+                <default>false</default>
+                <label>ROI Calculator</label>
+            </value>
+            <value>
+                <fullName>Sales Coaching/Training</fullName>
+                <default>false</default>
+                <label>Sales Coaching/Training</label>
+            </value>
+            <value>
+                <fullName>Sales Enablement</fullName>
+                <default>false</default>
+                <label>Sales Enablement</label>
+            </value>
+            <value>
+                <fullName>To be determined</fullName>
+                <default>false</default>
+                <label>To be determined</label>
+            </value>
+            <value>
+                <fullName>Custom Slicks</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Custom Slicks</label>
+            </value>
+            <value>
+                <fullName>Marketing Automation Optimization</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Marketing Automation Optimization</label>
+            </value>
+            <value>
+                <fullName>Pitch Decks</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pitch Decks</label>
+            </value>
+            <value>
+                <fullName>Playbooks</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Playbooks</label>
+            </value>
+            <value>
+                <fullName>Recruiting Enablement</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Recruiting Enablement</label>
+            </value>
+            <value>
+                <fullName>Training/Onboarding</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Training/Onboarding</label>
+            </value>
+            <value>
+                <fullName>WCM Optimization</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>WCM Optimization</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

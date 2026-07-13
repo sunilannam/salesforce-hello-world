@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Web_Management__c</fullName>
+    <description>REQ7071</description>
+    <label>Web Management</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>[24]7</fullName>
+                <default>false</default>
+                <label>[24]7</label>
+            </value>
+            <value>
+                <fullName>Adobe Experience Manager</fullName>
+                <default>false</default>
+                <label>Adobe Experience Manager</label>
+            </value>
+            <value>
+                <fullName>Adobe Experience Manager Forms</fullName>
+                <default>false</default>
+                <label>Adobe Experience Manager Forms</label>
+            </value>
+            <value>
+                <fullName>Adobe LiveCycle</fullName>
+                <default>false</default>
+                <label>Adobe LiveCycle</label>
+            </value>
+            <value>
+                <fullName>Avaya Customer Interaction Suite</fullName>
+                <default>false</default>
+                <label>Avaya Customer Interaction Suite</label>
+            </value>
+            <value>
+                <fullName>Avaya Interaction Management</fullName>
+                <default>false</default>
+                <label>Avaya Interaction Management</label>
+            </value>
+            <value>
+                <fullName>Bleeper</fullName>
+                <default>false</default>
+                <label>Bleeper</label>
+            </value>
+            <value>
+                <fullName>CA CCM</fullName>
+                <default>false</default>
+                <label>CA CCM</label>
+            </value>
+            <value>
+                <fullName>Cisco IPCC Express Edition</fullName>
+                <default>false</default>
+                <label>Cisco IPCC Express Edition</label>
+            </value>
+            <value>
+                <fullName>Civica Customer Contact Platform</fullName>
+                <default>false</default>
+                <label>Civica Customer Contact Platform</label>
+            </value>
+            <value>
+                <fullName>CST ServiceCall</fullName>
+                <default>false</default>
+                <label>CST ServiceCall</label>
+            </value>
+            <value>
+                <fullName>DocGen</fullName>
+                <default>false</default>
+                <label>DocGen</label>
+            </value>
+            <value>
+                <fullName>EXALEAD OneCall</fullName>
+                <default>false</default>
+                <label>EXALEAD OneCall</label>
+            </value>
+            <value>
+                <fullName>Genesys Omnichannel Desktop</fullName>
+                <default>false</default>
+                <label>Genesys Omnichannel Desktop</label>
+            </value>
+            <value>
+                <fullName>MAP Communications</fullName>
+                <default>false</default>
+                <label>MAP Communications</label>
+            </value>
+            <value>
+                <fullName>MessageBird</fullName>
+                <default>false</default>
+                <label>MessageBird</label>
+            </value>
+            <value>
+                <fullName>Message Broadcast</fullName>
+                <default>false</default>
+                <label>Message Broadcast</label>
+            </value>
+            <value>
+                <fullName>Messagepoint</fullName>
+                <default>false</default>
+                <label>Messagepoint</label>
+            </value>
+            <value>
+                <fullName>NotifyMD</fullName>
+                <default>false</default>
+                <label>NotifyMD</label>
+            </value>
+            <value>
+                <fullName>OpenText Communications Center Enterprise</fullName>
+                <default>false</default>
+                <label>OpenText Communications Center Enterprise</label>
+            </value>
+            <value>
+                <fullName>OpenText Exstream</fullName>
+                <default>false</default>
+                <label>OpenText Exstream</label>
+            </value>
+            <value>
+                <fullName>OpenText xPression</fullName>
+                <default>false</default>
+                <label>OpenText xPression</label>
+            </value>
+            <value>
+                <fullName>Oracle Documaker</fullName>
+                <default>false</default>
+                <label>Oracle Documaker</label>
+            </value>
+            <value>
+                <fullName>Oracle Documaker Enterprise Edition</fullName>
+                <default>false</default>
+                <label>Oracle Documaker Enterprise Edition</label>
+            </value>
+            <value>
+                <fullName>Oracle Knowledge for Web Self Service</fullName>
+                <default>false</default>
+                <label>Oracle Knowledge for Web Self Service</label>
+            </value>
+            <value>
+                <fullName>PCI GenManager</fullName>
+                <default>false</default>
+                <label>PCI GenManager</label>
+            </value>
+            <value>
+                <fullName>Pitney Bowes EngageOne</fullName>
+                <default>false</default>
+                <label>Pitney Bowes EngageOne</label>
+            </value>
+            <value>
+                <fullName>Quadient Inspire</fullName>
+                <default>false</default>
+                <label>Quadient Inspire</label>
+            </value>
+            <value>
+                <fullName>Salesforce Web to Case</fullName>
+                <default>false</default>
+                <label>Salesforce Web to Case</label>
+            </value>
+            <value>
+                <fullName>Send it By Text</fullName>
+                <default>false</default>
+                <label>Send it By Text</label>
+            </value>
+            <value>
+                <fullName>Sitecore</fullName>
+                <default>false</default>
+                <label>Sitecore</label>
+            </value>
+            <value>
+                <fullName>Smart Communications</fullName>
+                <default>false</default>
+                <label>Smart Communications</label>
+            </value>
+            <value>
+                <fullName>Stream Serve</fullName>
+                <default>false</default>
+                <label>Stream Serve</label>
+            </value>
+            <value>
+                <fullName>Syntellect CIM</fullName>
+                <default>false</default>
+                <label>Syntellect CIM</label>
+            </value>
+            <value>
+                <fullName>Teradata Customer Interaction Manager</fullName>
+                <default>false</default>
+                <label>Teradata Customer Interaction Manager</label>
+            </value>
+            <value>
+                <fullName>TextExpander</fullName>
+                <default>false</default>
+                <label>TextExpander</label>
+            </value>
+            <value>
+                <fullName>TextMagic</fullName>
+                <default>false</default>
+                <label>TextMagic</label>
+            </value>
+            <value>
+                <fullName>Verint Mercom</fullName>
+                <default>false</default>
+                <label>Verint Mercom</label>
+            </value>
+            <value>
+                <fullName>Voxeo</fullName>
+                <default>false</default>
+                <label>Voxeo</label>
+            </value>
+            <value>
+                <fullName>XMPie</fullName>
+                <default>false</default>
+                <label>XMPie</label>
+            </value>
+            <value>
+                <fullName>Xpertdoc Customer Communications Platform</fullName>
+                <default>false</default>
+                <label>Xpertdoc Customer Communications Platform</label>
+            </value>
+            <value>
+                <fullName>Zyra Chat</fullName>
+                <default>false</default>
+                <label>Zyra Chat</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

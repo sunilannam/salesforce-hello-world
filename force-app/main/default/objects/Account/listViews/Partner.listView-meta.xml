@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>PARENT_NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Partner_Type__c</columns>
+    <columns>Partner_Program_Status__c</columns>
+    <columns>Integration_Status__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Master_Agreement_Signature_Date__c</columns>
+    <columns>Signed_Schedule_Type__c</columns>
+    <columns>Referral_Partner_Rate__c</columns>
+    <columns>Referral_to_Seismic_Rate__c</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>Partner_Priority__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>Prioritization_Last_Reviewed_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Partner</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Partner,Prospective Partner</value>
+    </filters>
+    <label>Partner Accounts</label>
+</ListView>

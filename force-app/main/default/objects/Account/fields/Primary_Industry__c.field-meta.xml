@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Industry__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(Contains(Text(Industry),&apos;Asset&apos;),
+      Contains(Text(Industry),&apos;Banking&apos;),
+      Contains(Text(Industry),&apos;Wealth&apos;),
+      Contains(Text(Industry),&apos;Finance&apos;),
+      Contains(Text(Industry),&apos;Insurance - P&amp;C&apos;),
+      Contains(Text(Industry),&apos;Insurance - Life&apos;)),
+  &apos;Financial Services&apos;, 
+IF(OR(Contains(TEXT(Industry),&apos;Medical&apos;), 
+      Contains(Text(Industry),&apos;Health&apos;)), 
+  &apos;Healthcare&apos;, 
+IF(OR(ISPICKVAL(Industry, &apos;Manufacturing - CPG&apos;), 
+      ISPICKVAL(Industry, &apos;Distribution/Distributors&apos;),
+      ISPICKVAL(Industry, &apos;Energy and Utilities&apos;)), 
+  &apos;Industrial&apos;,  
+IF(OR(ISPICKVAL(Industry, &apos;Logistics &amp; Transportation&apos;),
+      ISPICKVAL(Industry, &apos;Business Services&apos;),
+      ISPICKVAL(Industry, &apos;Media and Advertising&apos;)),
+  &apos;Services&apos;,
+IF(OR(ISPICKVAL(Industry, &apos;Technology&apos;), 
+      ISPICKVAL(Industry, &apos;Telecommunications&apos;)), 
+  &apos;Technology&apos;, 
+IF(OR(ISPICKVAL(Industry, &apos;Govt / Non-profit&apos;), 
+      ISPICKVAL(Industry, &apos;Education&apos;),
+      ISPICKVAL(Industry, &apos;Retail&apos;),
+      ISPICKVAL(Industry, &apos;Other - Misc&apos;),
+      ISPICKVAL(Industry, &apos;Hospitality&apos;)), 
+ &apos;Other&apos;, 
+&apos;&apos;))))))</formula>
+    <label>Primary Industry</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

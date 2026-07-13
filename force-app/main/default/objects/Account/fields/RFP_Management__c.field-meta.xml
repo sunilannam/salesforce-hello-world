@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RFP_Management__c</fullName>
+    <description>REQ7071</description>
+    <label>RFP Management</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Loopio</fullName>
+                <default>false</default>
+                <label>Loopio</label>
+            </value>
+            <value>
+                <fullName>RFP.io</fullName>
+                <default>false</default>
+                <label>RFP.io</label>
+            </value>
+            <value>
+                <fullName>RFP360</fullName>
+                <default>false</default>
+                <label>RFP360</label>
+            </value>
+            <value>
+                <fullName>SmartDocs</fullName>
+                <default>false</default>
+                <label>SmartDocs</label>
+            </value>
+            <value>
+                <fullName>Aestiva</fullName>
+                <default>false</default>
+                <label>Aestiva</label>
+            </value>
+            <value>
+                <fullName>CV Partner</fullName>
+                <default>false</default>
+                <label>CV Partner</label>
+            </value>
+            <value>
+                <fullName>Catapult</fullName>
+                <default>false</default>
+                <label>Catapult</label>
+            </value>
+            <value>
+                <fullName>SpeedRFP</fullName>
+                <default>false</default>
+                <label>SpeedRFP</label>
+            </value>
+            <value>
+                <fullName>FlexRFP eSourcing</fullName>
+                <default>false</default>
+                <label>FlexRFP eSourcing</label>
+            </value>
+            <value>
+                <fullName>Expedience Proposal Software</fullName>
+                <default>false</default>
+                <label>Expedience Proposal Software</label>
+            </value>
+            <value>
+                <fullName>DirectRFP</fullName>
+                <default>false</default>
+                <label>DirectRFP</label>
+            </value>
+            <value>
+                <fullName>Qorus</fullName>
+                <default>false</default>
+                <label>Qorus</label>
+            </value>
+            <value>
+                <fullName>Qvidian RFP Response Software</fullName>
+                <default>false</default>
+                <label>Qvidian RFP Response Software</label>
+            </value>
+            <value>
+                <fullName>RFPIO</fullName>
+                <default>false</default>
+                <label>RFPIO</label>
+            </value>
+            <value>
+                <fullName>RocketDocs</fullName>
+                <default>false</default>
+                <label>RocketDocs</label>
+            </value>
+            <value>
+                <fullName>Scout RFP</fullName>
+                <default>false</default>
+                <label>Scout RFP</label>
+            </value>
+            <value>
+                <fullName>Qvidian</fullName>
+                <default>false</default>
+                <label>Qvidian</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

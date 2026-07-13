@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_RIA_Reps__c</fullName>
+    <description>Related to Number of IA Reps in DiscoveryData.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>RIA Reps - Registered Investment Advisors. Advisors who work for advisory firms registered with SEBI.</inlineHelpText>
+    <label>Number of RIA Reps</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

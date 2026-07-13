@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Groups__c</fullName>
+    <description>Used in DLRS to show Product Groups for Active Subscriptions</description>
+    <label>Product Groups</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Essential</fullName>
+                <default>false</default>
+                <label>Essential</label>
+            </value>
+            <value>
+                <fullName>Advanced</fullName>
+                <default>false</default>
+                <label>Advanced</label>
+            </value>
+            <value>
+                <fullName>Ultimate</fullName>
+                <default>false</default>
+                <label>Ultimate</label>
+            </value>
+            <value>
+                <fullName>Bridge Add-Ons</fullName>
+                <default>false</default>
+                <label>Bridge Add-Ons</label>
+            </value>
+            <value>
+                <fullName>Specialty Add-Ons</fullName>
+                <default>false</default>
+                <label>Specialty Add-Ons</label>
+            </value>
+            <value>
+                <fullName>Professional Services</fullName>
+                <default>false</default>
+                <label>Professional Services</label>
+            </value>
+            <value>
+                <fullName>Live Social</fullName>
+                <default>false</default>
+                <label>Live Social</label>
+            </value>
+            <value>
+                <fullName>Content</fullName>
+                <default>false</default>
+                <label>Content</label>
+            </value>
+            <value>
+                <fullName>LiveDocs Express</fullName>
+                <default>false</default>
+                <label>LiveDocs Express</label>
+            </value>
+            <value>
+                <fullName>Percolate Orchestration</fullName>
+                <default>false</default>
+                <label>Percolate Orchestration</label>
+            </value>
+            <value>
+                <fullName>Recurring Professional Service</fullName>
+                <default>false</default>
+                <label>Recurring Professional Service</label>
+            </value>
+            <value>
+                <fullName>Seismic Learning</fullName>
+                <default>false</default>
+                <label>Seismic Learning</label>
+            </value>
+            <value>
+                <fullName>Interactive Content</fullName>
+                <default>false</default>
+                <label>Interactive Content</label>
+            </value>
+            <value>
+                <fullName>Seismic Orchestration</fullName>
+                <default>false</default>
+                <label>Seismic Orchestration</label>
+            </value>
+            <value>
+                <fullName>Platinum Support</fullName>
+                <default>false</default>
+                <label>Platinum Support</label>
+            </value>
+            <value>
+                <fullName>Seismic Meetings</fullName>
+                <default>false</default>
+                <label>Seismic Meetings</label>
+            </value>
+            <value>
+                <fullName>Copilot for Content</fullName>
+                <default>false</default>
+                <label>Copilot for Content</label>
+            </value>
+            <value>
+                <fullName>Copilot for Learning</fullName>
+                <default>false</default>
+                <label>Copilot for Learning</label>
+            </value>
+            <value>
+                <fullName>Enablement Cloud</fullName>
+                <default>false</default>
+                <label>Enablement Cloud</label>
+            </value>
+            <value>
+                <fullName>Services Solutions</fullName>
+                <default>false</default>
+                <label>Services Solutions</label>
+            </value>
+            <value>
+                <fullName>Fees</fullName>
+                <default>false</default>
+                <label>Fees</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

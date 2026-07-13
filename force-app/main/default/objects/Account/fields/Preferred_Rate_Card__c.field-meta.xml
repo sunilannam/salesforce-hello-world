@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Rate_Card__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>True if Account uses a Preferred Rate Card (GTMS-781)</description>
+    <inlineHelpText>True if Account uses a Preferred Rate Card</inlineHelpText>
+    <label>Preferred Rate Card</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

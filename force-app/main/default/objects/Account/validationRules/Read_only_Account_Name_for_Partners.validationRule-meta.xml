@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Read_only_Account_Name_for_Partners</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED( Name) ,  OR($Profile.Name = &apos;Seismic Partner&apos;,$Profile.Name =&apos;Seismic Partner Login&apos;) )</errorConditionFormula>
+    <errorMessage>You can&apos;t change Account Name</errorMessage>
+</ValidationRule>

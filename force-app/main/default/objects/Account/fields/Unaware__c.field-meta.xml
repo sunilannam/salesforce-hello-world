@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unaware__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Customer Journey Field: Unaware, Remarket – individual does not know they have a problem/ opportunity.</description>
+    <label>Unaware</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

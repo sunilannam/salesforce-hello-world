@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZI_Highspot_Showpad_Past_Month_2</fullName>
+    <booleanFilter>1 OR 2 OR 3 OR 4 or 5</booleanFilter>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>DOZISF__ZoomInfo_Id__c</field>
+        <operation>equals</operation>
+        <value>50987705,347713669,480911477,6982573,14994561,22072739,372992933,4588121,372047325,374928878,442172447,6471958,366464870,363283654,429794565,347383675,22350347,24658418,8128421,348408617,347623843,399604238,369384184,1196061,371825262</value>
+    </filters>
+    <filters>
+        <field>DOZISF__ZoomInfo_Id__c</field>
+        <operation>equals</operation>
+        <value>119538791,128762739,359677207,357853533,353571907,368854001,358220279,368318432,42603134,370608749,12077795,114278670,353646174,19562914,451979096,435823497,446797979,371811825,108283517,345976949,398984677,19366670,348038530</value>
+    </filters>
+    <filters>
+        <field>DOZISF__ZoomInfo_Id__c</field>
+        <operation>equals</operation>
+        <value>370813659,371564230,51185539,371678853,397550326,465902371,4358213,256606563,112886228,227672661,366261060,372576421,382321985,372296598,2293874,359228441,397505898,126108643,369208283,454208253,347391788</value>
+    </filters>
+    <filters>
+        <field>DOZISF__ZoomInfo_Id__c</field>
+        <operation>equals</operation>
+        <value>70585433,347263051,374845734,368739595,371681202,111116503,371552178,346591557,357001447,346597098,456061544,59360894,34000633,369408699,14450699,50987705</value>
+    </filters>
+    <filters>
+        <field>DOZISF__ZoomInfo_Id__c</field>
+        <operation>equals</operation>
+        <value>348038530,355921907,358744498,353600091,346400928,345605915,57477752</value>
+    </filters>
+    <label>ZI-Highspot/Showpad Past Month (2)</label>
+</ListView>

@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mobile_Strategy__c</fullName>
+    <label>Mobile Strategy</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>@hand mobility</fullName>
+                <default>false</default>
+                <label>@hand mobility</label>
+            </value>
+            <value>
+                <fullName>Accenture CAS Mobility Platform</fullName>
+                <default>false</default>
+                <label>Accenture CAS Mobility Platform</label>
+            </value>
+            <value>
+                <fullName>Acer Tablets</fullName>
+                <default>false</default>
+                <label>Acer Tablets</label>
+            </value>
+            <value>
+                <fullName>Adaptive Mobility Platform</fullName>
+                <default>false</default>
+                <label>Adaptive Mobility Platform</label>
+            </value>
+            <value>
+                <fullName>Addigy</fullName>
+                <default>false</default>
+                <label>Addigy</label>
+            </value>
+            <value>
+                <fullName>Aeroprise</fullName>
+                <default>false</default>
+                <label>Aeroprise</label>
+            </value>
+            <value>
+                <fullName>AirMagnet Laptop Analyzer</fullName>
+                <default>false</default>
+                <label>AirMagnet Laptop Analyzer</label>
+            </value>
+            <value>
+                <fullName>Amazon Kindle</fullName>
+                <default>false</default>
+                <label>Amazon Kindle</label>
+            </value>
+            <value>
+                <fullName>Android</fullName>
+                <default>false</default>
+                <label>Android</label>
+            </value>
+            <value>
+                <fullName>Android Devices</fullName>
+                <default>false</default>
+                <label>Android Devices</label>
+            </value>
+            <value>
+                <fullName>Antenna Mobile</fullName>
+                <default>false</default>
+                <label>Antenna Mobile</label>
+            </value>
+            <value>
+                <fullName>Anubavam</fullName>
+                <default>false</default>
+                <label>Anubavam</label>
+            </value>
+            <value>
+                <fullName>Apacheta</fullName>
+                <default>false</default>
+                <label>Apacheta</label>
+            </value>
+            <value>
+                <fullName>Appdigio</fullName>
+                <default>false</default>
+                <label>Appdigio</label>
+            </value>
+            <value>
+                <fullName>Apperian App Management</fullName>
+                <default>false</default>
+                <label>Apperian App Management</label>
+            </value>
+            <value>
+                <fullName>Apple Business Essentials</fullName>
+                <default>false</default>
+                <label>Apple Business Essentials</label>
+            </value>
+            <value>
+                <fullName>Apple iMac</fullName>
+                <default>false</default>
+                <label>Apple iMac</label>
+            </value>
+            <value>
+                <fullName>Apple iPad</fullName>
+                <default>false</default>
+                <label>Apple iPad</label>
+            </value>
+            <value>
+                <fullName>Apple iPhone</fullName>
+                <default>false</default>
+                <label>Apple iPhone</label>
+            </value>
+            <value>
+                <fullName>Apple iPod</fullName>
+                <default>false</default>
+                <label>Apple iPod</label>
+            </value>
+            <value>
+                <fullName>Apple MacBook Air</fullName>
+                <default>false</default>
+                <label>Apple MacBook Air</label>
+            </value>
+            <value>
+                <fullName>Apple MacBook Pro</fullName>
+                <default>false</default>
+                <label>Apple MacBook Pro</label>
+            </value>
+            <value>
+                <fullName>Apple MDM</fullName>
+                <default>false</default>
+                <label>Apple MDM</label>
+            </value>
+            <value>
+                <fullName>Apple Watch</fullName>
+                <default>false</default>
+                <label>Apple Watch</label>
+            </value>
+            <value>
+                <fullName>Applivery</fullName>
+                <default>false</default>
+                <label>Applivery</label>
+            </value>
+            <value>
+                <fullName>Aruba Mobility Controllers</fullName>
+                <default>false</default>
+                <label>Aruba Mobility Controllers</label>
+            </value>
+            <value>
+                <fullName>ArubaOS Mobility Software</fullName>
+                <default>false</default>
+                <label>ArubaOS Mobility Software</label>
+            </value>
+            <value>
+                <fullName>AT&amp;T Mobility</fullName>
+                <default>false</default>
+                <label>AT&amp;T Mobility</label>
+            </value>
+            <value>
+                <fullName>Autonomy WorkSite Mobility</fullName>
+                <default>false</default>
+                <label>Autonomy WorkSite Mobility</label>
+            </value>
+            <value>
+                <fullName>Avalanche Mobility Center (MC)</fullName>
+                <default>false</default>
+                <label>Avalanche Mobility Center (MC)</label>
+            </value>
+            <value>
+                <fullName>Better</fullName>
+                <default>false</default>
+                <label>Better</label>
+            </value>
+            <value>
+                <fullName>BlackBerry</fullName>
+                <default>false</default>
+                <label>BlackBerry</label>
+            </value>
+            <value>
+                <fullName>BlackBerry BES 10 Cloud</fullName>
+                <default>false</default>
+                <label>BlackBerry BES 10 Cloud</label>
+            </value>
+            <value>
+                <fullName>BlackBerry BES12 Multi-OS MDM</fullName>
+                <default>false</default>
+                <label>BlackBerry BES12 Multi-OS MDM</label>
+            </value>
+            <value>
+                <fullName>BlackBerry Dynamics</fullName>
+                <default>false</default>
+                <label>BlackBerry Dynamics</label>
+            </value>
+            <value>
+                <fullName>BlackBerry Enterprise BRIDGE</fullName>
+                <default>false</default>
+                <label>BlackBerry Enterprise BRIDGE</label>
+            </value>
+            <value>
+                <fullName>BlackBerry Enterprise Mobility Management (EMM)</fullName>
+                <default>false</default>
+                <label>BlackBerry Enterprise Mobility Management (EMM)</label>
+            </value>
+            <value>
+                <fullName>BlackBerry Mobile Fusion</fullName>
+                <default>false</default>
+                <label>BlackBerry Mobile Fusion</label>
+            </value>
+            <value>
+                <fullName>BlackBerry PlayBook</fullName>
+                <default>false</default>
+                <label>BlackBerry PlayBook</label>
+            </value>
+            <value>
+                <fullName>BlackBerry Unified Endpoint Management (UEM)</fullName>
+                <default>false</default>
+                <label>BlackBerry Unified Endpoint Management (UEM)</label>
+            </value>
+            <value>
+                <fullName>BMC Client Management</fullName>
+                <default>false</default>
+                <label>BMC Client Management</label>
+            </value>
+            <value>
+                <fullName>Branch Metrics</fullName>
+                <default>false</default>
+                <label>Branch Metrics</label>
+            </value>
+            <value>
+                <fullName>BrightXpress Mobility Solutions</fullName>
+                <default>false</default>
+                <label>BrightXpress Mobility Solutions</label>
+            </value>
+            <value>
+                <fullName>Bring Your Own Device</fullName>
+                <default>false</default>
+                <label>Bring Your Own Device</label>
+            </value>
+            <value>
+                <fullName>BT MobileXpress</fullName>
+                <default>false</default>
+                <label>BT MobileXpress</label>
+            </value>
+            <value>
+                <fullName>BVRP Software Mobile Phone Tools</fullName>
+                <default>false</default>
+                <label>BVRP Software Mobile Phone Tools</label>
+            </value>
+            <value>
+                <fullName>Cagedim Mobile Intelligence</fullName>
+                <default>false</default>
+                <label>Cagedim Mobile Intelligence</label>
+            </value>
+            <value>
+                <fullName>CentraStage</fullName>
+                <default>false</default>
+                <label>CentraStage</label>
+            </value>
+            <value>
+                <fullName>Check Point Capsule</fullName>
+                <default>false</default>
+                <label>Check Point Capsule</label>
+            </value>
+            <value>
+                <fullName>Cisco Data Mobility Manager</fullName>
+                <default>false</default>
+                <label>Cisco Data Mobility Manager</label>
+            </value>
+            <value>
+                <fullName>Cisco Meraki Systems Manager</fullName>
+                <default>false</default>
+                <label>Cisco Meraki Systems Manager</label>
+            </value>
+            <value>
+                <fullName>Cisco Mobile</fullName>
+                <default>false</default>
+                <label>Cisco Mobile</label>
+            </value>
+            <value>
+                <fullName>Cisco Mobility Unified Reporting and Analytics</fullName>
+                <default>false</default>
+                <label>Cisco Mobility Unified Reporting and Analytics</label>
+            </value>
+            <value>
+                <fullName>Citilabs</fullName>
+                <default>false</default>
+                <label>Citilabs</label>
+            </value>
+            <value>
+                <fullName>Citrix Endpoint Management</fullName>
+                <default>false</default>
+                <label>Citrix Endpoint Management</label>
+            </value>
+            <value>
+                <fullName>Citrix MDM</fullName>
+                <default>false</default>
+                <label>Citrix MDM</label>
+            </value>
+            <value>
+                <fullName>Citrix Thin Clients</fullName>
+                <default>false</default>
+                <label>Citrix Thin Clients</label>
+            </value>
+            <value>
+                <fullName>Complete Tablet Solutions</fullName>
+                <default>false</default>
+                <label>Complete Tablet Solutions</label>
+            </value>
+            <value>
+                <fullName>ConnectWise Automate</fullName>
+                <default>false</default>
+                <label>ConnectWise Automate</label>
+            </value>
+            <value>
+                <fullName>DataSplice</fullName>
+                <default>false</default>
+                <label>DataSplice</label>
+            </value>
+            <value>
+                <fullName>Deeplink</fullName>
+                <default>false</default>
+                <label>Deeplink</label>
+            </value>
+            <value>
+                <fullName>Dell Axim</fullName>
+                <default>false</default>
+                <label>Dell Axim</label>
+            </value>
+            <value>
+                <fullName>Dell Laptops</fullName>
+                <default>false</default>
+                <label>Dell Laptops</label>
+            </value>
+            <value>
+                <fullName>Dell Latitude</fullName>
+                <default>false</default>
+                <label>Dell Latitude</label>
+            </value>
+            <value>
+                <fullName>Dell Mobile Workstations</fullName>
+                <default>false</default>
+                <label>Dell Mobile Workstations</label>
+            </value>
+            <value>
+                <fullName>Dell Venue Tablets</fullName>
+                <default>false</default>
+                <label>Dell Venue Tablets</label>
+            </value>
+            <value>
+                <fullName>Dell XPS 18 Portable All-in-One Desktop</fullName>
+                <default>false</default>
+                <label>Dell XPS 18 Portable All-in-One Desktop</label>
+            </value>
+            <value>
+                <fullName>Econocom</fullName>
+                <default>false</default>
+                <label>Econocom</label>
+            </value>
+            <value>
+                <fullName>eMOBUS Mobility Management</fullName>
+                <default>false</default>
+                <label>eMOBUS Mobility Management</label>
+            </value>
+            <value>
+                <fullName>Essential MacLeod</fullName>
+                <default>false</default>
+                <label>Essential MacLeod</label>
+            </value>
+            <value>
+                <fullName>ExtenData MobileConductor</fullName>
+                <default>false</default>
+                <label>ExtenData MobileConductor</label>
+            </value>
+            <value>
+                <fullName>Ezmdm</fullName>
+                <default>false</default>
+                <label>Ezmdm</label>
+            </value>
+            <value>
+                <fullName>FAMOCO</fullName>
+                <default>false</default>
+                <label>FAMOCO</label>
+            </value>
+            <value>
+                <fullName>Fleetsmith</fullName>
+                <default>false</default>
+                <label>Fleetsmith</label>
+            </value>
+            <value>
+                <fullName>Flutter</fullName>
+                <default>false</default>
+                <label>Flutter</label>
+            </value>
+            <value>
+                <fullName>General Dynamics Itronix GoBooks</fullName>
+                <default>false</default>
+                <label>General Dynamics Itronix GoBooks</label>
+            </value>
+            <value>
+                <fullName>Go! Enterprise MDM</fullName>
+                <default>false</default>
+                <label>Go! Enterprise MDM</label>
+            </value>
+            <value>
+                <fullName>Good Dynamics Secure Mobility Platform</fullName>
+                <default>false</default>
+                <label>Good Dynamics Secure Mobility Platform</label>
+            </value>
+            <value>
+                <fullName>Good Mobile</fullName>
+                <default>false</default>
+                <label>Good Mobile</label>
+            </value>
+            <value>
+                <fullName>Good Mobile Access</fullName>
+                <default>false</default>
+                <label>Good Mobile Access</label>
+            </value>
+            <value>
+                <fullName>Good Mobile Device Management (MDM)</fullName>
+                <default>false</default>
+                <label>Good Mobile Device Management (MDM)</label>
+            </value>
+            <value>
+                <fullName>Good Mobile Security Platform</fullName>
+                <default>false</default>
+                <label>Good Mobile Security Platform</label>
+            </value>
+            <value>
+                <fullName>Good Secure Enterprise Suite</fullName>
+                <default>false</default>
+                <label>Good Secure Enterprise Suite</label>
+            </value>
+            <value>
+                <fullName>Good Secure Mobility Solution</fullName>
+                <default>false</default>
+                <label>Good Secure Mobility Solution</label>
+            </value>
+            <value>
+                <fullName>Google Chromebooks</fullName>
+                <default>false</default>
+                <label>Google Chromebooks</label>
+            </value>
+            <value>
+                <fullName>Google MDM</fullName>
+                <default>false</default>
+                <label>Google MDM</label>
+            </value>
+            <value>
+                <fullName>Google Pixel</fullName>
+                <default>false</default>
+                <label>Google Pixel</label>
+            </value>
+            <value>
+                <fullName>Hexnode</fullName>
+                <default>false</default>
+                <label>Hexnode</label>
+            </value>
+            <value>
+                <fullName>Home Grown</fullName>
+                <default>false</default>
+                <label>Home Grown</label>
+            </value>
+            <value>
+                <fullName>Honeywell Dolphin</fullName>
+                <default>false</default>
+                <label>Honeywell Dolphin</label>
+            </value>
+            <value>
+                <fullName>HP Compaq Business Notebook</fullName>
+                <default>false</default>
+                <label>HP Compaq Business Notebook</label>
+            </value>
+            <value>
+                <fullName>HP EliteBook Laptops</fullName>
+                <default>false</default>
+                <label>HP EliteBook Laptops</label>
+            </value>
+            <value>
+                <fullName>HP ElitePad</fullName>
+                <default>false</default>
+                <label>HP ElitePad</label>
+            </value>
+            <value>
+                <fullName>HP iPAQ</fullName>
+                <default>false</default>
+                <label>HP iPAQ</label>
+            </value>
+            <value>
+                <fullName>HP Laptops</fullName>
+                <default>false</default>
+                <label>HP Laptops</label>
+            </value>
+            <value>
+                <fullName>HP Tablets</fullName>
+                <default>false</default>
+                <label>HP Tablets</label>
+            </value>
+            <value>
+                <fullName>IBM MaaS360</fullName>
+                <default>false</default>
+                <label>IBM MaaS360</label>
+            </value>
+            <value>
+                <fullName>IBM ThinkPad</fullName>
+                <default>false</default>
+                <label>IBM ThinkPad</label>
+            </value>
+            <value>
+                <fullName>iBoss MDM</fullName>
+                <default>false</default>
+                <label>iBoss MDM</label>
+            </value>
+            <value>
+                <fullName>iPad</fullName>
+                <default>false</default>
+                <label>iPad</label>
+            </value>
+            <value>
+                <fullName>Ivanti Avalanche</fullName>
+                <default>false</default>
+                <label>Ivanti Avalanche</label>
+            </value>
+            <value>
+                <fullName>Ivanti Endpoint Manager</fullName>
+                <default>false</default>
+                <label>Ivanti Endpoint Manager</label>
+            </value>
+            <value>
+                <fullName>Ivanti Mobility Manager, powered by LANDESK</fullName>
+                <default>false</default>
+                <label>Ivanti Mobility Manager, powered by LANDESK</label>
+            </value>
+            <value>
+                <fullName>Jamf</fullName>
+                <default>false</default>
+                <label>Jamf</label>
+            </value>
+            <value>
+                <fullName>JAMF Pro</fullName>
+                <default>false</default>
+                <label>JAMF Pro</label>
+            </value>
+            <value>
+                <fullName>kandji</fullName>
+                <default>false</default>
+                <label>kandji</label>
+            </value>
+            <value>
+                <fullName>Kaseya Virtual System Administrator</fullName>
+                <default>false</default>
+                <label>Kaseya Virtual System Administrator</label>
+            </value>
+            <value>
+                <fullName>LANDESK Mobility Manager</fullName>
+                <default>false</default>
+                <label>LANDESK Mobility Manager</label>
+            </value>
+            <value>
+                <fullName>Laptop</fullName>
+                <default>false</default>
+                <label>Laptop</label>
+            </value>
+            <value>
+                <fullName>Lenovo Laptops</fullName>
+                <default>false</default>
+                <label>Lenovo Laptops</label>
+            </value>
+            <value>
+                <fullName>Lenovo Tablets</fullName>
+                <default>false</default>
+                <label>Lenovo Tablets</label>
+            </value>
+            <value>
+                <fullName>LXE Mobile Computers</fullName>
+                <default>false</default>
+                <label>LXE Mobile Computers</label>
+            </value>
+            <value>
+                <fullName>ManageEngine</fullName>
+                <default>false</default>
+                <label>ManageEngine</label>
+            </value>
+            <value>
+                <fullName>Matrix42</fullName>
+                <default>false</default>
+                <label>Matrix42</label>
+            </value>
+            <value>
+                <fullName>McAfee Enterprise Mobility Management (EMM)</fullName>
+                <default>false</default>
+                <label>McAfee Enterprise Mobility Management (EMM)</label>
+            </value>
+            <value>
+                <fullName>McAfee MDM</fullName>
+                <default>false</default>
+                <label>McAfee MDM</label>
+            </value>
+            <value>
+                <fullName>Micro Focus Mobile Management (formerly Novell Mobile Management)</fullName>
+                <default>false</default>
+                <label>Micro Focus Mobile Management (formerly Novell Mobile Management)</label>
+            </value>
+            <value>
+                <fullName>Microsoft Enterprise Mobility Suite</fullName>
+                <default>false</default>
+                <label>Microsoft Enterprise Mobility Suite</label>
+            </value>
+            <value>
+                <fullName>Microsoft Surface Go</fullName>
+                <default>false</default>
+                <label>Microsoft Surface Go</label>
+            </value>
+            <value>
+                <fullName>Microsoft Surface Pro</fullName>
+                <default>false</default>
+                <label>Microsoft Surface Pro</label>
+            </value>
+            <value>
+                <fullName>Microsoft Windows Tablets</fullName>
+                <default>false</default>
+                <label>Microsoft Windows Tablets</label>
+            </value>
+            <value>
+                <fullName>Miradore</fullName>
+                <default>false</default>
+                <label>Miradore</label>
+            </value>
+            <value>
+                <fullName>MobileDemand xTablet</fullName>
+                <default>false</default>
+                <label>MobileDemand xTablet</label>
+            </value>
+            <value>
+                <fullName>MobileIron</fullName>
+                <default>false</default>
+                <label>MobileIron</label>
+            </value>
+            <value>
+                <fullName>MobileIron VSP</fullName>
+                <default>false</default>
+                <label>MobileIron VSP</label>
+            </value>
+            <value>
+                <fullName>MobileWare</fullName>
+                <default>false</default>
+                <label>MobileWare</label>
+            </value>
+            <value>
+                <fullName>Mosyle</fullName>
+                <default>false</default>
+                <label>Mosyle</label>
+            </value>
+            <value>
+                <fullName>Motion Computing hardware</fullName>
+                <default>false</default>
+                <label>Motion Computing hardware</label>
+            </value>
+            <value>
+                <fullName>Motorola ATCA</fullName>
+                <default>false</default>
+                <label>Motorola ATCA</label>
+            </value>
+            <value>
+                <fullName>Motorola Enterprise Mobility Solutions</fullName>
+                <default>false</default>
+                <label>Motorola Enterprise Mobility Solutions</label>
+            </value>
+            <value>
+                <fullName>Motorola Good</fullName>
+                <default>false</default>
+                <label>Motorola Good</label>
+            </value>
+            <value>
+                <fullName>Motorola MC70</fullName>
+                <default>false</default>
+                <label>Motorola MC70</label>
+            </value>
+            <value>
+                <fullName>Motorola XOOM</fullName>
+                <default>false</default>
+                <label>Motorola XOOM</label>
+            </value>
+            <value>
+                <fullName>Movius</fullName>
+                <default>false</default>
+                <label>Movius</label>
+            </value>
+            <value>
+                <fullName>N-central</fullName>
+                <default>false</default>
+                <label>N-central</label>
+            </value>
+            <value>
+                <fullName>NetApp MultiStore</fullName>
+                <default>false</default>
+                <label>NetApp MultiStore</label>
+            </value>
+            <value>
+                <fullName>Nokia Intellisync Mobile Suite</fullName>
+                <default>false</default>
+                <label>Nokia Intellisync Mobile Suite</label>
+            </value>
+            <value>
+                <fullName>Open Replicator</fullName>
+                <default>false</default>
+                <label>Open Replicator</label>
+            </value>
+            <value>
+                <fullName>ORIGIN PC EON17-X Laptops</fullName>
+                <default>false</default>
+                <label>ORIGIN PC EON17-X Laptops</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Palm Devices</fullName>
+                <default>false</default>
+                <label>Palm Devices</label>
+            </value>
+            <value>
+                <fullName>Palo Alto MDM</fullName>
+                <default>false</default>
+                <label>Palo Alto MDM</label>
+            </value>
+            <value>
+                <fullName>Panasonic Toughbook Mobile Computers</fullName>
+                <default>false</default>
+                <label>Panasonic Toughbook Mobile Computers</label>
+            </value>
+            <value>
+                <fullName>Panasonic Toughpad</fullName>
+                <default>false</default>
+                <label>Panasonic Toughpad</label>
+            </value>
+            <value>
+                <fullName>Panasonic Toughpad FZ-G1</fullName>
+                <default>false</default>
+                <label>Panasonic Toughpad FZ-G1</label>
+            </value>
+            <value>
+                <fullName>Pocket PC</fullName>
+                <default>false</default>
+                <label>Pocket PC</label>
+            </value>
+            <value>
+                <fullName>Pulseway</fullName>
+                <default>false</default>
+                <label>Pulseway</label>
+            </value>
+            <value>
+                <fullName>Pyxis Mobile</fullName>
+                <default>false</default>
+                <label>Pyxis Mobile</label>
+            </value>
+            <value>
+                <fullName>Quest KACE</fullName>
+                <default>false</default>
+                <label>Quest KACE</label>
+            </value>
+            <value>
+                <fullName>Rove Enterprise Software</fullName>
+                <default>false</default>
+                <label>Rove Enterprise Software</label>
+            </value>
+            <value>
+                <fullName>Samsung Galaxy Phones</fullName>
+                <default>false</default>
+                <label>Samsung Galaxy Phones</label>
+            </value>
+            <value>
+                <fullName>Samsung Galaxy Tab</fullName>
+                <default>false</default>
+                <label>Samsung Galaxy Tab</label>
+            </value>
+            <value>
+                <fullName>Samsung Mobile Phone</fullName>
+                <default>false</default>
+                <label>Samsung Mobile Phone</label>
+            </value>
+            <value>
+                <fullName>Samsung Tablets</fullName>
+                <default>false</default>
+                <label>Samsung Tablets</label>
+            </value>
+            <value>
+                <fullName>SAP Afaria</fullName>
+                <default>false</default>
+                <label>SAP Afaria</label>
+            </value>
+            <value>
+                <fullName>Scalefusion</fullName>
+                <default>false</default>
+                <label>Scalefusion</label>
+            </value>
+            <value>
+                <fullName>Sectera</fullName>
+                <default>false</default>
+                <label>Sectera</label>
+            </value>
+            <value>
+                <fullName>SimpleMDM</fullName>
+                <default>false</default>
+                <label>SimpleMDM</label>
+            </value>
+            <value>
+                <fullName>Smith Micro</fullName>
+                <default>false</default>
+                <label>Smith Micro</label>
+            </value>
+            <value>
+                <fullName>Sonim XP5560 BOLT</fullName>
+                <default>false</default>
+                <label>Sonim XP5560 BOLT</label>
+            </value>
+            <value>
+                <fullName>Soti</fullName>
+                <default>false</default>
+                <label>Soti</label>
+            </value>
+            <value>
+                <fullName>SOTI MobiControl</fullName>
+                <default>false</default>
+                <label>SOTI MobiControl</label>
+            </value>
+            <value>
+                <fullName>Spectralink</fullName>
+                <default>false</default>
+                <label>Spectralink</label>
+            </value>
+            <value>
+                <fullName>Spirit Data Capture</fullName>
+                <default>false</default>
+                <label>Spirit Data Capture</label>
+            </value>
+            <value>
+                <fullName>STEP Web Catalog Management</fullName>
+                <default>false</default>
+                <label>STEP Web Catalog Management</label>
+            </value>
+            <value>
+                <fullName>Stratix</fullName>
+                <default>false</default>
+                <label>Stratix</label>
+            </value>
+            <value>
+                <fullName>SureMDM</fullName>
+                <default>false</default>
+                <label>SureMDM</label>
+            </value>
+            <value>
+                <fullName>Switchfly</fullName>
+                <default>false</default>
+                <label>Switchfly</label>
+            </value>
+            <value>
+                <fullName>Symantec Client Management Suite</fullName>
+                <default>false</default>
+                <label>Symantec Client Management Suite</label>
+            </value>
+            <value>
+                <fullName>Symantec Desktop &amp; Laptop Option (DLO)</fullName>
+                <default>false</default>
+                <label>Symantec Desktop &amp; Laptop Option (DLO)</label>
+            </value>
+            <value>
+                <fullName>Symantec Mobility</fullName>
+                <default>false</default>
+                <label>Symantec Mobility</label>
+            </value>
+            <value>
+                <fullName>Symantec Odyssey</fullName>
+                <default>false</default>
+                <label>Symantec Odyssey</label>
+            </value>
+            <value>
+                <fullName>Symbol I-Safe</fullName>
+                <default>false</default>
+                <label>Symbol I-Safe</label>
+            </value>
+            <value>
+                <fullName>Tangoe MatrixMobile MDM</fullName>
+                <default>false</default>
+                <label>Tangoe MatrixMobile MDM</label>
+            </value>
+            <value>
+                <fullName>To Be Determined</fullName>
+                <default>false</default>
+                <label>To Be Determined</label>
+            </value>
+            <value>
+                <fullName>Toshiba Laptops</fullName>
+                <default>false</default>
+                <label>Toshiba Laptops</label>
+            </value>
+            <value>
+                <fullName>Toshiba Portege Z30 Laptops</fullName>
+                <default>false</default>
+                <label>Toshiba Portege Z30 Laptops</label>
+            </value>
+            <value>
+                <fullName>TRANSFLO Mobile+</fullName>
+                <default>false</default>
+                <label>TRANSFLO Mobile+</label>
+            </value>
+            <value>
+                <fullName>Velocitor Solution</fullName>
+                <default>false</default>
+                <label>Velocitor Solution</label>
+            </value>
+            <value>
+                <fullName>Verizon Enterprise Mobility Management</fullName>
+                <default>false</default>
+                <label>Verizon Enterprise Mobility Management</label>
+            </value>
+            <value>
+                <fullName>Verizon Mobile Broadband</fullName>
+                <default>false</default>
+                <label>Verizon Mobile Broadband</label>
+            </value>
+            <value>
+                <fullName>Visage Mobile MobilityCentral</fullName>
+                <default>false</default>
+                <label>Visage Mobile MobilityCentral</label>
+            </value>
+            <value>
+                <fullName>VMware AirWatch</fullName>
+                <default>false</default>
+                <label>VMware AirWatch</label>
+            </value>
+            <value>
+                <fullName>Wacom Tablets</fullName>
+                <default>false</default>
+                <label>Wacom Tablets</label>
+            </value>
+            <value>
+                <fullName>Webalo</fullName>
+                <default>false</default>
+                <label>Webalo</label>
+            </value>
+            <value>
+                <fullName>Windows 8 Tablet</fullName>
+                <default>false</default>
+                <label>Windows 8 Tablet</label>
+            </value>
+            <value>
+                <fullName>WizyEMM</fullName>
+                <default>false</default>
+                <label>WizyEMM</label>
+            </value>
+            <value>
+                <fullName>Xplore Technologies Rugged Tablets</fullName>
+                <default>false</default>
+                <label>Xplore Technologies Rugged Tablets</label>
+            </value>
+            <value>
+                <fullName>Zebra MC9000</fullName>
+                <default>false</default>
+                <label>Zebra MC9000</label>
+            </value>
+            <value>
+                <fullName>ZENworks</fullName>
+                <default>false</default>
+                <label>ZENworks</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

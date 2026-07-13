@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZI_List_APAC_Core_Named_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CurrentTerritory__c</columns>
+    <columns>Territory_Segment__c</columns>
+    <columns>Vertical__c</columns>
+    <columns>Named_Account__c</columns>
+    <columns>ACCOUNT.INDUSTRY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Owner_Role__c</field>
+        <operation>contains</operation>
+        <value>APAC Commercial Outside AE,APAC Core Enterprise Outside AE</value>
+    </filters>
+    <filters>
+        <field>Number_of_Open_Opportunities__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Prospect,Previous Customer</value>
+    </filters>
+    <label>ZI List - APAC Core Named Accounts</label>
+</ListView>

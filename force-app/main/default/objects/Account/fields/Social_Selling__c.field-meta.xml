@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Social_Selling__c</fullName>
+    <description>REQ7071</description>
+    <label>Social Selling</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Actiance Socialite</fullName>
+                <default>false</default>
+                <label>Actiance Socialite</label>
+            </value>
+            <value>
+                <fullName>adMingle</fullName>
+                <default>false</default>
+                <label>adMingle</label>
+            </value>
+            <value>
+                <fullName>Adobe Context Optional</fullName>
+                <default>false</default>
+                <label>Adobe Context Optional</label>
+            </value>
+            <value>
+                <fullName>Adobe Social</fullName>
+                <default>false</default>
+                <label>Adobe Social</label>
+            </value>
+            <value>
+                <fullName>AdParlor</fullName>
+                <default>false</default>
+                <label>AdParlor</label>
+            </value>
+            <value>
+                <fullName>Agorapulse</fullName>
+                <default>false</default>
+                <label>Agorapulse</label>
+            </value>
+            <value>
+                <fullName>Argyle Social</fullName>
+                <default>false</default>
+                <label>Argyle Social</label>
+            </value>
+            <value>
+                <fullName>Bambu</fullName>
+                <default>false</default>
+                <label>Bambu</label>
+            </value>
+            <value>
+                <fullName>BuddyMedia</fullName>
+                <default>false</default>
+                <label>BuddyMedia</label>
+            </value>
+            <value>
+                <fullName>Buffer</fullName>
+                <default>false</default>
+                <label>Buffer</label>
+            </value>
+            <value>
+                <fullName>Buzzdeck</fullName>
+                <default>false</default>
+                <label>Buzzdeck</label>
+            </value>
+            <value>
+                <fullName>Buzzmonitor</fullName>
+                <default>false</default>
+                <label>Buzzmonitor</label>
+            </value>
+            <value>
+                <fullName>Cloud Campaign</fullName>
+                <default>false</default>
+                <label>Cloud Campaign</label>
+            </value>
+            <value>
+                <fullName>Combin</fullName>
+                <default>false</default>
+                <label>Combin</label>
+            </value>
+            <value>
+                <fullName>Commun.it</fullName>
+                <default>false</default>
+                <label>Commun.it</label>
+            </value>
+            <value>
+                <fullName>Comnico Marketing Suite</fullName>
+                <default>false</default>
+                <label>Comnico Marketing Suite</label>
+            </value>
+            <value>
+                <fullName>Context Optional (Adobe)</fullName>
+                <default>false</default>
+                <label>Context Optional (Adobe)</label>
+            </value>
+            <value>
+                <fullName>Cool Tabs</fullName>
+                <default>false</default>
+                <label>Cool Tabs</label>
+            </value>
+            <value>
+                <fullName>coosto</fullName>
+                <default>false</default>
+                <label>coosto</label>
+            </value>
+            <value>
+                <fullName>Crowdfire</fullName>
+                <default>false</default>
+                <label>Crowdfire</label>
+            </value>
+            <value>
+                <fullName>CX Social</fullName>
+                <default>false</default>
+                <label>CX Social</label>
+            </value>
+            <value>
+                <fullName>Dash Hudson</fullName>
+                <default>false</default>
+                <label>Dash Hudson</label>
+            </value>
+            <value>
+                <fullName>Delmondo</fullName>
+                <default>false</default>
+                <label>Delmondo</label>
+            </value>
+            <value>
+                <fullName>Demand Media</fullName>
+                <default>false</default>
+                <label>Demand Media</label>
+            </value>
+            <value>
+                <fullName>Digital Air Strike</fullName>
+                <default>false</default>
+                <label>Digital Air Strike</label>
+            </value>
+            <value>
+                <fullName>Dynamic Signal</fullName>
+                <default>false</default>
+                <label>Dynamic Signal</label>
+            </value>
+            <value>
+                <fullName>Earshot</fullName>
+                <default>false</default>
+                <label>Earshot</label>
+            </value>
+            <value>
+                <fullName>eClincher</fullName>
+                <default>false</default>
+                <label>eClincher</label>
+            </value>
+            <value>
+                <fullName>Engage Sciences</fullName>
+                <default>false</default>
+                <label>Engage Sciences</label>
+            </value>
+            <value>
+                <fullName>Eventifier</fullName>
+                <default>false</default>
+                <label>Eventifier</label>
+            </value>
+            <value>
+                <fullName>EveryoneSocial</fullName>
+                <default>false</default>
+                <label>EveryoneSocial</label>
+            </value>
+            <value>
+                <fullName>Evocalize</fullName>
+                <default>false</default>
+                <label>Evocalize</label>
+            </value>
+            <value>
+                <fullName>ExpertVoice</fullName>
+                <default>false</default>
+                <label>ExpertVoice</label>
+            </value>
+            <value>
+                <fullName>Facelift</fullName>
+                <default>false</default>
+                <label>Facelift</label>
+            </value>
+            <value>
+                <fullName>Falcon.io</fullName>
+                <default>false</default>
+                <label>Falcon.io</label>
+            </value>
+            <value>
+                <fullName>Falcon Social</fullName>
+                <default>false</default>
+                <label>Falcon Social</label>
+            </value>
+            <value>
+                <fullName>Fanbooster</fullName>
+                <default>false</default>
+                <label>Fanbooster</label>
+            </value>
+            <value>
+                <fullName>Fanpoint</fullName>
+                <default>false</default>
+                <label>Fanpoint</label>
+            </value>
+            <value>
+                <fullName>Flightly</fullName>
+                <default>false</default>
+                <label>Flightly</label>
+            </value>
+            <value>
+                <fullName>Flye</fullName>
+                <default>false</default>
+                <label>Flye</label>
+            </value>
+            <value>
+                <fullName>Gain</fullName>
+                <default>false</default>
+                <label>Gain</label>
+            </value>
+            <value>
+                <fullName>Genesys Social Engagement</fullName>
+                <default>false</default>
+                <label>Genesys Social Engagement</label>
+            </value>
+            <value>
+                <fullName>Good Audience</fullName>
+                <default>false</default>
+                <label>Good Audience</label>
+            </value>
+            <value>
+                <fullName>Grapevine6</fullName>
+                <default>false</default>
+                <label>Grapevine6</label>
+            </value>
+            <value>
+                <fullName>Hearsay</fullName>
+                <default>false</default>
+                <label>Hearsay</label>
+            </value>
+            <value>
+                <fullName>Hearsay Social</fullName>
+                <default>false</default>
+                <label>Hearsay Social</label>
+            </value>
+            <value>
+                <fullName>HeyOrca</fullName>
+                <default>false</default>
+                <label>HeyOrca</label>
+            </value>
+            <value>
+                <fullName>Hootsuite</fullName>
+                <default>false</default>
+                <label>Hootsuite</label>
+            </value>
+            <value>
+                <fullName>Hootsuite dashboard</fullName>
+                <default>false</default>
+                <label>Hootsuite dashboard</label>
+            </value>
+            <value>
+                <fullName>Hootsuite Insights</fullName>
+                <default>false</default>
+                <label>Hootsuite Insights</label>
+            </value>
+            <value>
+                <fullName>Involver</fullName>
+                <default>false</default>
+                <label>Involver</label>
+            </value>
+            <value>
+                <fullName>iPR Software</fullName>
+                <default>false</default>
+                <label>iPR Software</label>
+            </value>
+            <value>
+                <fullName>kinetic</fullName>
+                <default>false</default>
+                <label>kinetic</label>
+            </value>
+            <value>
+                <fullName>Later (Latergramme)</fullName>
+                <default>false</default>
+                <label>Later (Latergramme)</label>
+            </value>
+            <value>
+                <fullName>LinkedIn Elevate</fullName>
+                <default>false</default>
+                <label>LinkedIn Elevate</label>
+            </value>
+            <value>
+                <fullName>LiveSocial</fullName>
+                <default>false</default>
+                <label>LiveSocial</label>
+            </value>
+            <value>
+                <fullName>LocalMeasure</fullName>
+                <default>false</default>
+                <label>LocalMeasure</label>
+            </value>
+            <value>
+                <fullName>Lodging Interactive</fullName>
+                <default>false</default>
+                <label>Lodging Interactive</label>
+            </value>
+            <value>
+                <fullName>Loomly</fullName>
+                <default>false</default>
+                <label>Loomly</label>
+            </value>
+            <value>
+                <fullName>Lumen5</fullName>
+                <default>false</default>
+                <label>Lumen5</label>
+            </value>
+            <value>
+                <fullName>Madwire</fullName>
+                <default>false</default>
+                <label>Madwire</label>
+            </value>
+            <value>
+                <fullName>MagNews</fullName>
+                <default>false</default>
+                <label>MagNews</label>
+            </value>
+            <value>
+                <fullName>Marketo Social</fullName>
+                <default>false</default>
+                <label>Marketo Social</label>
+            </value>
+            <value>
+                <fullName>Mass Relevance</fullName>
+                <default>false</default>
+                <label>Mass Relevance</label>
+            </value>
+            <value>
+                <fullName>Meltwater Buzz</fullName>
+                <default>false</default>
+                <label>Meltwater Buzz</label>
+            </value>
+            <value>
+                <fullName>monipla</fullName>
+                <default>false</default>
+                <label>monipla</label>
+            </value>
+            <value>
+                <fullName>NapoleonCat</fullName>
+                <default>false</default>
+                <label>NapoleonCat</label>
+            </value>
+            <value>
+                <fullName>Naytev</fullName>
+                <default>false</default>
+                <label>Naytev</label>
+            </value>
+            <value>
+                <fullName>Networked Insights</fullName>
+                <default>false</default>
+                <label>Networked Insights</label>
+            </value>
+            <value>
+                <fullName>Oktopost</fullName>
+                <default>false</default>
+                <label>Oktopost</label>
+            </value>
+            <value>
+                <fullName>Optify Marketing</fullName>
+                <default>false</default>
+                <label>Optify Marketing</label>
+            </value>
+            <value>
+                <fullName>Oracle Social Cloud</fullName>
+                <default>false</default>
+                <label>Oracle Social Cloud</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pagemodo</fullName>
+                <default>false</default>
+                <label>Pagemodo</label>
+            </value>
+            <value>
+                <fullName>Paladin</fullName>
+                <default>false</default>
+                <label>Paladin</label>
+            </value>
+            <value>
+                <fullName>planoly</fullName>
+                <default>false</default>
+                <label>planoly</label>
+            </value>
+            <value>
+                <fullName>Pluck</fullName>
+                <default>false</default>
+                <label>Pluck</label>
+            </value>
+            <value>
+                <fullName>Popular Pays</fullName>
+                <default>false</default>
+                <label>Popular Pays</label>
+            </value>
+            <value>
+                <fullName>Post Planner</fullName>
+                <default>false</default>
+                <label>Post Planner</label>
+            </value>
+            <value>
+                <fullName>PromoRepublic</fullName>
+                <default>false</default>
+                <label>PromoRepublic</label>
+            </value>
+            <value>
+                <fullName>ProTop</fullName>
+                <default>false</default>
+                <label>ProTop</label>
+            </value>
+            <value>
+                <fullName>Pulsar</fullName>
+                <default>false</default>
+                <label>Pulsar</label>
+            </value>
+            <value>
+                <fullName>ROIHunter</fullName>
+                <default>false</default>
+                <label>ROIHunter</label>
+            </value>
+            <value>
+                <fullName>Seesmic</fullName>
+                <default>false</default>
+                <label>Seesmic</label>
+            </value>
+            <value>
+                <fullName>Sendible</fullName>
+                <default>false</default>
+                <label>Sendible</label>
+            </value>
+            <value>
+                <fullName>ShortStack</fullName>
+                <default>false</default>
+                <label>ShortStack</label>
+            </value>
+            <value>
+                <fullName>Shoutlet</fullName>
+                <default>false</default>
+                <label>Shoutlet</label>
+            </value>
+            <value>
+                <fullName>SocialEye</fullName>
+                <default>false</default>
+                <label>SocialEye</label>
+            </value>
+            <value>
+                <fullName>Socialflow</fullName>
+                <default>false</default>
+                <label>Socialflow</label>
+            </value>
+            <value>
+                <fullName>Sociallymap</fullName>
+                <default>false</default>
+                <label>Sociallymap</label>
+            </value>
+            <value>
+                <fullName>Socialmediawall.io</fullName>
+                <default>false</default>
+                <label>Socialmediawall.io</label>
+            </value>
+            <value>
+                <fullName>Social Moov</fullName>
+                <default>false</default>
+                <label>Social Moov</label>
+            </value>
+            <value>
+                <fullName>SocialOomph</fullName>
+                <default>false</default>
+                <label>SocialOomph</label>
+            </value>
+            <value>
+                <fullName>SocialPilot</fullName>
+                <default>false</default>
+                <label>SocialPilot</label>
+            </value>
+            <value>
+                <fullName>Social Report</fullName>
+                <default>false</default>
+                <label>Social Report</label>
+            </value>
+            <value>
+                <fullName>SocialSignIn</fullName>
+                <default>false</default>
+                <label>SocialSignIn</label>
+            </value>
+            <value>
+                <fullName>SocialVolt</fullName>
+                <default>false</default>
+                <label>SocialVolt</label>
+            </value>
+            <value>
+                <fullName>Soldsie</fullName>
+                <default>false</default>
+                <label>Soldsie</label>
+            </value>
+            <value>
+                <fullName>SPREAD</fullName>
+                <default>false</default>
+                <label>SPREAD</label>
+            </value>
+            <value>
+                <fullName>Spredfast</fullName>
+                <default>false</default>
+                <label>Spredfast</label>
+            </value>
+            <value>
+                <fullName>Sprinklr</fullName>
+                <default>false</default>
+                <label>Sprinklr</label>
+            </value>
+            <value>
+                <fullName>Sprout Social</fullName>
+                <default>false</default>
+                <label>Sprout Social</label>
+            </value>
+            <value>
+                <fullName>squarelovin</fullName>
+                <default>false</default>
+                <label>squarelovin</label>
+            </value>
+            <value>
+                <fullName>STAR Social</fullName>
+                <default>false</default>
+                <label>STAR Social</label>
+            </value>
+            <value>
+                <fullName>Stencil</fullName>
+                <default>false</default>
+                <label>Stencil</label>
+            </value>
+            <value>
+                <fullName>StitcherAds</fullName>
+                <default>false</default>
+                <label>StitcherAds</label>
+            </value>
+            <value>
+                <fullName>Strutta</fullName>
+                <default>false</default>
+                <label>Strutta</label>
+            </value>
+            <value>
+                <fullName>Swat.io</fullName>
+                <default>false</default>
+                <label>Swat.io</label>
+            </value>
+            <value>
+                <fullName>Syncapse</fullName>
+                <default>false</default>
+                <label>Syncapse</label>
+            </value>
+            <value>
+                <fullName>Sysomos</fullName>
+                <default>false</default>
+                <label>Sysomos</label>
+            </value>
+            <value>
+                <fullName>Toocan HotelNavigator</fullName>
+                <default>false</default>
+                <label>Toocan HotelNavigator</label>
+            </value>
+            <value>
+                <fullName>Tracx</fullName>
+                <default>false</default>
+                <label>Tracx</label>
+            </value>
+            <value>
+                <fullName>Tradable Bits</fullName>
+                <default>false</default>
+                <label>Tradable Bits</label>
+            </value>
+            <value>
+                <fullName>TweetDeck</fullName>
+                <default>false</default>
+                <label>TweetDeck</label>
+            </value>
+            <value>
+                <fullName>Unified Media Marketing Group</fullName>
+                <default>false</default>
+                <label>Unified Media Marketing Group</label>
+            </value>
+            <value>
+                <fullName>ViralMint</fullName>
+                <default>false</default>
+                <label>ViralMint</label>
+            </value>
+            <value>
+                <fullName>Viraltag</fullName>
+                <default>false</default>
+                <label>Viraltag</label>
+            </value>
+            <value>
+                <fullName>Votigo</fullName>
+                <default>false</default>
+                <label>Votigo</label>
+            </value>
+            <value>
+                <fullName>webZunder</fullName>
+                <default>false</default>
+                <label>webZunder</label>
+            </value>
+            <value>
+                <fullName>Weibo</fullName>
+                <default>false</default>
+                <label>Weibo</label>
+            </value>
+            <value>
+                <fullName>Wildfire</fullName>
+                <default>false</default>
+                <label>Wildfire</label>
+            </value>
+            <value>
+                <fullName>Zoho Social</fullName>
+                <default>false</default>
+                <label>Zoho Social</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

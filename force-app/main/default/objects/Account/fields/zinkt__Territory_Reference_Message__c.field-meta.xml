@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>zinkt__Territory_Reference_Message__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Audit details of Assignment Reference matching.</description>
+    <inlineHelpText>Audit details of Territory Reference matching.</inlineHelpText>
+    <label>Assignment Reference Message</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

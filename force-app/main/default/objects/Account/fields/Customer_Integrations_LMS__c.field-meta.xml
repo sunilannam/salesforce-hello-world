@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Integrations_LMS__c</fullName>
+    <label>Customer Integrations - LMS</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MindTickle</fullName>
+                <default>false</default>
+                <label>MindTickle</label>
+            </value>
+            <value>
+                <fullName>Brainshark</fullName>
+                <default>false</default>
+                <label>Brainshark</label>
+            </value>
+            <value>
+                <fullName>Learncore</fullName>
+                <default>false</default>
+                <label>Learncore</label>
+            </value>
+            <value>
+                <fullName>KnowledgeVision</fullName>
+                <default>false</default>
+                <label>KnowledgeVision</label>
+            </value>
+            <value>
+                <fullName>Saba</fullName>
+                <default>false</default>
+                <label>Saba</label>
+            </value>
+            <value>
+                <fullName>Trailhead</fullName>
+                <default>false</default>
+                <label>Trailhead</label>
+            </value>
+            <value>
+                <fullName>CornerStone OnDemand</fullName>
+                <default>false</default>
+                <label>CornerStone OnDemand</label>
+            </value>
+            <value>
+                <fullName>Lessonly</fullName>
+                <default>false</default>
+                <label>Lessonly</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

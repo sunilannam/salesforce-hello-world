@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Admin_Filter__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field use by Admin to mark data for filtering so that we can use to join in SOQL</description>
+    <label>Admin Filter</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

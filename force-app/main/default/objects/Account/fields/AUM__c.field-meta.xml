@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AUM__c</fullName>
+    <businessStatus>DeprecateCandidate</businessStatus>
+    <description>No longer used</description>
+    <label>AUM</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Less than 1B</fullName>
+                <default>false</default>
+                <label>Less than 1B</label>
+            </value>
+            <value>
+                <fullName>1B - 20B</fullName>
+                <default>false</default>
+                <label>1B - 20B</label>
+            </value>
+            <value>
+                <fullName>21 - 50B</fullName>
+                <default>false</default>
+                <label>21 - 50B</label>
+            </value>
+            <value>
+                <fullName>51 - 75B</fullName>
+                <default>false</default>
+                <label>51 - 75B</label>
+            </value>
+            <value>
+                <fullName>76 - 100B</fullName>
+                <default>false</default>
+                <label>76 - 100B</label>
+            </value>
+            <value>
+                <fullName>100+B</fullName>
+                <default>false</default>
+                <label>100+B</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

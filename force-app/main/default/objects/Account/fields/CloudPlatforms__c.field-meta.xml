@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CloudPlatforms__c</fullName>
+    <label>Cloud Platforms</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Actian NoSQL Object Database</fullName>
+                <default>false</default>
+                <label>Actian NoSQL Object Database</label>
+            </value>
+            <value>
+                <fullName>Actian X</fullName>
+                <default>false</default>
+                <label>Actian X</label>
+            </value>
+            <value>
+                <fullName>Pervasive PSQL</fullName>
+                <default>false</default>
+                <label>Pervasive PSQL</label>
+            </value>
+            <value>
+                <fullName>ActiveViam ActivePivot</fullName>
+                <default>false</default>
+                <label>ActiveViam ActivePivot</label>
+            </value>
+            <value>
+                <fullName>Adobe BlazeDS</fullName>
+                <default>false</default>
+                <label>Adobe BlazeDS</label>
+            </value>
+            <value>
+                <fullName>Aerospike</fullName>
+                <default>false</default>
+                <label>Aerospike</label>
+            </value>
+            <value>
+                <fullName>Alibaba Cloud ApsaraDB for RDS</fullName>
+                <default>false</default>
+                <label>Alibaba Cloud ApsaraDB for RDS</label>
+            </value>
+            <value>
+                <fullName>Alibaba Cloud Table Store</fullName>
+                <default>false</default>
+                <label>Alibaba Cloud Table Store</label>
+            </value>
+            <value>
+                <fullName>Altibase</fullName>
+                <default>false</default>
+                <label>Altibase</label>
+            </value>
+            <value>
+                <fullName>Amazon Aurora</fullName>
+                <default>false</default>
+                <label>Amazon Aurora</label>
+            </value>
+            <value>
+                <fullName>Amazon DynamoDB</fullName>
+                <default>false</default>
+                <label>Amazon DynamoDB</label>
+            </value>
+            <value>
+                <fullName>Amazon Neptune</fullName>
+                <default>false</default>
+                <label>Amazon Neptune</label>
+            </value>
+            <value>
+                <fullName>Amazon Relational Database Service</fullName>
+                <default>false</default>
+                <label>Amazon Relational Database Service</label>
+            </value>
+            <value>
+                <fullName>Apache Derby</fullName>
+                <default>false</default>
+                <label>Apache Derby</label>
+            </value>
+            <value>
+                <fullName>Apache Druid</fullName>
+                <default>false</default>
+                <label>Apache Druid</label>
+            </value>
+            <value>
+                <fullName>AtoZdatabases</fullName>
+                <default>false</default>
+                <label>AtoZdatabases</label>
+            </value>
+            <value>
+                <fullName>BMC Performance for DB2 Databases</fullName>
+                <default>false</default>
+                <label>BMC Performance for DB2 Databases</label>
+            </value>
+            <value>
+                <fullName>Basho</fullName>
+                <default>false</default>
+                <label>Basho</label>
+            </value>
+            <value>
+                <fullName>Riak</fullName>
+                <default>false</default>
+                <label>Riak</label>
+            </value>
+            <value>
+                <fullName>CA IDMS</fullName>
+                <default>false</default>
+                <label>CA IDMS</label>
+            </value>
+            <value>
+                <fullName>CA RC/Query</fullName>
+                <default>false</default>
+                <label>CA RC/Query</label>
+            </value>
+            <value>
+                <fullName>IDMS</fullName>
+                <default>false</default>
+                <label>IDMS</label>
+            </value>
+            <value>
+                <fullName>CCI NewsDesk</fullName>
+                <default>false</default>
+                <label>CCI NewsDesk</label>
+            </value>
+            <value>
+                <fullName>OrientDB</fullName>
+                <default>false</default>
+                <label>OrientDB</label>
+            </value>
+            <value>
+                <fullName>CitusDB</fullName>
+                <default>false</default>
+                <label>CitusDB</label>
+            </value>
+            <value>
+                <fullName>Clustrix</fullName>
+                <default>false</default>
+                <label>Clustrix</label>
+            </value>
+            <value>
+                <fullName>CockroachDB</fullName>
+                <default>false</default>
+                <label>CockroachDB</label>
+            </value>
+            <value>
+                <fullName>Couchbase</fullName>
+                <default>false</default>
+                <label>Couchbase</label>
+            </value>
+            <value>
+                <fullName>DASYLab</fullName>
+                <default>false</default>
+                <label>DASYLab</label>
+            </value>
+            <value>
+                <fullName>DBeaver</fullName>
+                <default>false</default>
+                <label>DBeaver</label>
+            </value>
+            <value>
+                <fullName>DataEase</fullName>
+                <default>false</default>
+                <label>DataEase</label>
+            </value>
+            <value>
+                <fullName>DataStax</fullName>
+                <default>false</default>
+                <label>DataStax</label>
+            </value>
+            <value>
+                <fullName>Dell Emc Powerscale</fullName>
+                <default>false</default>
+                <label>Dell Emc Powerscale</label>
+            </value>
+            <value>
+                <fullName>Dell Powerstore</fullName>
+                <default>false</default>
+                <label>Dell Powerstore</label>
+            </value>
+            <value>
+                <fullName>Core Lab dbExpress</fullName>
+                <default>false</default>
+                <label>Core Lab dbExpress</label>
+            </value>
+            <value>
+                <fullName>Docket Navigator</fullName>
+                <default>false</default>
+                <label>Docket Navigator</label>
+            </value>
+            <value>
+                <fullName>EITDR</fullName>
+                <default>false</default>
+                <label>EITDR</label>
+            </value>
+            <value>
+                <fullName>EXASOL</fullName>
+                <default>false</default>
+                <label>EXASOL</label>
+            </value>
+            <value>
+                <fullName>Postico</fullName>
+                <default>false</default>
+                <label>Postico</label>
+            </value>
+            <value>
+                <fullName>InterBase</fullName>
+                <default>false</default>
+                <label>InterBase</label>
+            </value>
+            <value>
+                <fullName>EnterpriseDB</fullName>
+                <default>false</default>
+                <label>EnterpriseDB</label>
+            </value>
+            <value>
+                <fullName>Epic Clarity</fullName>
+                <default>false</default>
+                <label>Epic Clarity</label>
+            </value>
+            <value>
+                <fullName>FairCom</fullName>
+                <default>false</default>
+                <label>FairCom</label>
+            </value>
+            <value>
+                <fullName>FileMaker</fullName>
+                <default>false</default>
+                <label>FileMaker</label>
+            </value>
+            <value>
+                <fullName>FileMaker Pro</fullName>
+                <default>false</default>
+                <label>FileMaker Pro</label>
+            </value>
+            <value>
+                <fullName>Firebird</fullName>
+                <default>false</default>
+                <label>Firebird</label>
+            </value>
+            <value>
+                <fullName>VMDS</fullName>
+                <default>false</default>
+                <label>VMDS</label>
+            </value>
+            <value>
+                <fullName>Google Cloud Bigtable</fullName>
+                <default>false</default>
+                <label>Google Cloud Bigtable</label>
+            </value>
+            <value>
+                <fullName>Google Cloud Spanner</fullName>
+                <default>false</default>
+                <label>Google Cloud Spanner</label>
+            </value>
+            <value>
+                <fullName>HSQLDB</fullName>
+                <default>false</default>
+                <label>HSQLDB</label>
+            </value>
+            <value>
+                <fullName>NonStop SQL</fullName>
+                <default>false</default>
+                <label>NonStop SQL</label>
+            </value>
+            <value>
+                <fullName>SQLite</fullName>
+                <default>false</default>
+                <label>SQLite</label>
+            </value>
+            <value>
+                <fullName>Honeywell Uniformance PHD</fullName>
+                <default>false</default>
+                <label>Honeywell Uniformance PHD</label>
+            </value>
+            <value>
+                <fullName>IBM DB2 Alphablox</fullName>
+                <default>false</default>
+                <label>IBM DB2 Alphablox</label>
+            </value>
+            <value>
+                <fullName>IBM DB2 Database Server for Linux UNIX and Windows</fullName>
+                <default>false</default>
+                <label>IBM DB2 Database Server for Linux UNIX and Windows</label>
+            </value>
+            <value>
+                <fullName>IBM Db2</fullName>
+                <default>false</default>
+                <label>IBM Db2</label>
+            </value>
+            <value>
+                <fullName>IBM IMS DB</fullName>
+                <default>false</default>
+                <label>IBM IMS DB</label>
+            </value>
+            <value>
+                <fullName>IBM Informix</fullName>
+                <default>false</default>
+                <label>IBM Informix</label>
+            </value>
+            <value>
+                <fullName>IBM Informix SQL</fullName>
+                <default>false</default>
+                <label>IBM Informix SQL</label>
+            </value>
+            <value>
+                <fullName>IBM Red Brick</fullName>
+                <default>false</default>
+                <label>IBM Red Brick</label>
+            </value>
+            <value>
+                <fullName>IBM dashDB</fullName>
+                <default>false</default>
+                <label>IBM dashDB</label>
+            </value>
+            <value>
+                <fullName>SPUFI</fullName>
+                <default>false</default>
+                <label>SPUFI</label>
+            </value>
+            <value>
+                <fullName>UDB</fullName>
+                <default>false</default>
+                <label>UDB</label>
+            </value>
+            <value>
+                <fullName>ITTIA ODBC</fullName>
+                <default>false</default>
+                <label>ITTIA ODBC</label>
+            </value>
+            <value>
+                <fullName>InfiniDB</fullName>
+                <default>false</default>
+                <label>InfiniDB</label>
+            </value>
+            <value>
+                <fullName>InfluxDB</fullName>
+                <default>false</default>
+                <label>InfluxDB</label>
+            </value>
+            <value>
+                <fullName>InfluxData</fullName>
+                <default>false</default>
+                <label>InfluxData</label>
+            </value>
+            <value>
+                <fullName>Informatica PowerExchange</fullName>
+                <default>false</default>
+                <label>Informatica PowerExchange</label>
+            </value>
+            <value>
+                <fullName>KB_SQL</fullName>
+                <default>false</default>
+                <label>KB_SQL</label>
+            </value>
+            <value>
+                <fullName>KairosDB</fullName>
+                <default>false</default>
+                <label>KairosDB</label>
+            </value>
+            <value>
+                <fullName>Knack</fullName>
+                <default>false</default>
+                <label>Knack</label>
+            </value>
+            <value>
+                <fullName>Kx Systems Database (KDB)</fullName>
+                <default>false</default>
+                <label>Kx Systems Database (KDB)</label>
+            </value>
+            <value>
+                <fullName>MariaDB</fullName>
+                <default>false</default>
+                <label>MariaDB</label>
+            </value>
+            <value>
+                <fullName>MarkLogic</fullName>
+                <default>false</default>
+                <label>MarkLogic</label>
+            </value>
+            <value>
+                <fullName>MobFox</fullName>
+                <default>false</default>
+                <label>MobFox</label>
+            </value>
+            <value>
+                <fullName>MemSQL</fullName>
+                <default>false</default>
+                <label>MemSQL</label>
+            </value>
+            <value>
+                <fullName>Memcached</fullName>
+                <default>false</default>
+                <label>Memcached</label>
+            </value>
+            <value>
+                <fullName>Microsoft Access</fullName>
+                <default>false</default>
+                <label>Microsoft Access</label>
+            </value>
+            <value>
+                <fullName>Microsoft Azure Cloud SQL Database</fullName>
+                <default>false</default>
+                <label>Microsoft Azure Cloud SQL Database</label>
+            </value>
+            <value>
+                <fullName>Microsoft Azure Cosmos DB</fullName>
+                <default>false</default>
+                <label>Microsoft Azure Cosmos DB</label>
+            </value>
+            <value>
+                <fullName>Microsoft Azure SQL Database</fullName>
+                <default>false</default>
+                <label>Microsoft Azure SQL Database</label>
+            </value>
+            <value>
+                <fullName>Microsoft Azure Table storage</fullName>
+                <default>false</default>
+                <label>Microsoft Azure Table storage</label>
+            </value>
+            <value>
+                <fullName>Microsoft Databases</fullName>
+                <default>false</default>
+                <label>Microsoft Databases</label>
+            </value>
+            <value>
+                <fullName>Microsoft SQL Server</fullName>
+                <default>false</default>
+                <label>Microsoft SQL Server</label>
+            </value>
+            <value>
+                <fullName>Microsoft SQL Server 2000</fullName>
+                <default>false</default>
+                <label>Microsoft SQL Server 2000</label>
+            </value>
+            <value>
+                <fullName>Microsoft SQL Server 2012</fullName>
+                <default>false</default>
+                <label>Microsoft SQL Server 2012</label>
+            </value>
+            <value>
+                <fullName>Microsoft SQL Server 2016</fullName>
+                <default>false</default>
+                <label>Microsoft SQL Server 2016</label>
+            </value>
+            <value>
+                <fullName>Microsoft SQL Server Compact</fullName>
+                <default>false</default>
+                <label>Microsoft SQL Server Compact</label>
+            </value>
+            <value>
+                <fullName>Microsoft SSAS Tabular</fullName>
+                <default>false</default>
+                <label>Microsoft SSAS Tabular</label>
+            </value>
+            <value>
+                <fullName>LS-SNP</fullName>
+                <default>false</default>
+                <label>LS-SNP</label>
+            </value>
+            <value>
+                <fullName>MongoDB</fullName>
+                <default>false</default>
+                <label>MongoDB</label>
+            </value>
+            <value>
+                <fullName>Neo4j</fullName>
+                <default>false</default>
+                <label>Neo4j</label>
+            </value>
+            <value>
+                <fullName>NuoDB</fullName>
+                <default>false</default>
+                <label>NuoDB</label>
+            </value>
+            <value>
+                <fullName>OLE DB</fullName>
+                <default>false</default>
+                <label>OLE DB</label>
+            </value>
+            <value>
+                <fullName>InfiniteGraph</fullName>
+                <default>false</default>
+                <label>InfiniteGraph</label>
+            </value>
+            <value>
+                <fullName>OneTick</fullName>
+                <default>false</default>
+                <label>OneTick</label>
+            </value>
+            <value>
+                <fullName>Ontotext GraphDB</fullName>
+                <default>false</default>
+                <label>Ontotext GraphDB</label>
+            </value>
+            <value>
+                <fullName>MySQL</fullName>
+                <default>false</default>
+                <label>MySQL</label>
+            </value>
+            <value>
+                <fullName>Oracle 10g</fullName>
+                <default>false</default>
+                <label>Oracle 10g</label>
+            </value>
+            <value>
+                <fullName>Oracle 11.2</fullName>
+                <default>false</default>
+                <label>Oracle 11.2</label>
+            </value>
+            <value>
+                <fullName>Oracle 11g</fullName>
+                <default>false</default>
+                <label>Oracle 11g</label>
+            </value>
+            <value>
+                <fullName>Oracle 12c</fullName>
+                <default>false</default>
+                <label>Oracle 12c</label>
+            </value>
+            <value>
+                <fullName>Oracle 8i</fullName>
+                <default>false</default>
+                <label>Oracle 8i</label>
+            </value>
+            <value>
+                <fullName>Oracle 9i</fullName>
+                <default>false</default>
+                <label>Oracle 9i</label>
+            </value>
+            <value>
+                <fullName>Oracle BEA Liquid Data</fullName>
+                <default>false</default>
+                <label>Oracle BEA Liquid Data</label>
+            </value>
+            <value>
+                <fullName>Oracle Berkeley DB</fullName>
+                <default>false</default>
+                <label>Oracle Berkeley DB</label>
+            </value>
+            <value>
+                <fullName>Oracle Data Pump</fullName>
+                <default>false</default>
+                <label>Oracle Data Pump</label>
+            </value>
+            <value>
+                <fullName>Oracle Database</fullName>
+                <default>false</default>
+                <label>Oracle Database</label>
+            </value>
+            <value>
+                <fullName>Oracle Database (RDBMS)</fullName>
+                <default>false</default>
+                <label>Oracle Database (RDBMS)</label>
+            </value>
+            <value>
+                <fullName>Oracle Database Standard Edition</fullName>
+                <default>false</default>
+                <label>Oracle Database Standard Edition</label>
+            </value>
+            <value>
+                <fullName>Oracle NoSQL</fullName>
+                <default>false</default>
+                <label>Oracle NoSQL</label>
+            </value>
+            <value>
+                <fullName>Oracle TimesTen In-Memory</fullName>
+                <default>false</default>
+                <label>Oracle TimesTen In-Memory</label>
+            </value>
+            <value>
+                <fullName>SQL*Loader</fullName>
+                <default>false</default>
+                <label>SQL*Loader</label>
+            </value>
+            <value>
+                <fullName>Siebel DB Server</fullName>
+                <default>false</default>
+                <label>Siebel DB Server</label>
+            </value>
+            <value>
+                <fullName>SciDB</fullName>
+                <default>false</default>
+                <label>SciDB</label>
+            </value>
+            <value>
+                <fullName>Percona</fullName>
+                <default>false</default>
+                <label>Percona</label>
+            </value>
+            <value>
+                <fullName>Percona TokuMX</fullName>
+                <default>false</default>
+                <label>Percona TokuMX</label>
+            </value>
+            <value>
+                <fullName>Percona XtraDB Cluster</fullName>
+                <default>false</default>
+                <label>Percona XtraDB Cluster</label>
+            </value>
+            <value>
+                <fullName>TokuDB</fullName>
+                <default>false</default>
+                <label>TokuDB</label>
+            </value>
+            <value>
+                <fullName>Pivotal GemFire</fullName>
+                <default>false</default>
+                <label>Pivotal GemFire</label>
+            </value>
+            <value>
+                <fullName>Pivotal HAWQ</fullName>
+                <default>false</default>
+                <label>Pivotal HAWQ</label>
+            </value>
+            <value>
+                <fullName>PostGIS</fullName>
+                <default>false</default>
+                <label>PostGIS</label>
+            </value>
+            <value>
+                <fullName>Progress Databases</fullName>
+                <default>false</default>
+                <label>Progress Databases</label>
+            </value>
+            <value>
+                <fullName>RavenDB</fullName>
+                <default>false</default>
+                <label>RavenDB</label>
+            </value>
+            <value>
+                <fullName>Redis</fullName>
+                <default>false</default>
+                <label>Redis</label>
+            </value>
+            <value>
+                <fullName>RethinkDB</fullName>
+                <default>false</default>
+                <label>RethinkDB</label>
+            </value>
+            <value>
+                <fullName>Rocket System 1032</fullName>
+                <default>false</default>
+                <label>Rocket System 1032</label>
+            </value>
+            <value>
+                <fullName>Rocket U2</fullName>
+                <default>false</default>
+                <label>Rocket U2</label>
+            </value>
+            <value>
+                <fullName>Rocket U2 Unidata</fullName>
+                <default>false</default>
+                <label>Rocket U2 Unidata</label>
+            </value>
+            <value>
+                <fullName>Adabas</fullName>
+                <default>false</default>
+                <label>Adabas</label>
+            </value>
+            <value>
+                <fullName>SAP Adaptive Server Enterprise</fullName>
+                <default>false</default>
+                <label>SAP Adaptive Server Enterprise</label>
+            </value>
+            <value>
+                <fullName>SAP BR*Tools</fullName>
+                <default>false</default>
+                <label>SAP BR*Tools</label>
+            </value>
+            <value>
+                <fullName>SAP Demand Signal Management (DSiM)</fullName>
+                <default>false</default>
+                <label>SAP Demand Signal Management (DSiM)</label>
+            </value>
+            <value>
+                <fullName>SAP IQ</fullName>
+                <default>false</default>
+                <label>SAP IQ</label>
+            </value>
+            <value>
+                <fullName>SAP MaxDB</fullName>
+                <default>false</default>
+                <label>SAP MaxDB</label>
+            </value>
+            <value>
+                <fullName>SAP SQL Anywhere</fullName>
+                <default>false</default>
+                <label>SAP SQL Anywhere</label>
+            </value>
+            <value>
+                <fullName>SAP Sybase iAnywhere</fullName>
+                <default>false</default>
+                <label>SAP Sybase iAnywhere</label>
+            </value>
+            <value>
+                <fullName>SAP liveCache</fullName>
+                <default>false</default>
+                <label>SAP liveCache</label>
+            </value>
+            <value>
+                <fullName>SQL Advantage</fullName>
+                <default>false</default>
+                <label>SQL Advantage</label>
+            </value>
+            <value>
+                <fullName>Sybase</fullName>
+                <default>false</default>
+                <label>Sybase</label>
+            </value>
+            <value>
+                <fullName>Sybase Database</fullName>
+                <default>false</default>
+                <label>Sybase Database</label>
+            </value>
+            <value>
+                <fullName>SMARTS Database</fullName>
+                <default>false</default>
+                <label>SMARTS Database</label>
+            </value>
+            <value>
+                <fullName>Salesforce Database.com</fullName>
+                <default>false</default>
+                <label>Salesforce Database.com</label>
+            </value>
+            <value>
+                <fullName>askSam</fullName>
+                <default>false</default>
+                <label>askSam</label>
+            </value>
+            <value>
+                <fullName>Splice Machine</fullName>
+                <default>false</default>
+                <label>Splice Machine</label>
+            </value>
+            <value>
+                <fullName>Teradata Database</fullName>
+                <default>false</default>
+                <label>Teradata Database</label>
+            </value>
+            <value>
+                <fullName>Apache Accumulo</fullName>
+                <default>false</default>
+                <label>Apache Accumulo</label>
+            </value>
+            <value>
+                <fullName>Apache Cassandra</fullName>
+                <default>false</default>
+                <label>Apache Cassandra</label>
+            </value>
+            <value>
+                <fullName>Apache CouchDB</fullName>
+                <default>false</default>
+                <label>Apache CouchDB</label>
+            </value>
+            <value>
+                <fullName>Apache Drill</fullName>
+                <default>false</default>
+                <label>Apache Drill</label>
+            </value>
+            <value>
+                <fullName>Apache HBase</fullName>
+                <default>false</default>
+                <label>Apache HBase</label>
+            </value>
+            <value>
+                <fullName>Apache Trafodion</fullName>
+                <default>false</default>
+                <label>Apache Trafodion</label>
+            </value>
+            <value>
+                <fullName>Druid</fullName>
+                <default>false</default>
+                <label>Druid</label>
+            </value>
+            <value>
+                <fullName>TMAJ</fullName>
+                <default>false</default>
+                <label>TMAJ</label>
+            </value>
+            <value>
+                <fullName>OpenTSDB</fullName>
+                <default>false</default>
+                <label>OpenTSDB</label>
+            </value>
+            <value>
+                <fullName>PostgreSQL</fullName>
+                <default>false</default>
+                <label>PostgreSQL</label>
+            </value>
+            <value>
+                <fullName>Postgres8</fullName>
+                <default>false</default>
+                <label>Postgres8</label>
+            </value>
+            <value>
+                <fullName>solidDB</fullName>
+                <default>false</default>
+                <label>solidDB</label>
+            </value>
+            <value>
+                <fullName>VHA PriceLYNX</fullName>
+                <default>false</default>
+                <label>VHA PriceLYNX</label>
+            </value>
+            <value>
+                <fullName>Continuent Tungsten</fullName>
+                <default>false</default>
+                <label>Continuent Tungsten</label>
+            </value>
+            <value>
+                <fullName>Pivotal SQLFire</fullName>
+                <default>false</default>
+                <label>Pivotal SQLFire</label>
+            </value>
+            <value>
+                <fullName>VoltDB</fullName>
+                <default>false</default>
+                <label>VoltDB</label>
+            </value>
+            <value>
+                <fullName>Wonderware IndustrialSQL Server</fullName>
+                <default>false</default>
+                <label>Wonderware IndustrialSQL Server</label>
+            </value>
+            <value>
+                <fullName>Scalaris</fullName>
+                <default>false</default>
+                <label>Scalaris</label>
+            </value>
+            <value>
+                <fullName>dBase</fullName>
+                <default>false</default>
+                <label>dBase</label>
+            </value>
+            <value>
+                <fullName>jBASE</fullName>
+                <default>false</default>
+                <label>jBASE</label>
+            </value>
+            <value>
+                <fullName>XSQL</fullName>
+                <default>false</default>
+                <label>XSQL</label>
+            </value>
+            <value>
+                <fullName>Maatkit</fullName>
+                <default>false</default>
+                <label>Maatkit</label>
+            </value>
+            <value>
+                <fullName>NoSQL</fullName>
+                <default>false</default>
+                <label>NoSQL</label>
+            </value>
+            <value>
+                <fullName>NoSQL Database</fullName>
+                <default>false</default>
+                <label>NoSQL Database</label>
+            </value>
+            <value>
+                <fullName>ACOM EZContentManager</fullName>
+                <default>false</default>
+                <label>ACOM EZContentManager</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

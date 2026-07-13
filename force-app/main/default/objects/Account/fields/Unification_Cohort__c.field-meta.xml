@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unification_Cohort__c</fullName>
+    <description>Created for GTMS-1675</description>
+    <label>Unification Cohort</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 - X-Sell</fullName>
+                <default>false</default>
+                <label>1 - X-Sell</label>
+            </value>
+            <value>
+                <fullName>2 - Net New</fullName>
+                <default>false</default>
+                <label>2 - Net New</label>
+            </value>
+            <value>
+                <fullName>3 - Learning Only</fullName>
+                <default>false</default>
+                <label>3 - Learning Only</label>
+            </value>
+            <value>
+                <fullName>4a - Joint, No sFTP</fullName>
+                <default>false</default>
+                <label>4a - Joint, No sFTP</label>
+            </value>
+            <value>
+                <fullName>4b - Joint, W/S FTP</fullName>
+                <default>false</default>
+                <label>4b - Joint, W/S FTP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

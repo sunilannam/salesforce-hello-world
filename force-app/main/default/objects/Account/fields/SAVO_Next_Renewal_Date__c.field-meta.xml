@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAVO_Next_Renewal_Date__c</fullName>
+    <description>SAVO customer&apos;s next upcoming renewal date at time of migration; note if the customer has multiple renewal opportunities, this is the one due to renew next</description>
+    <label>SAVO Next Renewal Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

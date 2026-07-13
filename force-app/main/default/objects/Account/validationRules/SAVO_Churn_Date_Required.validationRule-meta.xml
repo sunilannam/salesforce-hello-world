@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAVO_Churn_Date_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+RecordType.DeveloperName = &quot;Customer&quot;,
+ISPICKVAL( SAVO_Customer_Health__c , &quot;Churn&quot;),
+ISBLANK( SAVO_Churn_Date__c ))</errorConditionFormula>
+    <errorDisplayField>SAVO_Churn_Date__c</errorDisplayField>
+    <errorMessage>Please provide the date the customer churned.</errorMessage>
+</ValidationRule>

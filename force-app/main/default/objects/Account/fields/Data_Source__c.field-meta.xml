@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Source__c</fullName>
+    <businessStatus>Hidden</businessStatus>
+    <description>Used by Murugan to identify when an account was assigned to the owner</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates when the account was assigned to the owner</inlineHelpText>
+    <label>Data Source</label>
+    <length>50</length>
+    <required>false</required>
+    <securityClassification>Internal</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

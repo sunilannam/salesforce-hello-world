@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conversion_Data_Center_Location__c</fullName>
+    <label>Conversion Data Center Location</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>West</fullName>
+                <default>false</default>
+                <label>West</label>
+            </value>
+            <value>
+                <fullName>West2</fullName>
+                <default>false</default>
+                <label>West2</label>
+            </value>
+            <value>
+                <fullName>East</fullName>
+                <default>false</default>
+                <label>East</label>
+            </value>
+            <value>
+                <fullName>East2</fullName>
+                <default>false</default>
+                <label>East2</label>
+            </value>
+            <value>
+                <fullName>North Central</fullName>
+                <default>false</default>
+                <label>North Central</label>
+            </value>
+            <value>
+                <fullName>ANZ</fullName>
+                <default>false</default>
+                <label>ANZ</label>
+            </value>
+            <value>
+                <fullName>ANZ2</fullName>
+                <default>false</default>
+                <label>ANZ2</label>
+            </value>
+            <value>
+                <fullName>Europe</fullName>
+                <default>false</default>
+                <label>Europe</label>
+            </value>
+            <value>
+                <fullName>Europe2</fullName>
+                <default>false</default>
+                <label>Europe2</label>
+            </value>
+            <value>
+                <fullName>Canada1</fullName>
+                <default>false</default>
+                <label>Canada1</label>
+            </value>
+            <value>
+                <fullName>Other (In Notes)</fullName>
+                <default>false</default>
+                <label>Other (In Notes)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

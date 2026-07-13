@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exclude_from_Hierarchy_Enrichment__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>GTMS-4702 - Checkbox used in conjunction with validation rule to block any updates on ZoomInfo ID, ZoomInfo Parent or ZoomInfo Ultimate parent id fields when this field is checked.</description>
+    <inlineHelpText>Checkbox used in conjunction with validation rule to block any updates on ZoomInfo ID, ZoomInfo Parent or ZoomInfo Ultimate parent id fields when this field is checked.</inlineHelpText>
+    <label>Exclude from Hierarchy Enrichment</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

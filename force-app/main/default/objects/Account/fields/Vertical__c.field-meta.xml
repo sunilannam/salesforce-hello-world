@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vertical__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(CONTAINS(TEXT(Industry),&apos;Banking&apos;),
+      CONTAINS(TEXT(Industry),&apos;Asset&apos;),
+      CONTAINS(TEXT(Industry),&apos;Insurance - &apos;),
+      CONTAINS(TEXT(Industry),&apos;Finance&apos;),
+      CONTAINS(TEXT(Industry),&apos;P&amp;C Insurance&apos;),
+      CONTAINS(TEXT(Industry),&apos;Wealth&apos;)),&apos;Financial Services&apos;,&apos;Core&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Classification based on the Industry of the Account 
+Core, Financial Services</inlineHelpText>
+    <label>Vertical</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

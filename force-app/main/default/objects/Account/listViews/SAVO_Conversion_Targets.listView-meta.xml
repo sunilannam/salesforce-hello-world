@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAVO_Conversion_Targets</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Customer_Success_Director__c</columns>
+    <columns>Customer_Success_Manager__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>SAVO_Next_Renewal_Date__c</columns>
+    <columns>Number_of_Open_Opportunities__c</columns>
+    <columns>X70_70_Score__c</columns>
+    <columns>Conversion_Opps_Booked__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Conversion_Target__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Customer</value>
+    </filters>
+    <label>SAVO Conversion Targets</label>
+    <sharedTo></sharedTo>
+</ListView>

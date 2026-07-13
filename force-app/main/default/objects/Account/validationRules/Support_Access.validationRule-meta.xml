@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_Access</fullName>
+    <active>true</active>
+    <description>This is to enforce only an Allow List or Block List for Support</description>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK( BlockList__c )),
+    NOT(ISBLANK( AllowList__c ))
+)</errorConditionFormula>
+    <errorMessage>You can only have an Allow List or Block List but not both</errorMessage>
+</ValidationRule>

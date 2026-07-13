@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disqualified_Reason__c</fullName>
+    <label>Disqualified Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Account_Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bogus Data</fullName>
+                <default>false</default>
+                <label>Bogus Data</label>
+            </value>
+            <value>
+                <fullName>Competitor, Employee, Student, Consultant</fullName>
+                <default>false</default>
+                <label>Competitor, Employee, Student, Consultant</label>
+            </value>
+            <value>
+                <fullName>Embargoed Country</fullName>
+                <default>false</default>
+                <label>Embargoed Country</label>
+            </value>
+            <value>
+                <fullName>Out of Business</fullName>
+                <default>false</default>
+                <label>Out of Business</label>
+            </value>
+            <value>
+                <fullName>Seeking non-Seismic Solution</fullName>
+                <default>false</default>
+                <label>Seeking non-Seismic Solution</label>
+            </value>
+            <value>
+                <fullName>No Longer with Company</fullName>
+                <default>false</default>
+                <label>No Longer with Company</label>
+            </value>
+            <value>
+                <fullName>Excluded</fullName>
+                <default>false</default>
+                <label>Excluded</label>
+            </value>
+            <value>
+                <fullName>Failed CHEQ validation</fullName>
+                <default>false</default>
+                <label>Failed CHEQ validation</label>
+            </value>
+            <value>
+                <fullName>Operational</fullName>
+                <default>false</default>
+                <label>Operational</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Disqualified</controllingFieldValue>
+            <valueName>Bogus Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disqualified</controllingFieldValue>
+            <valueName>Competitor, Employee, Student, Consultant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disqualified</controllingFieldValue>
+            <valueName>Embargoed Country</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disqualified</controllingFieldValue>
+            <valueName>Out of Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disqualified</controllingFieldValue>
+            <valueName>Seeking non-Seismic Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disqualified</controllingFieldValue>
+            <valueName>No Longer with Company</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

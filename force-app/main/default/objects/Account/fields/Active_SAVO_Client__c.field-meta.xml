@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_SAVO_Client__c</fullName>
+    <formula>SAVO_Products__c || KnowledgeTree_Products__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>An Active SAVO Customer, including SAVO and KnowledgeTree Product(s).</inlineHelpText>
+    <label>Active SAVO Client</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Merge__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used to identify that an account has been verified by Sales Operations as needing to be a separate account, regardless of deduplication rules.</description>
+    <inlineHelpText>Used to identify that an account has been verified by Sales Operations as needing to be a separate account, regardless of deduplication rules.</inlineHelpText>
+    <label>Do Not Merge</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

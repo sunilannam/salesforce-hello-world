@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Seismic_Product_Usage__c</fullName>
+    <label>Content Product Usage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Analytics</fullName>
+                <default>false</default>
+                <label>Analytics</label>
+            </value>
+            <value>
+                <fullName>Content and/or Data Automation</fullName>
+                <default>false</default>
+                <label>Content and/or Data Automation</label>
+            </value>
+            <value>
+                <fullName>ContentManager</fullName>
+                <default>false</default>
+                <label>ContentManager</label>
+            </value>
+            <value>
+                <fullName>DocCenter</fullName>
+                <default>false</default>
+                <label>DocCenter</label>
+            </value>
+            <value>
+                <fullName>LiveDocs</fullName>
+                <default>false</default>
+                <label>LiveDocs</label>
+            </value>
+            <value>
+                <fullName>LiveSend</fullName>
+                <default>false</default>
+                <label>LiveSend</label>
+            </value>
+            <value>
+                <fullName>MeetingSpace</fullName>
+                <default>false</default>
+                <label>MeetingSpace</label>
+            </value>
+            <value>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+                <label>Mobile</label>
+            </value>
+            <value>
+                <fullName>NewsCenter</fullName>
+                <default>false</default>
+                <label>NewsCenter</label>
+            </value>
+            <value>
+                <fullName>Predictive Content</fullName>
+                <default>false</default>
+                <label>Predictive Content</label>
+            </value>
+            <value>
+                <fullName>Seismic for CRM</fullName>
+                <default>false</default>
+                <label>Seismic for CRM</label>
+            </value>
+            <value>
+                <fullName>Seismic for Email</fullName>
+                <default>false</default>
+                <label>Seismic for Email</label>
+            </value>
+            <value>
+                <fullName>Workspace</fullName>
+                <default>false</default>
+                <label>Workspace</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

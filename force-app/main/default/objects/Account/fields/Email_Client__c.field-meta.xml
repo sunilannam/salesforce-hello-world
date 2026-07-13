@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Client__c</fullName>
+    <label>Email Client</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1&amp;! Mail</fullName>
+                <default>false</default>
+                <label>1&amp;! Mail</label>
+            </value>
+            <value>
+                <fullName>123 Reg Email Hosting</fullName>
+                <default>false</default>
+                <label>123 Reg Email Hosting</label>
+            </value>
+            <value>
+                <fullName>Amazon WorkMail</fullName>
+                <default>false</default>
+                <label>Amazon WorkMail</label>
+            </value>
+            <value>
+                <fullName>Apptix Hosted Exchange</fullName>
+                <default>false</default>
+                <label>Apptix Hosted Exchange</label>
+            </value>
+            <value>
+                <fullName>Aruba Email</fullName>
+                <default>false</default>
+                <label>Aruba Email</label>
+            </value>
+            <value>
+                <fullName>AT&amp;T Business Class Email</fullName>
+                <default>false</default>
+                <label>AT&amp;T Business Class Email</label>
+            </value>
+            <value>
+                <fullName>atmail</fullName>
+                <default>false</default>
+                <label>atmail</label>
+            </value>
+            <value>
+                <fullName>BlueTie</fullName>
+                <default>false</default>
+                <label>BlueTie</label>
+            </value>
+            <value>
+                <fullName>Carrierzone (mail server)</fullName>
+                <default>false</default>
+                <label>Carrierzone (mail server)</label>
+            </value>
+            <value>
+                <fullName>Catholic Health Initiatives (mail server)</fullName>
+                <default>false</default>
+                <label>Catholic Health Initiatives (mail server)</label>
+            </value>
+            <value>
+                <fullName>Ceryx</fullName>
+                <default>false</default>
+                <label>Ceryx</label>
+            </value>
+            <value>
+                <fullName>CHS Community Health Systems (mail server)</fullName>
+                <default>false</default>
+                <label>CHS Community Health Systems (mail server)</label>
+            </value>
+            <value>
+                <fullName>Cisco Unified Email Interaction Manager</fullName>
+                <default>false</default>
+                <label>Cisco Unified Email Interaction Manager</label>
+            </value>
+            <value>
+                <fullName>Cleartext Systems (Mail Server)</fullName>
+                <default>false</default>
+                <label>Cleartext Systems (Mail Server)</label>
+            </value>
+            <value>
+                <fullName>Cogent Communications (mail server)</fullName>
+                <default>false</default>
+                <label>Cogent Communications (mail server)</label>
+            </value>
+            <value>
+                <fullName>CSC Corp (mail server)</fullName>
+                <default>false</default>
+                <label>CSC Corp (mail server)</label>
+            </value>
+            <value>
+                <fullName>CSI Web (mail server)</fullName>
+                <default>false</default>
+                <label>CSI Web (mail server)</label>
+            </value>
+            <value>
+                <fullName>DaemonMail</fullName>
+                <default>false</default>
+                <label>DaemonMail</label>
+            </value>
+            <value>
+                <fullName>Earthlink Mail</fullName>
+                <default>false</default>
+                <label>Earthlink Mail</label>
+            </value>
+            <value>
+                <fullName>easyDNS Email Hosting</fullName>
+                <default>false</default>
+                <label>easyDNS Email Hosting</label>
+            </value>
+            <value>
+                <fullName>Education Networks of America Mail</fullName>
+                <default>false</default>
+                <label>Education Networks of America Mail</label>
+            </value>
+            <value>
+                <fullName>Electricmail.com (mail server)</fullName>
+                <default>false</default>
+                <label>Electricmail.com (mail server)</label>
+            </value>
+            <value>
+                <fullName>Eleven (mail server)</fullName>
+                <default>false</default>
+                <label>Eleven (mail server)</label>
+            </value>
+            <value>
+                <fullName>enom Custom Email</fullName>
+                <default>false</default>
+                <label>enom Custom Email</label>
+            </value>
+            <value>
+                <fullName>Everyone.net</fullName>
+                <default>false</default>
+                <label>Everyone.net</label>
+            </value>
+            <value>
+                <fullName>FastMail</fullName>
+                <default>false</default>
+                <label>FastMail</label>
+            </value>
+            <value>
+                <fullName>General Motors (mail server)</fullName>
+                <default>false</default>
+                <label>General Motors (mail server)</label>
+            </value>
+            <value>
+                <fullName>Global Relay Communications (mail server)</fullName>
+                <default>false</default>
+                <label>Global Relay Communications (mail server)</label>
+            </value>
+            <value>
+                <fullName>Gmail</fullName>
+                <default>false</default>
+                <label>Gmail</label>
+            </value>
+            <value>
+                <fullName>Gmail for business</fullName>
+                <default>false</default>
+                <label>Gmail for business</label>
+            </value>
+            <value>
+                <fullName>GMX</fullName>
+                <default>false</default>
+                <label>GMX</label>
+            </value>
+            <value>
+                <fullName>GoDaddy Email Hosting</fullName>
+                <default>false</default>
+                <label>GoDaddy Email Hosting</label>
+            </value>
+            <value>
+                <fullName>Google (mail server)</fullName>
+                <default>false</default>
+                <label>Google (mail server)</label>
+            </value>
+            <value>
+                <fullName>Hostgator Email</fullName>
+                <default>false</default>
+                <label>Hostgator Email</label>
+            </value>
+            <value>
+                <fullName>Hushmail for Business</fullName>
+                <default>false</default>
+                <label>Hushmail for Business</label>
+            </value>
+            <value>
+                <fullName>Inbox.com</fullName>
+                <default>false</default>
+                <label>Inbox.com</label>
+            </value>
+            <value>
+                <fullName>Infomaniak Mail Hosting</fullName>
+                <default>false</default>
+                <label>Infomaniak Mail Hosting</label>
+            </value>
+            <value>
+                <fullName>Intermedia.net (mail server)</fullName>
+                <default>false</default>
+                <label>Intermedia.net (mail server)</label>
+            </value>
+            <value>
+                <fullName>Intermedia Exchange Email</fullName>
+                <default>false</default>
+                <label>Intermedia Exchange Email</label>
+            </value>
+            <value>
+                <fullName>Intermountain Helath Care Mail Server</fullName>
+                <default>false</default>
+                <label>Intermountain Helath Care Mail Server</label>
+            </value>
+            <value>
+                <fullName>International Business Machines (mail server)</fullName>
+                <default>false</default>
+                <label>International Business Machines (mail server)</label>
+            </value>
+            <value>
+                <fullName>Internet Integration (mail server)</fullName>
+                <default>false</default>
+                <label>Internet Integration (mail server)</label>
+            </value>
+            <value>
+                <fullName>IX Web Hosting (mail server)</fullName>
+                <default>false</default>
+                <label>IX Web Hosting (mail server)</label>
+            </value>
+            <value>
+                <fullName>Junk Email Filter (mail server)</fullName>
+                <default>false</default>
+                <label>Junk Email Filter (mail server)</label>
+            </value>
+            <value>
+                <fullName>Lavabit Enterprise Solutions</fullName>
+                <default>false</default>
+                <label>Lavabit Enterprise Solutions</label>
+            </value>
+            <value>
+                <fullName>LightPath - CableVision (Mail Server)</fullName>
+                <default>false</default>
+                <label>LightPath - CableVision (Mail Server)</label>
+            </value>
+            <value>
+                <fullName>Locaweb E-Mail</fullName>
+                <default>false</default>
+                <label>Locaweb E-Mail</label>
+            </value>
+            <value>
+                <fullName>Mail Protector (mail server)</fullName>
+                <default>false</default>
+                <label>Mail Protector (mail server)</label>
+            </value>
+            <value>
+                <fullName>MailRoute (mail server)</fullName>
+                <default>false</default>
+                <label>MailRoute (mail server)</label>
+            </value>
+            <value>
+                <fullName>MailWatch (mail server)</fullName>
+                <default>false</default>
+                <label>MailWatch (mail server)</label>
+            </value>
+            <value>
+                <fullName>MayFlower Software (mail server)</fullName>
+                <default>false</default>
+                <label>MayFlower Software (mail server)</label>
+            </value>
+            <value>
+                <fullName>McAfee (mail server)</fullName>
+                <default>false</default>
+                <label>McAfee (mail server)</label>
+            </value>
+            <value>
+                <fullName>McAfee SaaS Email (mail server)</fullName>
+                <default>false</default>
+                <label>McAfee SaaS Email (mail server)</label>
+            </value>
+            <value>
+                <fullName>Megamailservers.com (mail server)</fullName>
+                <default>false</default>
+                <label>Megamailservers.com (mail server)</label>
+            </value>
+            <value>
+                <fullName>Microsoft Exchange Online</fullName>
+                <default>false</default>
+                <label>Microsoft Exchange Online</label>
+            </value>
+            <value>
+                <fullName>Mijndomein E-mail</fullName>
+                <default>false</default>
+                <label>Mijndomein E-mail</label>
+            </value>
+            <value>
+                <fullName>MOREnet (mail server)</fullName>
+                <default>false</default>
+                <label>MOREnet (mail server)</label>
+            </value>
+            <value>
+                <fullName>MXSave A Wamo (mail server)</fullName>
+                <default>false</default>
+                <label>MXSave A Wamo (mail server)</label>
+            </value>
+            <value>
+                <fullName>MxToolBox (mail server)</fullName>
+                <default>false</default>
+                <label>MxToolBox (mail server)</label>
+            </value>
+            <value>
+                <fullName>Name.com Email</fullName>
+                <default>false</default>
+                <label>Name.com Email</label>
+            </value>
+            <value>
+                <fullName>Namecheap Email Hosting</fullName>
+                <default>false</default>
+                <label>Namecheap Email Hosting</label>
+            </value>
+            <value>
+                <fullName>ndMail (formerly Recommind Decisiv Email)</fullName>
+                <default>false</default>
+                <label>ndMail (formerly Recommind Decisiv Email)</label>
+            </value>
+            <value>
+                <fullName>NetNames Limited (mail server)</fullName>
+                <default>false</default>
+                <label>NetNames Limited (mail server)</label>
+            </value>
+            <value>
+                <fullName>Network Solutions Professional Email</fullName>
+                <default>false</default>
+                <label>Network Solutions Professional Email</label>
+            </value>
+            <value>
+                <fullName>Newtek Smarter Mail</fullName>
+                <default>false</default>
+                <label>Newtek Smarter Mail</label>
+            </value>
+            <value>
+                <fullName>NHS Choices (mail server)</fullName>
+                <default>false</default>
+                <label>NHS Choices (mail server)</label>
+            </value>
+            <value>
+                <fullName>NHSmail</fullName>
+                <default>false</default>
+                <label>NHSmail</label>
+            </value>
+            <value>
+                <fullName>Office 365</fullName>
+                <default>false</default>
+                <label>Office 365</label>
+            </value>
+            <value>
+                <fullName>One.com Email</fullName>
+                <default>false</default>
+                <label>One.com Email</label>
+            </value>
+            <value>
+                <fullName>OneNet (mail server)</fullName>
+                <default>false</default>
+                <label>OneNet (mail server)</label>
+            </value>
+            <value>
+                <fullName>OpenSRS Hosted Email</fullName>
+                <default>false</default>
+                <label>OpenSRS Hosted Email</label>
+            </value>
+            <value>
+                <fullName>Oracle Email Server</fullName>
+                <default>false</default>
+                <label>Oracle Email Server</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Outlook</fullName>
+                <default>false</default>
+                <label>Outlook</label>
+            </value>
+            <value>
+                <fullName>Outlook.com</fullName>
+                <default>false</default>
+                <label>Outlook.com</label>
+            </value>
+            <value>
+                <fullName>OVH Email Solutions</fullName>
+                <default>false</default>
+                <label>OVH Email Solutions</label>
+            </value>
+            <value>
+                <fullName>PowWeb Advanced Email Solutions</fullName>
+                <default>false</default>
+                <label>PowWeb Advanced Email Solutions</label>
+            </value>
+            <value>
+                <fullName>Primus Canada (mail server)</fullName>
+                <default>false</default>
+                <label>Primus Canada (mail server)</label>
+            </value>
+            <value>
+                <fullName>ProtonMail</fullName>
+                <default>false</default>
+                <label>ProtonMail</label>
+            </value>
+            <value>
+                <fullName>QQMail</fullName>
+                <default>false</default>
+                <label>QQMail</label>
+            </value>
+            <value>
+                <fullName>Rackspace Email Hosting</fullName>
+                <default>false</default>
+                <label>Rackspace Email Hosting</label>
+            </value>
+            <value>
+                <fullName>Red Condor (mail server)</fullName>
+                <default>false</default>
+                <label>Red Condor (mail server)</label>
+            </value>
+            <value>
+                <fullName>Register.com Business Email Solutions</fullName>
+                <default>false</default>
+                <label>Register.com Business Email Solutions</label>
+            </value>
+            <value>
+                <fullName>Retarus (mail server)</fullName>
+                <default>false</default>
+                <label>Retarus (mail server)</label>
+            </value>
+            <value>
+                <fullName>ScanNet Mailhotel</fullName>
+                <default>false</default>
+                <label>ScanNet Mailhotel</label>
+            </value>
+            <value>
+                <fullName>SherWeb (mail server)</fullName>
+                <default>false</default>
+                <label>SherWeb (mail server)</label>
+            </value>
+            <value>
+                <fullName>SherWeb Hosted Exchange</fullName>
+                <default>false</default>
+                <label>SherWeb Hosted Exchange</label>
+            </value>
+            <value>
+                <fullName>SiteGround Email Hosting</fullName>
+                <default>false</default>
+                <label>SiteGround Email Hosting</label>
+            </value>
+            <value>
+                <fullName>Sonic Mail</fullName>
+                <default>false</default>
+                <label>Sonic Mail</label>
+            </value>
+            <value>
+                <fullName>Steward Health Care Network (mail server)</fullName>
+                <default>false</default>
+                <label>Steward Health Care Network (mail server)</label>
+            </value>
+            <value>
+                <fullName>Swishmail</fullName>
+                <default>false</default>
+                <label>Swishmail</label>
+            </value>
+            <value>
+                <fullName>Tangent (mail server)</fullName>
+                <default>false</default>
+                <label>Tangent (mail server)</label>
+            </value>
+            <value>
+                <fullName>To Be Determined</fullName>
+                <default>false</default>
+                <label>To Be Determined</label>
+            </value>
+            <value>
+                <fullName>TorchNet (Mail Server)</fullName>
+                <default>false</default>
+                <label>TorchNet (Mail Server)</label>
+            </value>
+            <value>
+                <fullName>Tucows (mail server)</fullName>
+                <default>false</default>
+                <label>Tucows (mail server)</label>
+            </value>
+            <value>
+                <fullName>USA.net (mail server)</fullName>
+                <default>false</default>
+                <label>USA.net (mail server)</label>
+            </value>
+            <value>
+                <fullName>US Internet Corp (mail server)</fullName>
+                <default>false</default>
+                <label>US Internet Corp (mail server)</label>
+            </value>
+            <value>
+                <fullName>VentraIP Email Hosting</fullName>
+                <default>false</default>
+                <label>VentraIP Email Hosting</label>
+            </value>
+            <value>
+                <fullName>Verizon (mail server)</fullName>
+                <default>false</default>
+                <label>Verizon (mail server)</label>
+            </value>
+            <value>
+                <fullName>Voyant Strategies (mail server)</fullName>
+                <default>false</default>
+                <label>Voyant Strategies (mail server)</label>
+            </value>
+            <value>
+                <fullName>Xecuritas (mail server)</fullName>
+                <default>false</default>
+                <label>Xecuritas (mail server)</label>
+            </value>
+            <value>
+                <fullName>Yahoo Mail for business</fullName>
+                <default>false</default>
+                <label>Yahoo Mail for business</label>
+            </value>
+            <value>
+                <fullName>Yandex Mail</fullName>
+                <default>false</default>
+                <label>Yandex Mail</label>
+            </value>
+            <value>
+                <fullName>Zoho Mail</fullName>
+                <default>false</default>
+                <label>Zoho Mail</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

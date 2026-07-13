@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Percolate_Record_Type_Name__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Record type for related Percolate Account - NOTE: Percolate Customer where Is Current Customer = False is translated to &apos;Prevous Customer&apos;.  This field is based on type at MIGRATION ONLY.  This field is not maintained.</inlineHelpText>
+    <label>Percolate Record Type Name</label>
+    <length>40</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

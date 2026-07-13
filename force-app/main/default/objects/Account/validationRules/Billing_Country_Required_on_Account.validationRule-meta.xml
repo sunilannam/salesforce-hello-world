@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Country_Required_on_Account</fullName>
+    <active>false</active>
+    <description>Billing Country is required on account creation.</description>
+    <errorConditionFormula>ISNEW() &amp;&amp; 
+ISBLANK(BillingCountry)&amp;&amp;
+Account_Record_Type_Name__c &lt;&gt; &apos;Partner&apos; &amp;&amp;
+Account_Record_Type_Name__c &lt;&gt; &apos;Competitor&apos;</errorConditionFormula>
+    <errorDisplayField>BillingCountry</errorDisplayField>
+    <errorMessage>Billing Country is required on account.</errorMessage>
+</ValidationRule>

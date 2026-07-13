@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Logged_in_User_is_Inside_Sales_Manager__c</fullName>
+    <description>Used to filter Intent Dashboards</description>
+    <formula>$User.Id =  DCD__c</formula>
+    <label>Logged in User is Inside Sales Manager</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

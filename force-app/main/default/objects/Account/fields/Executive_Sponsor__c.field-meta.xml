@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Executive_Sponsor__c</fullName>
+    <label>Executive Sponsor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Andy Bergen</fullName>
+                <default>false</default>
+                <label>Andy Bergen</label>
+            </value>
+            <value>
+                <fullName>Donna DeBerry</fullName>
+                <default>false</default>
+                <label>Donna DeBerry</label>
+            </value>
+            <value>
+                <fullName>Doug Winter</fullName>
+                <default>false</default>
+                <label>Doug Winter</label>
+            </value>
+            <value>
+                <fullName>Ed Calnan</fullName>
+                <default>false</default>
+                <label>Ed Calnan</label>
+            </value>
+            <value>
+                <fullName>John McCauley</fullName>
+                <default>false</default>
+                <label>John McCauley</label>
+            </value>
+            <value>
+                <fullName>Krish Mantripragada</fullName>
+                <default>false</default>
+                <label>Krish Mantripragada</label>
+            </value>
+            <value>
+                <fullName>Marc Romano</fullName>
+                <default>false</default>
+                <label>Marc Romano</label>
+            </value>
+            <value>
+                <fullName>Mike Orr</fullName>
+                <default>false</default>
+                <label>Mike Orr</label>
+            </value>
+            <value>
+                <fullName>Randy Wootton</fullName>
+                <default>false</default>
+                <label>Randy Wootton</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ultimate_Parent__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(ISBLANK(Parent.Name),&quot;No Parent Specified&quot;,
+IF(NOT(ISBLANK(Parent.Parent.Parent.Parent.Parent.Parent.Parent.Name)), HYPERLINK(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260)) + &quot;/lightning/r/account/&quot;+Parent.Parent.Parent.Parent.Parent.Parent.Parent.Id+&quot;/view&quot;,Parent.Parent.Parent.Parent.Parent.Parent.Parent.Name),
+IF(NOT(ISBLANK(Parent.Parent.Parent.Parent.Parent.Parent.Name)), HYPERLINK(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260)) + &quot;/lightning/r/account/&quot;+Parent.Parent.Parent.Parent.Parent.Parent.Id+&quot;/view&quot;,Parent.Parent.Parent.Parent.Parent.Parent.Name),
+IF(NOT(ISBLANK(Parent.Parent.Parent.Parent.Parent.Name)), HYPERLINK(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260)) + &quot;/lightning/r/account/&quot;+Parent.Parent.Parent.Parent.Parent.Id+&quot;/view&quot;,Parent.Parent.Parent.Parent.Parent.Name),
+IF(NOT(ISBLANK(Parent.Parent.Parent.Parent.Name)), HYPERLINK(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260)) + &quot;/lightning/r/account/&quot;+Parent.Parent.Parent.Parent.Id+&quot;/view&quot;,Parent.Parent.Parent.Parent.Name),
+IF(NOT(ISBLANK(Parent.Parent.Parent.Name)), HYPERLINK(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260)) + &quot;/lightning/r/account/&quot;+Parent.Parent.Parent.Id+&quot;/view&quot;,Parent.Parent.Parent.Name),
+IF(NOT(ISBLANK(Parent.Parent.Name)),HYPERLINK(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260)) + &quot;/lightning/r/account/&quot;+Parent.Parent.Id+&quot;/view&quot;,Parent.Parent.Name),
+IF(NOT(ISBLANK(Parent.Name)),HYPERLINK(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260)) + &quot;/lightning/r/account/&quot;+Parent.Id+&quot;/view&quot;,Parent.Name),
+&quot;Ultimate Parent Can&apos;t be Calculated&quot;))))))))</formula>
+    <label>Ultimate Parent</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

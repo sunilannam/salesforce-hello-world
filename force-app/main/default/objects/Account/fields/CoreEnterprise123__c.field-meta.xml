@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoreEnterprise123__c</fullName>
+    <formula>IF(OR 
+    ( Account_Owner_Role__c =&apos;NA Core Enterprise Outside AE - 1&apos;, 
+     Account_Owner_Role__c = &apos;NA Core Enterprise Outside AE - 2&apos;,
+     Account_Owner_Role__c = &apos;NA Core Enterprise Outside AE - 3&apos;), TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Core Enterprise 123</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

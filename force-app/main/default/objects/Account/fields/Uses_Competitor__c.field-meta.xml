@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Uses_Competitor__c</fullName>
+    <formula>maps__AssignmentRule__r.maps__Active__c</formula>
+    <inlineHelpText>Used in ZI scheduled enrichment to determine if an account uses a competitor; Set to True if:
+Sales Enablement Solution is not Blank, is not To Be Determined and is not Seismic OR
+Sales Readiness Tool is not blank and is not Lessonly OR
+Social Selling is not blank and is not Grapevine6</inlineHelpText>
+    <label>Uses Competitor</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

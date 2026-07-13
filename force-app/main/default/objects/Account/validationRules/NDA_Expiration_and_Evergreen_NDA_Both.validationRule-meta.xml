@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NDA_Expiration_and_Evergreen_NDA_Both</fullName>
+    <active>true</active>
+    <description>GTMS-4795 - both NDA Expiration and Evergreen NDA can not be populated</description>
+    <errorConditionFormula>NOT(ISBLANK(NDA_Expiration__c )) &amp;&amp;  Evergreen_NDA__c = True</errorConditionFormula>
+    <errorMessage>Both NDA Expiration and Evergreen NDA can not be populated. Please clear one of the two fields.</errorMessage>
+</ValidationRule>

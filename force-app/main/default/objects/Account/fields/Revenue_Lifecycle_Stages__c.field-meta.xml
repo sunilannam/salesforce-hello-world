@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_Lifecycle_Stages__c</fullName>
+    <label>Revenue Lifecycle Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Known</fullName>
+                <default>true</default>
+                <label>Known</label>
+            </value>
+            <value>
+                <fullName>Marketing_Engaged_Account</fullName>
+                <default>false</default>
+                <label>Marketing Engaged Account (MEA)</label>
+            </value>
+            <value>
+                <fullName>Marketing_Qualified_Account</fullName>
+                <default>false</default>
+                <label>Marketing Qualified Account (MQA)</label>
+            </value>
+            <value>
+                <fullName>Sales_Accepted_Account</fullName>
+                <default>false</default>
+                <label>Sales Accepted Account (SAA)</label>
+            </value>
+            <value>
+                <fullName>Sales_Qualified_Account</fullName>
+                <default>false</default>
+                <label>Sales Qualified Account (SQA)</label>
+            </value>
+            <value>
+                <fullName>Disqualified</fullName>
+                <default>false</default>
+                <label>Disqualified</label>
+            </value>
+            <value>
+                <fullName>Recycled</fullName>
+                <default>false</default>
+                <label>Recycled</label>
+            </value>
+            <value>
+                <fullName>Closed Won Account (CWA)</fullName>
+                <default>false</default>
+                <label>Closed Won Account (CWA)</label>
+            </value>
+            <value>
+                <fullName>Attempting</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Attempting</label>
+            </value>
+            <value>
+                <fullName>Open</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Ready to Work</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ready to Work</label>
+            </value>
+            <value>
+                <fullName>Recycle</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Recycle</label>
+            </value>
+            <value>
+                <fullName>Sales_Qualified_Opportunity</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sales Qualified Opportunity (SQO)</label>
+            </value>
+            <value>
+                <fullName>Working</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Working</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CSCustomersRed</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Health_Flag__c</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Customer_Success_Director__c</columns>
+    <columns>Purchase_Date__c</columns>
+    <columns>Production_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Customer</value>
+    </filters>
+    <filters>
+        <field>Health__c</field>
+        <operation>equals</operation>
+        <value>Red</value>
+    </filters>
+    <label>CS Customer View - Red</label>
+    <sharedTo>
+        <group>Inside_Sales_Managers</group>
+        <role>CEO</role>
+        <role>Customer_Success_Director</role>
+        <role>Product_Management_Marketing</role>
+    </sharedTo>
+</ListView>

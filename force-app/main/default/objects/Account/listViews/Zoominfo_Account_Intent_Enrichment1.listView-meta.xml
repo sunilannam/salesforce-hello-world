@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zoominfo_Account_Intent_Enrichment1</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Previous_Customer,Account.Prospect</value>
+    </filters>
+    <filters>
+        <field>Number_of_Open_Opportunities__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.EMPLOYEES</field>
+        <operation>greaterOrEqual</operation>
+        <value>100</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_COUNTRY</field>
+        <operation>equals</operation>
+        <value>United States,Canada,United Kingdom,Ireland,France,Germany,Austria,Belgium,Netherlands,Luxembourg,Italy,Spain,Norway,Sweden,Finland,Denmark,Switzerland,Australia,New Zealand,Singapore</value>
+    </filters>
+    <label>Zoominfo Account Intent Enrichment</label>
+</ListView>

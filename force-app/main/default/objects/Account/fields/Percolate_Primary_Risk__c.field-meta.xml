@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Percolate_Primary_Risk__c</fullName>
+    <label>Percolate Primary Risk</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Commercial – Customer expectations (servicing, investment, product)</fullName>
+                <default>false</default>
+                <label>Commercial – Customer Expectations – Servicing / Investment / Product / Oversell</label>
+            </value>
+            <value>
+                <fullName>Commercial – Poor, Secondary or Social Use Case</fullName>
+                <default>false</default>
+                <label>Commercial – Poor / Secondary / Social Use Case</label>
+            </value>
+            <value>
+                <fullName>Implementation – Poor Alignment / Experience / Duration</fullName>
+                <default>false</default>
+                <label>Implementation – Poor Alignment / Experience / Duration</label>
+            </value>
+            <value>
+                <fullName>Implementation – Broken workflows / license structure</fullName>
+                <default>false</default>
+                <label>Implementation – Broken workflows / license structure</label>
+            </value>
+            <value>
+                <fullName>Change Management – No Success Criteria / No Strategic Objectives / No Perceived Value</fullName>
+                <default>false</default>
+                <label>Change Management – No Success Criteria / No Strategic Objectives / No Perceived Value</label>
+            </value>
+            <value>
+                <fullName>Change Management – No / Low Product Usage /  Customer engaged but needs support</fullName>
+                <default>false</default>
+                <label>Change Management – No / Low Product Usage /  Customer engaged but needs support</label>
+            </value>
+            <value>
+                <fullName>Change Management – No / Limited Programmatic Accountability</fullName>
+                <default>false</default>
+                <label>Change Management – No / Limited Programmatic Accountability</label>
+            </value>
+            <value>
+                <fullName>Relationship – Missing / Non-engaged Executive Sponsor / Buyer</fullName>
+                <default>false</default>
+                <label>Relationship – Missing / Non-engaged Executive Sponsor / Buyer</label>
+            </value>
+            <value>
+                <fullName>Relationship – Missing / Non-engaged Program Owner / Administrator</fullName>
+                <default>false</default>
+                <label>Relationship – Missing / Non-engaged Program Owner / Administrator</label>
+            </value>
+            <value>
+                <fullName>Product – No Stickiness / Feature or Function Gap / Integration Gap</fullName>
+                <default>false</default>
+                <label>Product – No Stickiness / Feature or Function Gap / Integration Gap</label>
+            </value>
+            <value>
+                <fullName>Product – Bugs or Performance</fullName>
+                <default>false</default>
+                <label>Product – Bugs or Performance</label>
+            </value>
+            <value>
+                <fullName>External – M&amp;A, Reorganization, Downsizing, Budget</fullName>
+                <default>false</default>
+                <label>External – M&amp;A, Reorganization, Downsizing, Budget</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

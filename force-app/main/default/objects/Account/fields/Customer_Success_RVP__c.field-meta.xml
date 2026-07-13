@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Success_RVP__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>INTEGRATION FIELD: Used heavily by Gainsight. RVP assigned to customer, Customer Success field.
+Used in query to maintain tenant object information.</description>
+    <inlineHelpText>RVP assigned to Customer alongside CSD</inlineHelpText>
+    <label>CS Segment Lead/VP (to be depreciated)</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Accounts9</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAVO_Tenant_Shutdown_Date__c</fullName>
+    <description>used to indicate the date that the SAVO customer&apos;s tenants can be shutdown after churn or conversion; will trigger an email alert</description>
+    <label>SAVO Tenant Shutdown Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

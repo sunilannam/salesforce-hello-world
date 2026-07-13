@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry</fullName>
+    <description>Used in query to populate the Tenant object and in Internal Salesforce Updater Query and CSEVentProcessor Monthly &amp; Weekly queries.
+ Quake tags in order for Predictive to work</description>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+</CustomField>

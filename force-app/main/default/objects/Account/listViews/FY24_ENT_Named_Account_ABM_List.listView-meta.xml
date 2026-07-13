@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FY24_ENT_Named_Account_ABM_List</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Territory_Segment_Text__c</columns>
+    <columns>CurrentTerritorySegment__c</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>Geo__c</columns>
+    <columns>Geo_Text__c</columns>
+    <columns>Named_Account__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Owner_Role__c</field>
+        <operation>contains</operation>
+        <value>NA Core Enterprise Global Outside RVP - 5,NA Core Enterprise Global Outside AE - 5,NA Core Enterprise Global Outside AE - 6,NA Core Enterprise Global Outside RVP - 4,NA Core Enterprise Global Outside AE - 4</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Prospect,Previous Customer</value>
+    </filters>
+    <label>FY24 ENT Named Account ABM List</label>
+</ListView>

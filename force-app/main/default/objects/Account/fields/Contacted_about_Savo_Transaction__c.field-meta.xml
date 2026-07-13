@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contacted_about_Savo_Transaction__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>INTEGRATION FIELD: Used by Gainsight.</description>
+    <label>Contacted about Savo Transaction</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

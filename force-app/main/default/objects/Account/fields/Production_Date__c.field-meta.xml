@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Production_Date__c</fullName>
+    <description>INTEGRATION FIELD: Used heavily in calculations by Gainsight.
+Used in query to populate the Tenant object and in Internal Salesforce Updater Query and CSEVentProcessor Monthly &amp; Weekly queries.</description>
+    <label>Content Production Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Date</type>
+</CustomField>

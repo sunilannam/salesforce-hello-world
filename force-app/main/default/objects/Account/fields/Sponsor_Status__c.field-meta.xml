@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sponsor_Status__c</fullName>
+    <description>GTMS-5606</description>
+    <inlineHelpText>Engaged = regular or scheduled interaction is in place, Lapsed = was previously Engaged but interactions have grown stale, infrequent or there is a lack of responsiveness, Targeted = identified as a strategically important relationship to establish.</inlineHelpText>
+    <label>Sponsor Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Engaged</fullName>
+                <default>false</default>
+                <label>Engaged</label>
+            </value>
+            <value>
+                <fullName>Lapsed</fullName>
+                <default>false</default>
+                <label>Lapsed</label>
+            </value>
+            <value>
+                <fullName>Targeted</fullName>
+                <default>false</default>
+                <label>Targeted</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

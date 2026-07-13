@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Named_Account__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <defaultValue>false</defaultValue>
+    <description>Murugan still uses this field to identify the population of accounts that he has verified, and for deduplication of accounts.</description>
+    <inlineHelpText>Account assigned to Account Executive or Account Manager&apos;s Sales Territory.</inlineHelpText>
+    <label>Named Account</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

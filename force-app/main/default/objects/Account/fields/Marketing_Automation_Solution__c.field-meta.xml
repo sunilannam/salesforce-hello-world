@@ -1,0 +1,1655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_Automation_Solution__c</fullName>
+    <label>Marketing Automation Solution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>180Fusion</fullName>
+                <default>false</default>
+                <label>180Fusion</label>
+            </value>
+            <value>
+                <fullName>360View</fullName>
+                <default>false</default>
+                <label>360View</label>
+            </value>
+            <value>
+                <fullName>366 Degrees</fullName>
+                <default>false</default>
+                <label>366 Degrees</label>
+            </value>
+            <value>
+                <fullName>4Cite</fullName>
+                <default>false</default>
+                <label>4Cite</label>
+            </value>
+            <value>
+                <fullName>ACTITO</fullName>
+                <default>false</default>
+                <label>ACTITO</label>
+            </value>
+            <value>
+                <fullName>ActiveCampaign</fullName>
+                <default>false</default>
+                <label>ActiveCampaign</label>
+            </value>
+            <value>
+                <fullName>Active Campaign</fullName>
+                <default>false</default>
+                <label>Active Campaign</label>
+            </value>
+            <value>
+                <fullName>activecore</fullName>
+                <default>false</default>
+                <label>activecore</label>
+            </value>
+            <value>
+                <fullName>ActiveDEMAND</fullName>
+                <default>false</default>
+                <label>ActiveDEMAND</label>
+            </value>
+            <value>
+                <fullName>ActiveTrail</fullName>
+                <default>false</default>
+                <label>ActiveTrail</label>
+            </value>
+            <value>
+                <fullName>Act-On</fullName>
+                <default>false</default>
+                <label>Act-On</label>
+            </value>
+            <value>
+                <fullName>Acxiom Impact</fullName>
+                <default>false</default>
+                <label>Acxiom Impact</label>
+            </value>
+            <value>
+                <fullName>Adabra</fullName>
+                <default>false</default>
+                <label>Adabra</label>
+            </value>
+            <value>
+                <fullName>ADLIB</fullName>
+                <default>false</default>
+                <label>ADLIB</label>
+            </value>
+            <value>
+                <fullName>Admotion</fullName>
+                <default>false</default>
+                <label>Admotion</label>
+            </value>
+            <value>
+                <fullName>Adobe Campaign</fullName>
+                <default>false</default>
+                <label>Adobe Campaign</label>
+            </value>
+            <value>
+                <fullName>Adobe Experience Cloud</fullName>
+                <default>false</default>
+                <label>Adobe Experience Cloud</label>
+            </value>
+            <value>
+                <fullName>Adobe Marketing Cloud</fullName>
+                <default>false</default>
+                <label>Adobe Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>adZu</fullName>
+                <default>false</default>
+                <label>adZu</label>
+            </value>
+            <value>
+                <fullName>Agillic</fullName>
+                <default>false</default>
+                <label>Agillic</label>
+            </value>
+            <value>
+                <fullName>Aimbase</fullName>
+                <default>false</default>
+                <label>Aimbase</label>
+            </value>
+            <value>
+                <fullName>AIQUA</fullName>
+                <default>false</default>
+                <label>AIQUA</label>
+            </value>
+            <value>
+                <fullName>Akero</fullName>
+                <default>false</default>
+                <label>Akero</label>
+            </value>
+            <value>
+                <fullName>All In Marketing Cloud</fullName>
+                <default>false</default>
+                <label>All In Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>Alterian</fullName>
+                <default>false</default>
+                <label>Alterian</label>
+            </value>
+            <value>
+                <fullName>Amazon Pinpoint</fullName>
+                <default>false</default>
+                <label>Amazon Pinpoint</label>
+            </value>
+            <value>
+                <fullName>Ambassador Relations Tool</fullName>
+                <default>false</default>
+                <label>Ambassador Relations Tool</label>
+            </value>
+            <value>
+                <fullName>Antevenio</fullName>
+                <default>false</default>
+                <label>Antevenio</label>
+            </value>
+            <value>
+                <fullName>Aritic PinPoint</fullName>
+                <default>false</default>
+                <label>Aritic PinPoint</label>
+            </value>
+            <value>
+                <fullName>Audience.to</fullName>
+                <default>false</default>
+                <label>Audience.to</label>
+            </value>
+            <value>
+                <fullName>Automational</fullName>
+                <default>false</default>
+                <label>Automational</label>
+            </value>
+            <value>
+                <fullName>Automatr</fullName>
+                <default>false</default>
+                <label>Automatr</label>
+            </value>
+            <value>
+                <fullName>Automattic Jetpack</fullName>
+                <default>false</default>
+                <label>Automattic Jetpack</label>
+            </value>
+            <value>
+                <fullName>Autopilot</fullName>
+                <default>false</default>
+                <label>Autopilot</label>
+            </value>
+            <value>
+                <fullName>Averetek</fullName>
+                <default>false</default>
+                <label>Averetek</label>
+            </value>
+            <value>
+                <fullName>AwarenessHub</fullName>
+                <default>false</default>
+                <label>AwarenessHub</label>
+            </value>
+            <value>
+                <fullName>b-dash</fullName>
+                <default>false</default>
+                <label>b-dash</label>
+            </value>
+            <value>
+                <fullName>Beagle</fullName>
+                <default>false</default>
+                <label>Beagle</label>
+            </value>
+            <value>
+                <fullName>Beeketing</fullName>
+                <default>false</default>
+                <label>Beeketing</label>
+            </value>
+            <value>
+                <fullName>Betaout</fullName>
+                <default>false</default>
+                <label>Betaout</label>
+            </value>
+            <value>
+                <fullName>Bigfoot Interactive DREAM</fullName>
+                <default>false</default>
+                <label>Bigfoot Interactive DREAM</label>
+            </value>
+            <value>
+                <fullName>Bizzy</fullName>
+                <default>false</default>
+                <label>Bizzy</label>
+            </value>
+            <value>
+                <fullName>Blueshift</fullName>
+                <default>false</default>
+                <label>Blueshift</label>
+            </value>
+            <value>
+                <fullName>BowNow</fullName>
+                <default>false</default>
+                <label>BowNow</label>
+            </value>
+            <value>
+                <fullName>Brand Networks</fullName>
+                <default>false</default>
+                <label>Brand Networks</label>
+            </value>
+            <value>
+                <fullName>Braze</fullName>
+                <default>false</default>
+                <label>Braze</label>
+            </value>
+            <value>
+                <fullName>BriefYourMarket.com</fullName>
+                <default>false</default>
+                <label>BriefYourMarket.com</label>
+            </value>
+            <value>
+                <fullName>Broadridge Direxxis</fullName>
+                <default>false</default>
+                <label>Broadridge Direxxis</label>
+            </value>
+            <value>
+                <fullName>Bronto</fullName>
+                <default>false</default>
+                <label>Bronto</label>
+            </value>
+            <value>
+                <fullName>BullSai</fullName>
+                <default>false</default>
+                <label>BullSai</label>
+            </value>
+            <value>
+                <fullName>Buzz360</fullName>
+                <default>false</default>
+                <label>Buzz360</label>
+            </value>
+            <value>
+                <fullName>BuzzStarter</fullName>
+                <default>false</default>
+                <label>BuzzStarter</label>
+            </value>
+            <value>
+                <fullName>Callard</fullName>
+                <default>false</default>
+                <label>Callard</label>
+            </value>
+            <value>
+                <fullName>CallidusCloud LeadRocket</fullName>
+                <default>false</default>
+                <label>CallidusCloud LeadRocket</label>
+            </value>
+            <value>
+                <fullName>CampaignDrive</fullName>
+                <default>false</default>
+                <label>CampaignDrive</label>
+            </value>
+            <value>
+                <fullName>Captavi Platform</fullName>
+                <default>false</default>
+                <label>Captavi Platform</label>
+            </value>
+            <value>
+                <fullName>Carma Marketing Hub</fullName>
+                <default>false</default>
+                <label>Carma Marketing Hub</label>
+            </value>
+            <value>
+                <fullName>ChannelNet SiteBuilder</fullName>
+                <default>false</default>
+                <label>ChannelNet SiteBuilder</label>
+            </value>
+            <value>
+                <fullName>Cheetah Digital</fullName>
+                <default>false</default>
+                <label>Cheetah Digital</label>
+            </value>
+            <value>
+                <fullName>ClickDimensions</fullName>
+                <default>false</default>
+                <label>ClickDimensions</label>
+            </value>
+            <value>
+                <fullName>Cloud CMO</fullName>
+                <default>false</default>
+                <label>Cloud CMO</label>
+            </value>
+            <value>
+                <fullName>CM Commerce</fullName>
+                <default>false</default>
+                <label>CM Commerce</label>
+            </value>
+            <value>
+                <fullName>Collect</fullName>
+                <default>false</default>
+                <label>Collect</label>
+            </value>
+            <value>
+                <fullName>Command.App</fullName>
+                <default>false</default>
+                <label>Command.App</label>
+            </value>
+            <value>
+                <fullName>Concep</fullName>
+                <default>false</default>
+                <label>Concep</label>
+            </value>
+            <value>
+                <fullName>Contactlab</fullName>
+                <default>false</default>
+                <label>Contactlab</label>
+            </value>
+            <value>
+                <fullName>Contact Pigeon</fullName>
+                <default>false</default>
+                <label>Contact Pigeon</label>
+            </value>
+            <value>
+                <fullName>Cordial</fullName>
+                <default>false</default>
+                <label>Cordial</label>
+            </value>
+            <value>
+                <fullName>CoReForth One</fullName>
+                <default>false</default>
+                <label>CoReForth One</label>
+            </value>
+            <value>
+                <fullName>CoreMotives</fullName>
+                <default>false</default>
+                <label>CoreMotives</label>
+            </value>
+            <value>
+                <fullName>DANAConnect</fullName>
+                <default>false</default>
+                <label>DANAConnect</label>
+            </value>
+            <value>
+                <fullName>DataCrush</fullName>
+                <default>false</default>
+                <label>DataCrush</label>
+            </value>
+            <value>
+                <fullName>DataSync</fullName>
+                <default>false</default>
+                <label>DataSync</label>
+            </value>
+            <value>
+                <fullName>Demandforce</fullName>
+                <default>false</default>
+                <label>Demandforce</label>
+            </value>
+            <value>
+                <fullName>Dialog Insight</fullName>
+                <default>false</default>
+                <label>Dialog Insight</label>
+            </value>
+            <value>
+                <fullName>Direct Agents</fullName>
+                <default>false</default>
+                <label>Direct Agents</label>
+            </value>
+            <value>
+                <fullName>Distribion</fullName>
+                <default>false</default>
+                <label>Distribion</label>
+            </value>
+            <value>
+                <fullName>dotdigital Engagement Cloud</fullName>
+                <default>false</default>
+                <label>dotdigital Engagement Cloud</label>
+            </value>
+            <value>
+                <fullName>DOZ</fullName>
+                <default>false</default>
+                <label>DOZ</label>
+            </value>
+            <value>
+                <fullName>Dr. Marketing</fullName>
+                <default>false</default>
+                <label>Dr. Marketing</label>
+            </value>
+            <value>
+                <fullName>Drawbridge</fullName>
+                <default>false</default>
+                <label>Drawbridge</label>
+            </value>
+            <value>
+                <fullName>Drip</fullName>
+                <default>false</default>
+                <label>Drip</label>
+            </value>
+            <value>
+                <fullName>Dynamic Self-Syndication</fullName>
+                <default>false</default>
+                <label>Dynamic Self-Syndication</label>
+            </value>
+            <value>
+                <fullName>Egistix</fullName>
+                <default>false</default>
+                <label>Egistix</label>
+            </value>
+            <value>
+                <fullName>Eloqua</fullName>
+                <default>false</default>
+                <label>Eloqua</label>
+            </value>
+            <value>
+                <fullName>Emarsys</fullName>
+                <default>false</default>
+                <label>Emarsys</label>
+            </value>
+            <value>
+                <fullName>emfluence Marketing Platform</fullName>
+                <default>false</default>
+                <label>emfluence Marketing Platform</label>
+            </value>
+            <value>
+                <fullName>EnquireLEADS</fullName>
+                <default>false</default>
+                <label>EnquireLEADS</label>
+            </value>
+            <value>
+                <fullName>Enter:Marketing</fullName>
+                <default>false</default>
+                <label>Enter:Marketing</label>
+            </value>
+            <value>
+                <fullName>Envoke</fullName>
+                <default>false</default>
+                <label>Envoke</label>
+            </value>
+            <value>
+                <fullName>Episerver Campaign</fullName>
+                <default>false</default>
+                <label>Episerver Campaign</label>
+            </value>
+            <value>
+                <fullName>eRelationship</fullName>
+                <default>false</default>
+                <label>eRelationship</label>
+            </value>
+            <value>
+                <fullName>e-satisfaction</fullName>
+                <default>false</default>
+                <label>e-satisfaction</label>
+            </value>
+            <value>
+                <fullName>eSputnik</fullName>
+                <default>false</default>
+                <label>eSputnik</label>
+            </value>
+            <value>
+                <fullName>eTrigue</fullName>
+                <default>false</default>
+                <label>eTrigue</label>
+            </value>
+            <value>
+                <fullName>Evalanche</fullName>
+                <default>false</default>
+                <label>Evalanche</label>
+            </value>
+            <value>
+                <fullName>ExactTarget</fullName>
+                <default>false</default>
+                <label>ExactTarget</label>
+            </value>
+            <value>
+                <fullName>Exponea</fullName>
+                <default>false</default>
+                <label>Exponea</label>
+            </value>
+            <value>
+                <fullName>ferret One</fullName>
+                <default>false</default>
+                <label>ferret One</label>
+            </value>
+            <value>
+                <fullName>FetchRev</fullName>
+                <default>false</default>
+                <label>FetchRev</label>
+            </value>
+            <value>
+                <fullName>Firecart</fullName>
+                <default>false</default>
+                <label>Firecart</label>
+            </value>
+            <value>
+                <fullName>Fishbowl</fullName>
+                <default>false</default>
+                <label>Fishbowl</label>
+            </value>
+            <value>
+                <fullName>FollowAnalytics</fullName>
+                <default>false</default>
+                <label>FollowAnalytics</label>
+            </value>
+            <value>
+                <fullName>Frederick</fullName>
+                <default>false</default>
+                <label>Frederick</label>
+            </value>
+            <value>
+                <fullName>Funnel</fullName>
+                <default>false</default>
+                <label>Funnel</label>
+            </value>
+            <value>
+                <fullName>Gamooga</fullName>
+                <default>false</default>
+                <label>Gamooga</label>
+            </value>
+            <value>
+                <fullName>Geniee MAJIN</fullName>
+                <default>false</default>
+                <label>Geniee MAJIN</label>
+            </value>
+            <value>
+                <fullName>Genoo</fullName>
+                <default>false</default>
+                <label>Genoo</label>
+            </value>
+            <value>
+                <fullName>HelloSociety</fullName>
+                <default>false</default>
+                <label>HelloSociety</label>
+            </value>
+            <value>
+                <fullName>Higher Logic Marketing Automation</fullName>
+                <default>false</default>
+                <label>Higher Logic Marketing Automation</label>
+            </value>
+            <value>
+                <fullName>Higher Logic Marketing Automation Enterprise</fullName>
+                <default>false</default>
+                <label>Higher Logic Marketing Automation Enterprise</label>
+            </value>
+            <value>
+                <fullName>Higher Logic Marketing Automation Professional</fullName>
+                <default>false</default>
+                <label>Higher Logic Marketing Automation Professional</label>
+            </value>
+            <value>
+                <fullName>HIRAMEKI management</fullName>
+                <default>false</default>
+                <label>HIRAMEKI management</label>
+            </value>
+            <value>
+                <fullName>Home Grown</fullName>
+                <default>false</default>
+                <label>Home Grown</label>
+            </value>
+            <value>
+                <fullName>HubSpot</fullName>
+                <default>false</default>
+                <label>HubSpot</label>
+            </value>
+            <value>
+                <fullName>HubSpot Marketing Hub</fullName>
+                <default>false</default>
+                <label>HubSpot Marketing Hub</label>
+            </value>
+            <value>
+                <fullName>IBM Campaign</fullName>
+                <default>false</default>
+                <label>IBM Campaign</label>
+            </value>
+            <value>
+                <fullName>IBM Unica</fullName>
+                <default>false</default>
+                <label>IBM Unica</label>
+            </value>
+            <value>
+                <fullName>IBM Watson Campaign Automation</fullName>
+                <default>false</default>
+                <label>IBM Watson Campaign Automation</label>
+            </value>
+            <value>
+                <fullName>IBM Watson Customer Engagement</fullName>
+                <default>false</default>
+                <label>IBM Watson Customer Engagement</label>
+            </value>
+            <value>
+                <fullName>IBM Watson Marketing (SilverPop)</fullName>
+                <default>false</default>
+                <label>IBM Watson Marketing (SilverPop)</label>
+            </value>
+            <value>
+                <fullName>iContact Pro</fullName>
+                <default>false</default>
+                <label>iContact Pro</label>
+            </value>
+            <value>
+                <fullName>IgnitionOne</fullName>
+                <default>false</default>
+                <label>IgnitionOne</label>
+            </value>
+            <value>
+                <fullName>inBoundio</fullName>
+                <default>false</default>
+                <label>inBoundio</label>
+            </value>
+            <value>
+                <fullName>InboundLabs</fullName>
+                <default>false</default>
+                <label>InboundLabs</label>
+            </value>
+            <value>
+                <fullName>inBOX25</fullName>
+                <default>false</default>
+                <label>inBOX25</label>
+            </value>
+            <value>
+                <fullName>Influence &amp; Co.</fullName>
+                <default>false</default>
+                <label>Influence &amp; Co.</label>
+            </value>
+            <value>
+                <fullName>Informz</fullName>
+                <default>false</default>
+                <label>Informz</label>
+            </value>
+            <value>
+                <fullName>InfoUSA</fullName>
+                <default>false</default>
+                <label>InfoUSA</label>
+            </value>
+            <value>
+                <fullName>IntelliAd</fullName>
+                <default>false</default>
+                <label>IntelliAd</label>
+            </value>
+            <value>
+                <fullName>Interakt</fullName>
+                <default>false</default>
+                <label>Interakt</label>
+            </value>
+            <value>
+                <fullName>Intilery</fullName>
+                <default>false</default>
+                <label>Intilery</label>
+            </value>
+            <value>
+                <fullName>iPresso</fullName>
+                <default>false</default>
+                <label>iPresso</label>
+            </value>
+            <value>
+                <fullName>Iterable</fullName>
+                <default>false</default>
+                <label>Iterable</label>
+            </value>
+            <value>
+                <fullName>itracMarketer</fullName>
+                <default>false</default>
+                <label>itracMarketer</label>
+            </value>
+            <value>
+                <fullName>Jumplead</fullName>
+                <default>false</default>
+                <label>Jumplead</label>
+            </value>
+            <value>
+                <fullName>Kahuna</fullName>
+                <default>false</default>
+                <label>Kahuna</label>
+            </value>
+            <value>
+                <fullName>Kairos3</fullName>
+                <default>false</default>
+                <label>Kairos3</label>
+            </value>
+            <value>
+                <fullName>Kevy</fullName>
+                <default>false</default>
+                <label>Kevy</label>
+            </value>
+            <value>
+                <fullName>Komfo</fullName>
+                <default>false</default>
+                <label>Komfo</label>
+            </value>
+            <value>
+                <fullName>Kongalytics</fullName>
+                <default>false</default>
+                <label>Kongalytics</label>
+            </value>
+            <value>
+                <fullName>Kukui</fullName>
+                <default>false</default>
+                <label>Kukui</label>
+            </value>
+            <value>
+                <fullName>Launchpad</fullName>
+                <default>false</default>
+                <label>Launchpad</label>
+            </value>
+            <value>
+                <fullName>LeadFox</fullName>
+                <default>false</default>
+                <label>LeadFox</label>
+            </value>
+            <value>
+                <fullName>Lead Guerrilla</fullName>
+                <default>false</default>
+                <label>Lead Guerrilla</label>
+            </value>
+            <value>
+                <fullName>Leadisus</fullName>
+                <default>false</default>
+                <label>Leadisus</label>
+            </value>
+            <value>
+                <fullName>Lead Liaison</fullName>
+                <default>false</default>
+                <label>Lead Liaison</label>
+            </value>
+            <value>
+                <fullName>LeadMD</fullName>
+                <default>false</default>
+                <label>LeadMD</label>
+            </value>
+            <value>
+                <fullName>Leadsius</fullName>
+                <default>false</default>
+                <label>Leadsius</label>
+            </value>
+            <value>
+                <fullName>LeadSquared</fullName>
+                <default>false</default>
+                <label>LeadSquared</label>
+            </value>
+            <value>
+                <fullName>Leadsquared Marketing Automation</fullName>
+                <default>false</default>
+                <label>Leadsquared Marketing Automation</label>
+            </value>
+            <value>
+                <fullName>Lenos Software</fullName>
+                <default>false</default>
+                <label>Lenos Software</label>
+            </value>
+            <value>
+                <fullName>Liana Technologies</fullName>
+                <default>false</default>
+                <label>Liana Technologies</label>
+            </value>
+            <value>
+                <fullName>List Finder</fullName>
+                <default>false</default>
+                <label>List Finder</label>
+            </value>
+            <value>
+                <fullName>Listrak</fullName>
+                <default>false</default>
+                <label>Listrak</label>
+            </value>
+            <value>
+                <fullName>Lob</fullName>
+                <default>false</default>
+                <label>Lob</label>
+            </value>
+            <value>
+                <fullName>LoopFuse</fullName>
+                <default>false</default>
+                <label>LoopFuse</label>
+            </value>
+            <value>
+                <fullName>MaaxMarket</fullName>
+                <default>false</default>
+                <label>MaaxMarket</label>
+            </value>
+            <value>
+                <fullName>MakesBridge</fullName>
+                <default>false</default>
+                <label>MakesBridge</label>
+            </value>
+            <value>
+                <fullName>Mapp Cloud</fullName>
+                <default>false</default>
+                <label>Mapp Cloud</label>
+            </value>
+            <value>
+                <fullName>Mariana IQ</fullName>
+                <default>false</default>
+                <label>Mariana IQ</label>
+            </value>
+            <value>
+                <fullName>Marin Software</fullName>
+                <default>false</default>
+                <label>Marin Software</label>
+            </value>
+            <value>
+                <fullName>Markerise Cloud</fullName>
+                <default>false</default>
+                <label>Markerise Cloud</label>
+            </value>
+            <value>
+                <fullName>Marketfox</fullName>
+                <default>false</default>
+                <label>Marketfox</label>
+            </value>
+            <value>
+                <fullName>Marketing Automation Canada</fullName>
+                <default>false</default>
+                <label>Marketing Automation Canada</label>
+            </value>
+            <value>
+                <fullName>Marketingmatic</fullName>
+                <default>false</default>
+                <label>Marketingmatic</label>
+            </value>
+            <value>
+                <fullName>MarketingPilot</fullName>
+                <default>false</default>
+                <label>MarketingPilot</label>
+            </value>
+            <value>
+                <fullName>Market Logic</fullName>
+                <default>false</default>
+                <label>Market Logic</label>
+            </value>
+            <value>
+                <fullName>Marketo</fullName>
+                <default>false</default>
+                <label>Marketo</label>
+            </value>
+            <value>
+                <fullName>Marketo Engage</fullName>
+                <default>false</default>
+                <label>Marketo Engage</label>
+            </value>
+            <value>
+                <fullName>Market Smart 360 Platform</fullName>
+                <default>false</default>
+                <label>Market Smart 360 Platform</label>
+            </value>
+            <value>
+                <fullName>Marmind</fullName>
+                <default>false</default>
+                <label>Marmind</label>
+            </value>
+            <value>
+                <fullName>Maropost Marketing Cloud</fullName>
+                <default>false</default>
+                <label>Maropost Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>Mautic</fullName>
+                <default>false</default>
+                <label>Mautic</label>
+            </value>
+            <value>
+                <fullName>maxpoint</fullName>
+                <default>false</default>
+                <label>maxpoint</label>
+            </value>
+            <value>
+                <fullName>Mediaocean</fullName>
+                <default>false</default>
+                <label>Mediaocean</label>
+            </value>
+            <value>
+                <fullName>Message Business</fullName>
+                <default>false</default>
+                <label>Message Business</label>
+            </value>
+            <value>
+                <fullName>Message Cloud</fullName>
+                <default>false</default>
+                <label>Message Cloud</label>
+            </value>
+            <value>
+                <fullName>Metrilo</fullName>
+                <default>false</default>
+                <label>Metrilo</label>
+            </value>
+            <value>
+                <fullName>Mi8 Marketing Cloud</fullName>
+                <default>false</default>
+                <label>Mi8 Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>Miappi</fullName>
+                <default>false</default>
+                <label>Miappi</label>
+            </value>
+            <value>
+                <fullName>Microsoft Dynamics 365 Marketing</fullName>
+                <default>false</default>
+                <label>Microsoft Dynamics 365 Marketing</label>
+            </value>
+            <value>
+                <fullName>MindBox</fullName>
+                <default>false</default>
+                <label>MindBox</label>
+            </value>
+            <value>
+                <fullName>MindFire Studio</fullName>
+                <default>false</default>
+                <label>MindFire Studio</label>
+            </value>
+            <value>
+                <fullName>Mindmatrix</fullName>
+                <default>false</default>
+                <label>Mindmatrix</label>
+            </value>
+            <value>
+                <fullName>MioDatos</fullName>
+                <default>false</default>
+                <label>MioDatos</label>
+            </value>
+            <value>
+                <fullName>MobileBridge</fullName>
+                <default>false</default>
+                <label>MobileBridge</label>
+            </value>
+            <value>
+                <fullName>Mobit</fullName>
+                <default>false</default>
+                <label>Mobit</label>
+            </value>
+            <value>
+                <fullName>MobStac</fullName>
+                <default>false</default>
+                <label>MobStac</label>
+            </value>
+            <value>
+                <fullName>MoEngage</fullName>
+                <default>false</default>
+                <label>MoEngage</label>
+            </value>
+            <value>
+                <fullName>MOTENASU</fullName>
+                <default>false</default>
+                <label>MOTENASU</label>
+            </value>
+            <value>
+                <fullName>Movable Media</fullName>
+                <default>false</default>
+                <label>Movable Media</label>
+            </value>
+            <value>
+                <fullName>MuseFind</fullName>
+                <default>false</default>
+                <label>MuseFind</label>
+            </value>
+            <value>
+                <fullName>MyGuestlist</fullName>
+                <default>false</default>
+                <label>MyGuestlist</label>
+            </value>
+            <value>
+                <fullName>Netcore</fullName>
+                <default>false</default>
+                <label>Netcore</label>
+            </value>
+            <value>
+                <fullName>NetElixir</fullName>
+                <default>false</default>
+                <label>NetElixir</label>
+            </value>
+            <value>
+                <fullName>Net-Results</fullName>
+                <default>false</default>
+                <label>Net-Results</label>
+            </value>
+            <value>
+                <fullName>Newmarket Delphi Sales &amp; Catering</fullName>
+                <default>false</default>
+                <label>Newmarket Delphi Sales &amp; Catering</label>
+            </value>
+            <value>
+                <fullName>Nielsen Marketing Mix</fullName>
+                <default>false</default>
+                <label>Nielsen Marketing Mix</label>
+            </value>
+            <value>
+                <fullName>Nurture</fullName>
+                <default>false</default>
+                <label>Nurture</label>
+            </value>
+            <value>
+                <fullName>nVision</fullName>
+                <default>false</default>
+                <label>nVision</label>
+            </value>
+            <value>
+                <fullName>Oculos</fullName>
+                <default>false</default>
+                <label>Oculos</label>
+            </value>
+            <value>
+                <fullName>Ometria</fullName>
+                <default>false</default>
+                <label>Ometria</label>
+            </value>
+            <value>
+                <fullName>Omnisend</fullName>
+                <default>false</default>
+                <label>Omnisend</label>
+            </value>
+            <value>
+                <fullName>one2edit</fullName>
+                <default>false</default>
+                <label>one2edit</label>
+            </value>
+            <value>
+                <fullName>ONTRAPORT</fullName>
+                <default>false</default>
+                <label>ONTRAPORT</label>
+            </value>
+            <value>
+                <fullName>Oracle Eloqua</fullName>
+                <default>false</default>
+                <label>Oracle Eloqua</label>
+            </value>
+            <value>
+                <fullName>Oracle Marketing Cloud</fullName>
+                <default>false</default>
+                <label>Oracle Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>Oracle Responsys</fullName>
+                <default>false</default>
+                <label>Oracle Responsys</label>
+            </value>
+            <value>
+                <fullName>ORBTR</fullName>
+                <default>false</default>
+                <label>ORBTR</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>OutboundEngine</fullName>
+                <default>false</default>
+                <label>OutboundEngine</label>
+            </value>
+            <value>
+                <fullName>Overground</fullName>
+                <default>false</default>
+                <label>Overground</label>
+            </value>
+            <value>
+                <fullName>PageFlex Distributed Marketing Platform</fullName>
+                <default>false</default>
+                <label>PageFlex Distributed Marketing Platform</label>
+            </value>
+            <value>
+                <fullName>Pardot</fullName>
+                <default>false</default>
+                <label>Pardot</label>
+            </value>
+            <value>
+                <fullName>Performable</fullName>
+                <default>false</default>
+                <label>Performable</label>
+            </value>
+            <value>
+                <fullName>PFL Tactile Marketing Automation</fullName>
+                <default>false</default>
+                <label>PFL Tactile Marketing Automation</label>
+            </value>
+            <value>
+                <fullName>Pica9</fullName>
+                <default>false</default>
+                <label>Pica9</label>
+            </value>
+            <value>
+                <fullName>Pipz</fullName>
+                <default>false</default>
+                <label>Pipz</label>
+            </value>
+            <value>
+                <fullName>Plezi</fullName>
+                <default>false</default>
+                <label>Plezi</label>
+            </value>
+            <value>
+                <fullName>Pluck SiteLife</fullName>
+                <default>false</default>
+                <label>Pluck SiteLife</label>
+            </value>
+            <value>
+                <fullName>Plumb5</fullName>
+                <default>false</default>
+                <label>Plumb5</label>
+            </value>
+            <value>
+                <fullName>Predicta</fullName>
+                <default>false</default>
+                <label>Predicta</label>
+            </value>
+            <value>
+                <fullName>Predictive Response</fullName>
+                <default>false</default>
+                <label>Predictive Response</label>
+            </value>
+            <value>
+                <fullName>Probance</fullName>
+                <default>false</default>
+                <label>Probance</label>
+            </value>
+            <value>
+                <fullName>Proscape</fullName>
+                <default>false</default>
+                <label>Proscape</label>
+            </value>
+            <value>
+                <fullName>Pulsate</fullName>
+                <default>false</default>
+                <label>Pulsate</label>
+            </value>
+            <value>
+                <fullName>Punchh</fullName>
+                <default>false</default>
+                <label>Punchh</label>
+            </value>
+            <value>
+                <fullName>QGraph</fullName>
+                <default>false</default>
+                <label>QGraph</label>
+            </value>
+            <value>
+                <fullName>Quartile</fullName>
+                <default>false</default>
+                <label>Quartile</label>
+            </value>
+            <value>
+                <fullName>R8</fullName>
+                <default>false</default>
+                <label>R8</label>
+            </value>
+            <value>
+                <fullName>Rankwatch</fullName>
+                <default>false</default>
+                <label>Rankwatch</label>
+            </value>
+            <value>
+                <fullName>RD Station</fullName>
+                <default>false</default>
+                <label>RD Station</label>
+            </value>
+            <value>
+                <fullName>Real Magnet</fullName>
+                <default>false</default>
+                <label>Real Magnet</label>
+            </value>
+            <value>
+                <fullName>RedPoint Convergent Marketing Platform</fullName>
+                <default>false</default>
+                <label>RedPoint Convergent Marketing Platform</label>
+            </value>
+            <value>
+                <fullName>RedPoint Interaction</fullName>
+                <default>false</default>
+                <label>RedPoint Interaction</label>
+            </value>
+            <value>
+                <fullName>Refined Ads</fullName>
+                <default>false</default>
+                <label>Refined Ads</label>
+            </value>
+            <value>
+                <fullName>Relationship One</fullName>
+                <default>false</default>
+                <label>Relationship One</label>
+            </value>
+            <value>
+                <fullName>Remarkety</fullName>
+                <default>false</default>
+                <label>Remarkety</label>
+            </value>
+            <value>
+                <fullName>ReSci</fullName>
+                <default>false</default>
+                <label>ReSci</label>
+            </value>
+            <value>
+                <fullName>Resulticks</fullName>
+                <default>false</default>
+                <label>Resulticks</label>
+            </value>
+            <value>
+                <fullName>RESULT PLUS</fullName>
+                <default>false</default>
+                <label>RESULT PLUS</label>
+            </value>
+            <value>
+                <fullName>Retargeting</fullName>
+                <default>false</default>
+                <label>Retargeting</label>
+            </value>
+            <value>
+                <fullName>Return Flight</fullName>
+                <default>false</default>
+                <label>Return Flight</label>
+            </value>
+            <value>
+                <fullName>Right On Interactive</fullName>
+                <default>false</default>
+                <label>Right On Interactive</label>
+            </value>
+            <value>
+                <fullName>RightWave</fullName>
+                <default>false</default>
+                <label>RightWave</label>
+            </value>
+            <value>
+                <fullName>RockYou</fullName>
+                <default>false</default>
+                <label>RockYou</label>
+            </value>
+            <value>
+                <fullName>Route</fullName>
+                <default>false</default>
+                <label>Route</label>
+            </value>
+            <value>
+                <fullName>route.to</fullName>
+                <default>false</default>
+                <label>route.to</label>
+            </value>
+            <value>
+                <fullName>RRD Connect (Nimblefish)</fullName>
+                <default>false</default>
+                <label>RRD Connect (Nimblefish)</label>
+            </value>
+            <value>
+                <fullName>Sales Engine International</fullName>
+                <default>false</default>
+                <label>Sales Engine International</label>
+            </value>
+            <value>
+                <fullName>Salesforce Marketing Cloud</fullName>
+                <default>false</default>
+                <label>Salesforce Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>Salesforce Pardot</fullName>
+                <default>false</default>
+                <label>Salesforce Pardot</label>
+            </value>
+            <value>
+                <fullName>Salesfusion</fullName>
+                <default>false</default>
+                <label>Salesfusion</label>
+            </value>
+            <value>
+                <fullName>SalesGenius</fullName>
+                <default>false</default>
+                <label>SalesGenius</label>
+            </value>
+            <value>
+                <fullName>SALESmanago</fullName>
+                <default>false</default>
+                <label>SALESmanago</label>
+            </value>
+            <value>
+                <fullName>SAM.AI</fullName>
+                <default>false</default>
+                <label>SAM.AI</label>
+            </value>
+            <value>
+                <fullName>SAP Marketing Cloud</fullName>
+                <default>false</default>
+                <label>SAP Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>SAS Marketing Automation</fullName>
+                <default>false</default>
+                <label>SAS Marketing Automation</label>
+            </value>
+            <value>
+                <fullName>SATORI</fullName>
+                <default>false</default>
+                <label>SATORI</label>
+            </value>
+            <value>
+                <fullName>SaveCart</fullName>
+                <default>false</default>
+                <label>SaveCart</label>
+            </value>
+            <value>
+                <fullName>Scinable</fullName>
+                <default>false</default>
+                <label>Scinable</label>
+            </value>
+            <value>
+                <fullName>Scrunch</fullName>
+                <default>false</default>
+                <label>Scrunch</label>
+            </value>
+            <value>
+                <fullName>SeedLogix</fullName>
+                <default>false</default>
+                <label>SeedLogix</label>
+            </value>
+            <value>
+                <fullName>segmatiX</fullName>
+                <default>false</default>
+                <label>segmatiX</label>
+            </value>
+            <value>
+                <fullName>Selligent</fullName>
+                <default>false</default>
+                <label>Selligent</label>
+            </value>
+            <value>
+                <fullName>SeoSamba</fullName>
+                <default>false</default>
+                <label>SeoSamba</label>
+            </value>
+            <value>
+                <fullName>Shannon Marketing Platform</fullName>
+                <default>false</default>
+                <label>Shannon Marketing Platform</label>
+            </value>
+            <value>
+                <fullName>SharedVue</fullName>
+                <default>false</default>
+                <label>SharedVue</label>
+            </value>
+            <value>
+                <fullName>SharpSpring</fullName>
+                <default>false</default>
+                <label>SharpSpring</label>
+            </value>
+            <value>
+                <fullName>ShopiMind</fullName>
+                <default>false</default>
+                <label>ShopiMind</label>
+            </value>
+            <value>
+                <fullName>SignPost</fullName>
+                <default>false</default>
+                <label>SignPost</label>
+            </value>
+            <value>
+                <fullName>Simplero</fullName>
+                <default>false</default>
+                <label>Simplero</label>
+            </value>
+            <value>
+                <fullName>SimplyCast</fullName>
+                <default>false</default>
+                <label>SimplyCast</label>
+            </value>
+            <value>
+                <fullName>Smartify</fullName>
+                <default>false</default>
+                <label>Smartify</label>
+            </value>
+            <value>
+                <fullName>SmartMessage Marketing Platform</fullName>
+                <default>false</default>
+                <label>SmartMessage Marketing Platform</label>
+            </value>
+            <value>
+                <fullName>SMSBump</fullName>
+                <default>false</default>
+                <label>SMSBump</label>
+            </value>
+            <value>
+                <fullName>Social.iQ</fullName>
+                <default>false</default>
+                <label>Social.iQ</label>
+            </value>
+            <value>
+                <fullName>Sociallybuzz</fullName>
+                <default>false</default>
+                <label>Sociallybuzz</label>
+            </value>
+            <value>
+                <fullName>SoftVu</fullName>
+                <default>false</default>
+                <label>SoftVu</label>
+            </value>
+            <value>
+                <fullName>Sonician Otto</fullName>
+                <default>false</default>
+                <label>Sonician Otto</label>
+            </value>
+            <value>
+                <fullName>Sparkroom</fullName>
+                <default>false</default>
+                <label>Sparkroom</label>
+            </value>
+            <value>
+                <fullName>Springbot</fullName>
+                <default>false</default>
+                <label>Springbot</label>
+            </value>
+            <value>
+                <fullName>SproutLoud</fullName>
+                <default>false</default>
+                <label>SproutLoud</label>
+            </value>
+            <value>
+                <fullName>Square Marketing</fullName>
+                <default>false</default>
+                <label>Square Marketing</label>
+            </value>
+            <value>
+                <fullName>StoneShot</fullName>
+                <default>false</default>
+                <label>StoneShot</label>
+            </value>
+            <value>
+                <fullName>Stride</fullName>
+                <default>false</default>
+                <label>Stride</label>
+            </value>
+            <value>
+                <fullName>StructuredWeb</fullName>
+                <default>false</default>
+                <label>StructuredWeb</label>
+            </value>
+            <value>
+                <fullName>SundaySky</fullName>
+                <default>false</default>
+                <label>SundaySky</label>
+            </value>
+            <value>
+                <fullName>SureShot</fullName>
+                <default>false</default>
+                <label>SureShot</label>
+            </value>
+            <value>
+                <fullName>Swift Digital</fullName>
+                <default>false</default>
+                <label>Swift Digital</label>
+            </value>
+            <value>
+                <fullName>Swrve</fullName>
+                <default>false</default>
+                <label>Swrve</label>
+            </value>
+            <value>
+                <fullName>Swyft</fullName>
+                <default>false</default>
+                <label>Swyft</label>
+            </value>
+            <value>
+                <fullName>Synergy! LEAD</fullName>
+                <default>false</default>
+                <label>Synergy! LEAD</label>
+            </value>
+            <value>
+                <fullName>Synerise</fullName>
+                <default>false</default>
+                <label>Synerise</label>
+            </value>
+            <value>
+                <fullName>SynTel AutoMail Pro</fullName>
+                <default>false</default>
+                <label>SynTel AutoMail Pro</label>
+            </value>
+            <value>
+                <fullName>Teradata Marketing</fullName>
+                <default>false</default>
+                <label>Teradata Marketing</label>
+            </value>
+            <value>
+                <fullName>To Be Determined</fullName>
+                <default>false</default>
+                <label>To Be Determined</label>
+            </value>
+            <value>
+                <fullName>TopSpot</fullName>
+                <default>false</default>
+                <label>TopSpot</label>
+            </value>
+            <value>
+                <fullName>TOTUS</fullName>
+                <default>false</default>
+                <label>TOTUS</label>
+            </value>
+            <value>
+                <fullName>TreeHouse Interactive Marketing View</fullName>
+                <default>false</default>
+                <label>TreeHouse Interactive Marketing View</label>
+            </value>
+            <value>
+                <fullName>Triggerbee</fullName>
+                <default>false</default>
+                <label>Triggerbee</label>
+            </value>
+            <value>
+                <fullName>Trumpia</fullName>
+                <default>false</default>
+                <label>Trumpia</label>
+            </value>
+            <value>
+                <fullName>UbiQuity</fullName>
+                <default>false</default>
+                <label>UbiQuity</label>
+            </value>
+            <value>
+                <fullName>UserEngage</fullName>
+                <default>false</default>
+                <label>UserEngage</label>
+            </value>
+            <value>
+                <fullName>Vbout</fullName>
+                <default>false</default>
+                <label>Vbout</label>
+            </value>
+            <value>
+                <fullName>Veed.me</fullName>
+                <default>false</default>
+                <label>Veed.me</label>
+            </value>
+            <value>
+                <fullName>Venntive</fullName>
+                <default>false</default>
+                <label>Venntive</label>
+            </value>
+            <value>
+                <fullName>Visible Technologies (Cision)</fullName>
+                <default>false</default>
+                <label>Visible Technologies (Cision)</label>
+            </value>
+            <value>
+                <fullName>Vocast</fullName>
+                <default>false</default>
+                <label>Vocast</label>
+            </value>
+            <value>
+                <fullName>Vuture</fullName>
+                <default>false</default>
+                <label>Vuture</label>
+            </value>
+            <value>
+                <fullName>WebEngage</fullName>
+                <default>false</default>
+                <label>WebEngage</label>
+            </value>
+            <value>
+                <fullName>Webmecanik</fullName>
+                <default>false</default>
+                <label>Webmecanik</label>
+            </value>
+            <value>
+                <fullName>Webmecanik Automation</fullName>
+                <default>false</default>
+                <label>Webmecanik Automation</label>
+            </value>
+            <value>
+                <fullName>Webpower</fullName>
+                <default>false</default>
+                <label>Webpower</label>
+            </value>
+            <value>
+                <fullName>Welcome</fullName>
+                <default>false</default>
+                <label>Welcome</label>
+            </value>
+            <value>
+                <fullName>WideOrbit Media Solutions</fullName>
+                <default>false</default>
+                <label>WideOrbit Media Solutions</label>
+            </value>
+            <value>
+                <fullName>Windsor Circle</fullName>
+                <default>false</default>
+                <label>Windsor Circle</label>
+            </value>
+            <value>
+                <fullName>Womplify</fullName>
+                <default>false</default>
+                <label>Womplify</label>
+            </value>
+            <value>
+                <fullName>Wonder</fullName>
+                <default>false</default>
+                <label>Wonder</label>
+            </value>
+            <value>
+                <fullName>xross data</fullName>
+                <default>false</default>
+                <label>xross data</label>
+            </value>
+            <value>
+                <fullName>Yesmail360i</fullName>
+                <default>false</default>
+                <label>Yesmail360i</label>
+            </value>
+            <value>
+                <fullName>Zendesk Connect</fullName>
+                <default>false</default>
+                <label>Zendesk Connect</label>
+            </value>
+            <value>
+                <fullName>zenreach</fullName>
+                <default>false</default>
+                <label>zenreach</label>
+            </value>
+            <value>
+                <fullName>ZetaHub</fullName>
+                <default>false</default>
+                <label>ZetaHub</label>
+            </value>
+            <value>
+                <fullName>ZetaHub for Small and Medium Sized Businesses</fullName>
+                <default>false</default>
+                <label>ZetaHub for Small and Medium Sized Businesses</label>
+            </value>
+            <value>
+                <fullName>Zift Solutions</fullName>
+                <default>false</default>
+                <label>Zift Solutions</label>
+            </value>
+            <value>
+                <fullName>Zinfi</fullName>
+                <default>false</default>
+                <label>Zinfi</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

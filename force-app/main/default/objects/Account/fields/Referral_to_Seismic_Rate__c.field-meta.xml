@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_to_Seismic_Rate__c</fullName>
+    <description>Identify the agreed referral rate Seismic receives FROM partners.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Identify the agreed referral rate Seismic receives FROM partners.</inlineHelpText>
+    <label>Referral to Seismic Rate</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

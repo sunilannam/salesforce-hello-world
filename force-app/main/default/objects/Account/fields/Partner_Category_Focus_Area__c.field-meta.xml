@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Category_Focus_Area__c</fullName>
+    <description>Used by the Partner Team to identify the specialization of partners.</description>
+    <inlineHelpText>Used by the Partner Team to identify the specialization of partners.</inlineHelpText>
+    <label>Partner Category/Focus Area</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Analytics &amp; Reporting</fullName>
+                <default>false</default>
+                <label>Analytics &amp; Reporting</label>
+            </value>
+            <value>
+                <fullName>Budgeting &amp; Planning</fullName>
+                <default>false</default>
+                <label>Budgeting &amp; Planning</label>
+            </value>
+            <value>
+                <fullName>Cloud</fullName>
+                <default>false</default>
+                <label>Cloud</label>
+            </value>
+            <value>
+                <fullName>Compliance Management</fullName>
+                <default>false</default>
+                <label>Compliance Management</label>
+            </value>
+            <value>
+                <fullName>Content Management</fullName>
+                <default>false</default>
+                <label>Content Management</label>
+            </value>
+            <value>
+                <fullName>CRM</fullName>
+                <default>false</default>
+                <label>CRM</label>
+            </value>
+            <value>
+                <fullName>Customer Intelligence</fullName>
+                <default>false</default>
+                <label>Customer Intelligence</label>
+            </value>
+            <value>
+                <fullName>Financial Services Data</fullName>
+                <default>false</default>
+                <label>Financial Services Data</label>
+            </value>
+            <value>
+                <fullName>Marketing Automation</fullName>
+                <default>false</default>
+                <label>Marketing Automation</label>
+            </value>
+            <value>
+                <fullName>Productivity</fullName>
+                <default>false</default>
+                <label>Productivity</label>
+            </value>
+            <value>
+                <fullName>RFP Response Management</fullName>
+                <default>false</default>
+                <label>RFP Response Management</label>
+            </value>
+            <value>
+                <fullName>Sales Enablement</fullName>
+                <default>false</default>
+                <label>Sales Enablement</label>
+            </value>
+            <value>
+                <fullName>Sales Engagement</fullName>
+                <default>false</default>
+                <label>Sales Engagement</label>
+            </value>
+            <value>
+                <fullName>Sales Readiness</fullName>
+                <default>false</default>
+                <label>Sales Readiness</label>
+            </value>
+            <value>
+                <fullName>Services - Agency</fullName>
+                <default>false</default>
+                <label>Services - Agency</label>
+            </value>
+            <value>
+                <fullName>Services - Analytics/Business Intelligence</fullName>
+                <default>false</default>
+                <label>Services - Analytics/Business Intelligence</label>
+            </value>
+            <value>
+                <fullName>Services - Consulting</fullName>
+                <default>false</default>
+                <label>Services - Consulting</label>
+            </value>
+            <value>
+                <fullName>Services - Content Creation</fullName>
+                <default>false</default>
+                <label>Services - Content Creation</label>
+            </value>
+            <value>
+                <fullName>Services - Data Management</fullName>
+                <default>false</default>
+                <label>Services - Data Management</label>
+            </value>
+            <value>
+                <fullName>Services - Digital Transformation</fullName>
+                <default>false</default>
+                <label>Services - Digital Transformation</label>
+            </value>
+            <value>
+                <fullName>Services - Financial Services</fullName>
+                <default>false</default>
+                <label>Services - Financial Services</label>
+            </value>
+            <value>
+                <fullName>Services - Implementation</fullName>
+                <default>false</default>
+                <label>Services - Implementation</label>
+            </value>
+            <value>
+                <fullName>Services - Integrations</fullName>
+                <default>false</default>
+                <label>Services - Integrations</label>
+            </value>
+            <value>
+                <fullName>Services - Learning Content Building/Implementation</fullName>
+                <default>false</default>
+                <label>Services - Learning Content Building/Implementation</label>
+            </value>
+            <value>
+                <fullName>Services - Managed Services</fullName>
+                <default>false</default>
+                <label>Services - Managed Services</label>
+            </value>
+            <value>
+                <fullName>Services - Microsoft Dynamics</fullName>
+                <default>false</default>
+                <label>Services - Microsoft Dynamics</label>
+            </value>
+            <value>
+                <fullName>Services - Sales Excellence</fullName>
+                <default>false</default>
+                <label>Services - Sales Excellence</label>
+            </value>
+            <value>
+                <fullName>Services - SFDC</fullName>
+                <default>false</default>
+                <label>Services - SFDC</label>
+            </value>
+            <value>
+                <fullName>Services - Strategy</fullName>
+                <default>false</default>
+                <label>Services - Strategy</label>
+            </value>
+            <value>
+                <fullName>Services - Tiled/Interactive Content</fullName>
+                <default>false</default>
+                <label>Services - Tiled/Interactive Content</label>
+            </value>
+            <value>
+                <fullName>Services - Training &amp; Enablement Strategy</fullName>
+                <default>false</default>
+                <label>Services - Training &amp; Enablement Strategy</label>
+            </value>
+            <value>
+                <fullName>Services - Website Design</fullName>
+                <default>false</default>
+                <label>Services - Website Design</label>
+            </value>
+            <value>
+                <fullName>Social Monitoring</fullName>
+                <default>false</default>
+                <label>Social Monitoring</label>
+            </value>
+            <value>
+                <fullName>Social Selling</fullName>
+                <default>false</default>
+                <label>Social Selling</label>
+            </value>
+            <value>
+                <fullName>Workflow Management</fullName>
+                <default>false</default>
+                <label>Workflow Management</label>
+            </value>
+            <value>
+                <fullName>Services - Lessonly Content Building/Implementation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Services - Lessonly Content Building/Implementation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

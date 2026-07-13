@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Churn_Reasons__c</fullName>
+    <inlineHelpText>Value is set within Gainsight.</inlineHelpText>
+    <label>Churn Reasons</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product - development, stability, or add-on</fullName>
+                <default>false</default>
+                <label>Product - development, stability, or add-on</label>
+            </value>
+            <value>
+                <fullName>Adoption - Readiness</fullName>
+                <default>false</default>
+                <label>Adoption - Readiness</label>
+            </value>
+            <value>
+                <fullName>Adoption - Value (roll out H2)</fullName>
+                <default>false</default>
+                <label>Adoption - Value (roll out H2)</label>
+            </value>
+            <value>
+                <fullName>Competition- pricing or innovation</fullName>
+                <default>false</default>
+                <label>Competition- pricing or innovation</label>
+            </value>
+            <value>
+                <fullName>Non-ICP</fullName>
+                <default>false</default>
+                <label>Non-ICP</label>
+            </value>
+            <value>
+                <fullName>Market Driven - Economic Impact</fullName>
+                <default>false</default>
+                <label>Market Driven - Economic Impact</label>
+            </value>
+            <value>
+                <fullName>Market Driven - M&amp;A or Divestiture</fullName>
+                <default>false</default>
+                <label>Market Driven - M&amp;A or Divestiture</label>
+            </value>
+            <value>
+                <fullName>Relationship - loss, risk, or balance of trade</fullName>
+                <default>false</default>
+                <label>Relationship - loss, risk, or balance of trade</label>
+            </value>
+            <value>
+                <fullName>Experience - launch or post-launch</fullName>
+                <default>false</default>
+                <label>Experience - launch or post-launch</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

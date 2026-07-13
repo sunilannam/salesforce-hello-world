@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Platinum_Subscriptions__c</fullName>
+    <description>This value is maintained by DLRS.  It rolls up for any Platinum Support subscription that is active or that has a start date in the future.</description>
+    <externalId>false</externalId>
+    <label>Active_Platinum_Subscriptions</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

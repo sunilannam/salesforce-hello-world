@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Success_Segment__c</fullName>
+    <description>This field is used in Gainsight scoring rules.  Any changes to this field, including ADDING OR REMOVING picklist values, should be evaluated against those rules to ensure the added/removed values are properly accounted for.  
+
+Req6255:  Separate customers by segment/tier within Salesforce and Gainsight; these tiers do not always align to Sales team.</description>
+    <inlineHelpText>Used with Gainsight Scoring rules.</inlineHelpText>
+    <label>Customer Success Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Named Accounts</fullName>
+                <default>false</default>
+                <label>Named Accounts</label>
+            </value>
+            <value>
+                <fullName>Core Global</fullName>
+                <default>false</default>
+                <label>Core Global</label>
+            </value>
+            <value>
+                <fullName>Core Enterprise</fullName>
+                <default>false</default>
+                <label>Core Enterprise</label>
+            </value>
+            <value>
+                <fullName>Core Mid-Market</fullName>
+                <default>false</default>
+                <label>Core Mid-Market</label>
+            </value>
+            <value>
+                <fullName>Core SMB</fullName>
+                <default>false</default>
+                <label>Core SMB</label>
+            </value>
+            <value>
+                <fullName>FS Global</fullName>
+                <default>false</default>
+                <label>FS Global</label>
+            </value>
+            <value>
+                <fullName>FS Enterprise</fullName>
+                <default>false</default>
+                <label>FS Enterprise</label>
+            </value>
+            <value>
+                <fullName>FS Mid-Market</fullName>
+                <default>false</default>
+                <label>FS Mid-Market</label>
+            </value>
+            <value>
+                <fullName>EMEA Core Global</fullName>
+                <default>false</default>
+                <label>EMEA Core Global</label>
+            </value>
+            <value>
+                <fullName>EMEA Core Enterprise</fullName>
+                <default>false</default>
+                <label>EMEA Core Enterprise</label>
+            </value>
+            <value>
+                <fullName>EMEA Core Mid-Market</fullName>
+                <default>false</default>
+                <label>EMEA Core Mid-Market</label>
+            </value>
+            <value>
+                <fullName>EMEA FS Global</fullName>
+                <default>false</default>
+                <label>EMEA FS Global</label>
+            </value>
+            <value>
+                <fullName>EMEA FS Enterprise</fullName>
+                <default>false</default>
+                <label>EMEA FS Enterprise</label>
+            </value>
+            <value>
+                <fullName>EMEA FS Mid-Market</fullName>
+                <default>false</default>
+                <label>EMEA FS Mid-Market</label>
+            </value>
+            <value>
+                <fullName>APAC Mid-Market</fullName>
+                <default>false</default>
+                <label>APAC Mid-Market</label>
+            </value>
+            <value>
+                <fullName>APAC FS Global</fullName>
+                <default>false</default>
+                <label>APAC FS Global</label>
+            </value>
+            <value>
+                <fullName>APAC FS Enterprise</fullName>
+                <default>false</default>
+                <label>APAC FS Enterprise</label>
+            </value>
+            <value>
+                <fullName>APAC Core Mid-Market</fullName>
+                <default>false</default>
+                <label>APAC Core Mid-Market</label>
+            </value>
+            <value>
+                <fullName>APAC Core Enterprise</fullName>
+                <default>false</default>
+                <label>APAC Core Enterprise</label>
+            </value>
+            <value>
+                <fullName>APAC Core Global</fullName>
+                <default>false</default>
+                <label>APAC Core Global</label>
+            </value>
+            <value>
+                <fullName>DIGITAL</fullName>
+                <default>false</default>
+                <label>DIGITAL</label>
+            </value>
+            <value>
+                <fullName>DIGITAL + SPECIALTY LS</fullName>
+                <default>false</default>
+                <label>DIGITAL + SPECIALTY LS</label>
+            </value>
+            <value>
+                <fullName>ENT</fullName>
+                <default>false</default>
+                <label>ENT</label>
+            </value>
+            <value>
+                <fullName>FS TEAM I</fullName>
+                <default>false</default>
+                <label>FS TEAM I</label>
+            </value>
+            <value>
+                <fullName>FS TEAM II</fullName>
+                <default>false</default>
+                <label>FS TEAM II</label>
+            </value>
+            <value>
+                <fullName>GLOBAL</fullName>
+                <default>false</default>
+                <label>GLOBAL</label>
+            </value>
+            <value>
+                <fullName>INTL</fullName>
+                <default>false</default>
+                <label>INTL</label>
+            </value>
+            <value>
+                <fullName>MM</fullName>
+                <default>false</default>
+                <label>MM</label>
+            </value>
+            <value>
+                <fullName>SPECIALTY - LEARNING</fullName>
+                <default>false</default>
+                <label>SPECIALTY - LEARNING</label>
+            </value>
+            <value>
+                <fullName>SPECIALTY - LEARNING/SOCIAL</fullName>
+                <default>false</default>
+                <label>SPECIALTY - LEARNING/SOCIAL</label>
+            </value>
+            <value>
+                <fullName>SPECIALTY - PERCOLATE</fullName>
+                <default>false</default>
+                <label>SPECIALTY - PERCOLATE</label>
+            </value>
+            <value>
+                <fullName>SPECIALTY - SOCIAL</fullName>
+                <default>false</default>
+                <label>SPECIALTY - SOCIAL</label>
+            </value>
+            <value>
+                <fullName>Core Commercial</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Core Commercial</label>
+            </value>
+            <value>
+                <fullName>Core Foundational</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Core Foundational</label>
+            </value>
+            <value>
+                <fullName>Core Premier</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Core Premier</label>
+            </value>
+            <value>
+                <fullName>Core Strategic Accounts</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Core Strategic Accounts</label>
+            </value>
+            <value>
+                <fullName>DIGITIAL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DIGITIAL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

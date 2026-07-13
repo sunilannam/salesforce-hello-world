@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Readiness_Tool__c</fullName>
+    <label>Sales Readiness Tool</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>To Be Determined</fullName>
+                <default>false</default>
+                <label>To Be Determined</label>
+            </value>
+            <value>
+                <fullName>Absorb</fullName>
+                <default>false</default>
+                <label>Absorb</label>
+            </value>
+            <value>
+                <fullName>Adobe eLearning</fullName>
+                <default>false</default>
+                <label>Adobe eLearning</label>
+            </value>
+            <value>
+                <fullName>Allego</fullName>
+                <default>false</default>
+                <label>Allego</label>
+            </value>
+            <value>
+                <fullName>Axonify</fullName>
+                <default>false</default>
+                <label>Axonify</label>
+            </value>
+            <value>
+                <fullName>Blackboard Learn</fullName>
+                <default>false</default>
+                <label>Blackboard Learn</label>
+            </value>
+            <value>
+                <fullName>Brainshark</fullName>
+                <default>false</default>
+                <label>Brainshark</label>
+            </value>
+            <value>
+                <fullName>Bridge</fullName>
+                <default>false</default>
+                <label>Bridge</label>
+            </value>
+            <value>
+                <fullName>Cornerstone</fullName>
+                <default>false</default>
+                <label>Cornerstone</label>
+            </value>
+            <value>
+                <fullName>Docebo</fullName>
+                <default>false</default>
+                <label>Docebo</label>
+            </value>
+            <value>
+                <fullName>Highspot</fullName>
+                <default>false</default>
+                <label>Highspot</label>
+            </value>
+            <value>
+                <fullName>InsideBoard</fullName>
+                <default>false</default>
+                <label>InsideBoard</label>
+            </value>
+            <value>
+                <fullName>Lessonly</fullName>
+                <default>false</default>
+                <label>Lessonly</label>
+            </value>
+            <value>
+                <fullName>LevelJump</fullName>
+                <default>false</default>
+                <label>LevelJump</label>
+            </value>
+            <value>
+                <fullName>Linkedin Learning</fullName>
+                <default>false</default>
+                <label>Linkedin Learning</label>
+            </value>
+            <value>
+                <fullName>Litmos</fullName>
+                <default>false</default>
+                <label>Litmos</label>
+            </value>
+            <value>
+                <fullName>Mindflash</fullName>
+                <default>false</default>
+                <label>Mindflash</label>
+            </value>
+            <value>
+                <fullName>MindTickle</fullName>
+                <default>false</default>
+                <label>MindTickle</label>
+            </value>
+            <value>
+                <fullName>Moodle</fullName>
+                <default>false</default>
+                <label>Moodle</label>
+            </value>
+            <value>
+                <fullName>myTrailhead</fullName>
+                <default>false</default>
+                <label>myTrailhead</label>
+            </value>
+            <value>
+                <fullName>Paycom LMS</fullName>
+                <default>false</default>
+                <label>Paycom LMS</label>
+            </value>
+            <value>
+                <fullName>Saba LMS</fullName>
+                <default>false</default>
+                <label>Saba LMS</label>
+            </value>
+            <value>
+                <fullName>Saleshood</fullName>
+                <default>false</default>
+                <label>Saleshood</label>
+            </value>
+            <value>
+                <fullName>SchoolKeep</fullName>
+                <default>false</default>
+                <label>SchoolKeep</label>
+            </value>
+            <value>
+                <fullName>Showpad</fullName>
+                <default>false</default>
+                <label>Showpad</label>
+            </value>
+            <value>
+                <fullName>Skilljar</fullName>
+                <default>false</default>
+                <label>Skilljar</label>
+            </value>
+            <value>
+                <fullName>Skillsoft (content)</fullName>
+                <default>false</default>
+                <label>Skillsoft (content)</label>
+            </value>
+            <value>
+                <fullName>Totara</fullName>
+                <default>false</default>
+                <label>Totara</label>
+            </value>
+            <value>
+                <fullName>Veelo</fullName>
+                <default>false</default>
+                <label>Veelo</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Workamp</fullName>
+                <default>false</default>
+                <label>Workamp</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

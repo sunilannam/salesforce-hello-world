@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Learning_Customer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Set by a flow when a related Opportunity is &apos;Booked&apos; and the Primary quote contains a Learning Product.</description>
+    <inlineHelpText>Set by a flow when a related Opportunity is &apos;Booked&apos; and the Primary quote contains a Learning Product.</inlineHelpText>
+    <label>Learning Customer</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

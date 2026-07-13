@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Integrations__c</fullName>
+    <label>Customer Integrations - MAP</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Marketo</fullName>
+                <default>false</default>
+                <label>Marketo</label>
+            </value>
+            <value>
+                <fullName>HubSpot</fullName>
+                <default>false</default>
+                <label>HubSpot</label>
+            </value>
+            <value>
+                <fullName>Oracle Marketing Cloud</fullName>
+                <default>false</default>
+                <label>Oracle Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>Adobe Marketing Cloud</fullName>
+                <default>false</default>
+                <label>Adobe Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>Salesforce Marketing Cloud</fullName>
+                <default>false</default>
+                <label>Salesforce Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>IBM Marketing Cloud</fullName>
+                <default>false</default>
+                <label>IBM Marketing Cloud</label>
+            </value>
+            <value>
+                <fullName>Epsilon</fullName>
+                <default>false</default>
+                <label>Epsilon</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

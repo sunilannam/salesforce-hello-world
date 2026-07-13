@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Drift_NA_Core_Comm_No_open_Opps</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Account_Owner_Role__c</columns>
+    <columns>CurrentTerritory__c</columns>
+    <columns>Territory_Segment__c</columns>
+    <columns>Number_of_Open_Opportunities__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Owner_Role__c</field>
+        <operation>contains</operation>
+        <value>NA Core Commercial Outside</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Prospect,Previous Customer</value>
+    </filters>
+    <filters>
+        <field>Number_of_Open_Opportunities__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Drift - NA-Core-Comm-No open Opps</label>
+</ListView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accts_w_o_Zoom_or_Duns</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>tackle__Microsoft_Marketplace_Score__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>DOZISF__ZoomInfo_Id__c</field>
+        <operation>contains</operation>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Prospect</value>
+    </filters>
+    <label>Accts w/o Zoom or Duns</label>
+</ListView>

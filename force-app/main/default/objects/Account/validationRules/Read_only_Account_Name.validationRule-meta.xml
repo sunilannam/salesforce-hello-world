@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Read_only_Account_Name</fullName>
+    <active>true</active>
+    <description>Updated 2/21/2023 for SFTM-5230.</description>
+    <errorConditionFormula>AND(
+ISCHANGED( Name),
+CONTAINS(Account_Record_Type_Name__c, &quot;Customer&quot;),
+$Profile.Name &lt;&gt; &apos;Sales Operations&apos;,
+$Profile.Name &lt;&gt; &apos;System Administrator&apos;,
+NOT($Permission.Validation_Rule_Account_Name_bypass)
+)</errorConditionFormula>
+    <errorMessage>You can&apos;t change Account Name</errorMessage>
+</ValidationRule>

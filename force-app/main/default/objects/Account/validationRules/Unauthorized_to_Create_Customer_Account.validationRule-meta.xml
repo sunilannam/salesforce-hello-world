@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unauthorized_to_Create_Customer_Account</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISNEW(), 
+    NOT($Permission.Validation_rule_Account_Bypass), 
+    OR(RecordType.Name=&apos;Customer&apos;,
+       RecordType.Name=&apos;Parent&apos;
+       )
+    )</errorConditionFormula>
+    <errorMessage>You cannot create Account records of type Customer or Parent</errorMessage>
+</ValidationRule>

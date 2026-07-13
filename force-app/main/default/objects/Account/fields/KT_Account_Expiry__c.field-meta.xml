@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KT_Account_Expiry__c</fullName>
+    <description>supports KT License Management; the date on which the account expires (at midnight on that day); also the same as the Next Renewal Date</description>
+    <label>KT Account Expiry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

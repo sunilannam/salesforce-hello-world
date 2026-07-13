@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Signed_Schedule_Type__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>User by the Partner Team to track all agreements types signed by partner.</description>
+    <inlineHelpText>User by the Partner Team to track all agreements types signed by partner.</inlineHelpText>
+    <label>Signed Schedule Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>API License Agreement</fullName>
+                <default>false</default>
+                <label>API License Agreement</label>
+            </value>
+            <value>
+                <fullName>Custom Partner Agreement</fullName>
+                <default>false</default>
+                <label>Custom Partner Agreement</label>
+            </value>
+            <value>
+                <fullName>Demo Agreement</fullName>
+                <default>false</default>
+                <label>Demo Agreement</label>
+            </value>
+            <value>
+                <fullName>Master Alliance Agreement</fullName>
+                <default>false</default>
+                <label>Master Alliance Agreement</label>
+            </value>
+            <value>
+                <fullName>Mutual Non-Disclosure Agreement</fullName>
+                <default>false</default>
+                <label>Mutual Non-Disclosure Agreement</label>
+            </value>
+            <value>
+                <fullName>Partner Rewards Program</fullName>
+                <default>false</default>
+                <label>Partner Rewards Program</label>
+            </value>
+            <value>
+                <fullName>Payment Forms</fullName>
+                <default>false</default>
+                <label>Payment Forms</label>
+            </value>
+            <value>
+                <fullName>Referral Agreement</fullName>
+                <default>false</default>
+                <label>Schedule B - Seismic Referral to Partner</label>
+            </value>
+            <value>
+                <fullName>Schedule G - Partner Referral to Seismic</fullName>
+                <default>false</default>
+                <label>Schedule G - Partner Referral to Seismic</label>
+            </value>
+            <value>
+                <fullName>Reseller Agreement</fullName>
+                <default>false</default>
+                <label>Reseller Agreement</label>
+            </value>
+            <value>
+                <fullName>Sub-Contracting Agreement</fullName>
+                <default>false</default>
+                <label>Sub-Contracting Agreement</label>
+            </value>
+            <value>
+                <fullName>Technology Alliances Agreement</fullName>
+                <default>false</default>
+                <label>Technology Alliances Agreement</label>
+            </value>
+            <value>
+                <fullName>Training &amp; Professional Services Agreement</fullName>
+                <default>false</default>
+                <label>Training &amp; Professional Services Agreement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>missing_HQ</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>HQ_City__c</columns>
+    <columns>HQ_Country__c</columns>
+    <columns>HQ_Postal_Code__c</columns>
+    <columns>HQ_State__c</columns>
+    <columns>HQ_Street__c</columns>
+    <columns>DOZISF__ZoomInfo_Id__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Owner_Role__c</field>
+        <operation>notEqual</operation>
+        <value>zz</value>
+    </filters>
+    <filters>
+        <field>HQ_Country__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>missing HQ</label>
+</ListView>

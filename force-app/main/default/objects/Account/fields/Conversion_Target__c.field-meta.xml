@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conversion_Target__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>this account is targeted by the Conversion Team to move the customer from SAVO to Seismic</description>
+    <label>Conversion Target</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Percolate_in_Production__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Indicator that Percolate is in Production for the Customer Org.</inlineHelpText>
+    <label>Percolate in Production</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

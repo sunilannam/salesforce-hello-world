@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Master_Agreement_Signature_Date__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>Used by the Partner team to identify the date of signed partner agreement applicable to the MAA, Referral Agreement (which supersedes the MAA), API Agreement, and Custom Partner Agreements.</description>
+    <inlineHelpText>Used by the Partner team to identify the date of signed partner agreement applicable to the MAA, Referral Agreement (which supersedes the MAA), API Agreement, and Custom Partner Agreements.</inlineHelpText>
+    <label>Partner Agreement Signature Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

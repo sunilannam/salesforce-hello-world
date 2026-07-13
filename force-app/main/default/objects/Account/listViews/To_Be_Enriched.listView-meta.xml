@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>To_Be_Enriched</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>ACCOUNT.INDUSTRY</columns>
+    <columns>CaseSafeID__c</columns>
+    <columns>ID__c</columns>
+    <columns>DOZISF__ZoomInfo_Id__c</columns>
+    <columns>Contact_Target_Enrichment_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contacts_To_Be_Enriched__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>To Be Enriched</label>
+</ListView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZoomInfo_Accounts_to_Sync</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Geo__c</columns>
+    <columns>DOZISF__ZoomInfo_Id__c</columns>
+    <columns>DOZISF__ZoomInfo_First_Updated__c</columns>
+    <columns>DOZISF__ZoomInfo_Last_Updated__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Customer,Prospect,Previous Customer</value>
+    </filters>
+    <label>ZoomInfo Accounts to Sync</label>
+    <sharedTo>
+        <role>INTEGRATION</role>
+    </sharedTo>
+</ListView>

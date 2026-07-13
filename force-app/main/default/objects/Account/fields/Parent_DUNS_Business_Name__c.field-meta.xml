@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_DUNS_Business_Name__c</fullName>
+    <description>Populated from related D &amp; B Company related object</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Populated from related D &amp; B Company related object</inlineHelpText>
+    <label>Parent DUNS Business Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

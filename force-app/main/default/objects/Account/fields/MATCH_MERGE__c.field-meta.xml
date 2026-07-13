@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MATCH_MERGE__c</fullName>
+    <description>For use only by RingLead Merge to identify records that have been either approved for Merge or set as DO NOT MERGE by Murugan.  DO NOT MERGE means that this account should not be merged unless it is the Master record. Yes/No values are subject to being cleared out after a dedupe process has been run.</description>
+    <inlineHelpText>Yes - used for filtering accounts Into the List - approved by Murugan for merge.
+Do Not Merge as Dup - means that it is NOT a candidate for merge, unless it is the MASTER record.
+NO - use for filtering out accounts</inlineHelpText>
+    <label>MATCH_MERGE</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>No Merge as Dup</fullName>
+                <default>false</default>
+                <label>No Merge as Dup</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

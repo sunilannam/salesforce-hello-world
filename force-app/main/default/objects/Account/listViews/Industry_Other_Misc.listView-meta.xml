@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_Other_Misc</fullName>
+    <columns>CaseSafeID__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>pw_ccpro__BillingCounty__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ACCOUNT.INDUSTRY</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>DOZISF__ZoomInfo_Id__c</columns>
+    <columns>Zoominfo_Company_Name__c</columns>
+    <columns>HQ_Country__c</columns>
+    <columns>HQ_State__c</columns>
+    <columns>Industry_for_ZI_Complete__c</columns>
+    <columns>Sub_Industry_for_ZoomInfo__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Prospect,Previous Customer</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.INDUSTRY</field>
+        <operation>equals</operation>
+        <value>Other - Misc</value>
+    </filters>
+    <label>Industry - Other - Misc</label>
+</ListView>

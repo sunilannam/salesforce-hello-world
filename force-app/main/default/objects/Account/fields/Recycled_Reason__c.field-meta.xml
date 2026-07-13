@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recycled_Reason__c</fullName>
+    <label>Recycled Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Account_Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Competition in Place</fullName>
+                <default>false</default>
+                <label>Competition in Place</label>
+            </value>
+            <value>
+                <fullName>No Response</fullName>
+                <default>false</default>
+                <label>No Response</label>
+            </value>
+            <value>
+                <fullName>Not Ideal Product Fit</fullName>
+                <default>false</default>
+                <label>Not Ideal Product Fit</label>
+            </value>
+            <value>
+                <fullName>Not Interested</fullName>
+                <default>false</default>
+                <label>Not Interested</label>
+            </value>
+            <value>
+                <fullName>Bad Timing</fullName>
+                <default>false</default>
+                <label>Bad Timing</label>
+            </value>
+            <value>
+                <fullName>Not Current ICP</fullName>
+                <default>false</default>
+                <label>Not Current ICP</label>
+            </value>
+            <value>
+                <fullName>Cancel Opp Other</fullName>
+                <default>false</default>
+                <label>Cancel Opp Other</label>
+            </value>
+            <value>
+                <fullName>Closed Lost Opp</fullName>
+                <default>false</default>
+                <label>Closed Lost Opp</label>
+            </value>
+            <value>
+                <fullName>Lost Opp Cost/Value</fullName>
+                <default>false</default>
+                <label>Lost Opp Cost/Value</label>
+            </value>
+            <value>
+                <fullName>Lost Opp Feature Gap</fullName>
+                <default>false</default>
+                <label>Lost Opp Feature Gap</label>
+            </value>
+            <value>
+                <fullName>Lost Opp Other</fullName>
+                <default>false</default>
+                <label>Lost Opp Other</label>
+            </value>
+            <value>
+                <fullName>No Budget</fullName>
+                <default>false</default>
+                <label>No Budget</label>
+            </value>
+            <value>
+                <fullName>Stalled</fullName>
+                <default>false</default>
+                <label>Stalled</label>
+            </value>
+            <value>
+                <fullName>Organization Changes</fullName>
+                <default>false</default>
+                <label>Organization Changes</label>
+            </value>
+            <value>
+                <fullName>No Influence or Authority</fullName>
+                <default>false</default>
+                <label>No Influence or Authority</label>
+            </value>
+            <value>
+                <fullName>Not Buying Committee Persona</fullName>
+                <default>false</default>
+                <label>Not Buying Committee Persona</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Recycle</controllingFieldValue>
+            <controllingFieldValue>Recycled</controllingFieldValue>
+            <valueName>Competition in Place</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recycle</controllingFieldValue>
+            <controllingFieldValue>Recycled</controllingFieldValue>
+            <valueName>No Response</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recycle</controllingFieldValue>
+            <controllingFieldValue>Recycled</controllingFieldValue>
+            <valueName>Not Ideal Product Fit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recycle</controllingFieldValue>
+            <controllingFieldValue>Recycled</controllingFieldValue>
+            <valueName>Not Interested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recycle</controllingFieldValue>
+            <controllingFieldValue>Recycled</controllingFieldValue>
+            <valueName>Bad Timing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recycle</controllingFieldValue>
+            <controllingFieldValue>Recycled</controllingFieldValue>
+            <valueName>Not Current ICP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recycle</controllingFieldValue>
+            <valueName>Closed Lost Opp</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

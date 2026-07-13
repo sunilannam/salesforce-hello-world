@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bizible_Fields_Changed__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>A flag indicating that the Bizible fields on the Account record (BillingCountry, BillingState, Industry, Number_of_Sellers, Territory_Segment_Override__c, Verticale__c).  This will notify the BizibleFieldsBatch process that the account and its contacts need to be updated.  Once updated, the BizibleFieldsBatch will reset the flag to unchecked.</description>
+    <label>Bizible Fields Changed</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

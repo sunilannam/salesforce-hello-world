@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SSA_Version__c</fullName>
+    <description>There are multiple SSA Versions. (Versioning can be found within the URL of the SSA Link)
+
+The goal of this is to assure customers will continue to receive this same SSA link version every time they amend or renew in the future. 
+
+1. SSA 2019 - Customers who signed the SSA 2019 version. 
+2. 2022 v1 - SSA - Customers who signed the SSA 2022 version.
+3. 2022 v2 - SSA  - Customers who signed the SSA 2022 v2 version.
+4. SSA 2023 - v1 - Customers who signed the SSA 2023 version.
+
+The Current Version of the SSA Link is provided when the SSA Value is Blank. When SSA Version is Blank it means this customer will be receiving the latest Version. 
+
+When it it time for a new Version of the SSA Link. All Customers with a BLANK SSA Version will need to be stamped with the last SSA version that they signed against. The Quote Terms will need to be updated to assure that the correct link is passed down to these customers at Renewal or Amendments.</description>
+    <inlineHelpText>Identifies which SSA Version(link) this customer has signed. If BLANK then this account will receive the latest SSA Version Link when signing.</inlineHelpText>
+    <label>SSA Version</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2019-SSA</fullName>
+                <default>false</default>
+                <label>2019-SSA</label>
+            </value>
+            <value>
+                <fullName>2022 v1 - SSA</fullName>
+                <default>false</default>
+                <label>2022 v1 - SSA</label>
+            </value>
+            <value>
+                <fullName>2022 v2 - SSA</fullName>
+                <default>false</default>
+                <label>2022 v2 - SSA</label>
+            </value>
+            <value>
+                <fullName>2023 v1 - SSA</fullName>
+                <default>false</default>
+                <label>2023 v1 - SSA</label>
+            </value>
+            <value>
+                <fullName>2023 v2 - SSA</fullName>
+                <default>false</default>
+                <label>2023 v2 - SSA</label>
+            </value>
+            <value>
+                <fullName>2024 v1 - SSA</fullName>
+                <default>false</default>
+                <label>2024 v1 - SSA</label>
+            </value>
+            <value>
+                <fullName>2024 v1 - SSA - EMEA</fullName>
+                <default>false</default>
+                <label>2024 v1 - SSA - EMEA</label>
+            </value>
+            <value>
+                <fullName>2022-SSA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2022-SSA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ZoomInfo_Noncustomers_w_o_Zoom_or_DUNS</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>DNBoptimizer__DNB_D_U_N_S_Number__c</columns>
+    <columns>DOZISF__ZoomInfo_Id__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>DNBoptimizer__DNB_D_U_N_S_Number__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>DOZISF__ZoomInfo_Id__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Account.Competitor,Account.Customer,Account.Partner</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_COUNTRY</field>
+        <operation>equals</operation>
+        <value>United States</value>
+    </filters>
+    <label>ZI - Noncustomers w/o Zoom or DUNS (US)</label>
+</ListView>

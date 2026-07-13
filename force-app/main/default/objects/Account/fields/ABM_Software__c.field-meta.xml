@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ABM_Software__c</fullName>
+    <label>ABM Software</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adapt.io</fullName>
+                <default>false</default>
+                <label>Adapt.io</label>
+            </value>
+            <value>
+                <fullName>Azalead</fullName>
+                <default>false</default>
+                <label>Azalead</label>
+            </value>
+            <value>
+                <fullName>Demandbase</fullName>
+                <default>false</default>
+                <label>Demandbase</label>
+            </value>
+            <value>
+                <fullName>DiscoverOrg</fullName>
+                <default>false</default>
+                <label>DiscoverOrg</label>
+            </value>
+            <value>
+                <fullName>El Toro</fullName>
+                <default>false</default>
+                <label>El Toro</label>
+            </value>
+            <value>
+                <fullName>Engagio</fullName>
+                <default>false</default>
+                <label>Engagio</label>
+            </value>
+            <value>
+                <fullName>Folloze</fullName>
+                <default>false</default>
+                <label>Folloze</label>
+            </value>
+            <value>
+                <fullName>Infer</fullName>
+                <default>false</default>
+                <label>Infer</label>
+            </value>
+            <value>
+                <fullName>Jabmo</fullName>
+                <default>false</default>
+                <label>Jabmo</label>
+            </value>
+            <value>
+                <fullName>Kwanzoo</fullName>
+                <default>false</default>
+                <label>Kwanzoo</label>
+            </value>
+            <value>
+                <fullName>Leadiro</fullName>
+                <default>false</default>
+                <label>Leadiro</label>
+            </value>
+            <value>
+                <fullName>LeanData</fullName>
+                <default>false</default>
+                <label>LeanData</label>
+            </value>
+            <value>
+                <fullName>Madison Logic</fullName>
+                <default>false</default>
+                <label>Madison Logic</label>
+            </value>
+            <value>
+                <fullName>Madison Logic Platform</fullName>
+                <default>false</default>
+                <label>Madison Logic Platform</label>
+            </value>
+            <value>
+                <fullName>Pluris Offer Management</fullName>
+                <default>false</default>
+                <label>Pluris Offer Management</label>
+            </value>
+            <value>
+                <fullName>Salesforce Social.com</fullName>
+                <default>false</default>
+                <label>Salesforce Social.com</label>
+            </value>
+            <value>
+                <fullName>SAS Marketing Optimization</fullName>
+                <default>false</default>
+                <label>SAS Marketing Optimization</label>
+            </value>
+            <value>
+                <fullName>SIX &amp; FLOW</fullName>
+                <default>false</default>
+                <label>SIX &amp; FLOW</label>
+            </value>
+            <value>
+                <fullName>Terminus</fullName>
+                <default>false</default>
+                <label>Terminus</label>
+            </value>
+            <value>
+                <fullName>Triblio</fullName>
+                <default>false</default>
+                <label>Triblio</label>
+            </value>
+            <value>
+                <fullName>Vendemore</fullName>
+                <default>false</default>
+                <label>Vendemore</label>
+            </value>
+            <value>
+                <fullName>YesPath</fullName>
+                <default>false</default>
+                <label>YesPath</label>
+            </value>
+            <value>
+                <fullName>ZenIQ</fullName>
+                <default>false</default>
+                <label>ZenIQ</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

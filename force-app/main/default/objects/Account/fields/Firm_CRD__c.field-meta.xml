@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Firm_CRD__c</fullName>
+    <description>Central Registration Depository (CRD) number is FINRA&apos;s unique identifier for registered firms. FINRA administers the CRD number series but it is utilized by all regulators including Securities and Exchange Commission (SEC) and all state securities commissions. The number is unique and never recycled.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Central Registration Depository (CRD) number is FINRA&apos;s unique identifier for registered firms.</inlineHelpText>
+    <label>Firm CRD</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

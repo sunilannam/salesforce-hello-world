@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FY24_ENT_Named_Account_Retargeting</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Territory_Segment_Text__c</columns>
+    <columns>CurrentTerritorySegment__c</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>Geo__c</columns>
+    <columns>Geo_Text__c</columns>
+    <columns>Named_Account__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>contains</operation>
+        <value>Actalent,AdvancedMD,Allegis Group,Autodesk,Broadcom,Canon Business,ESPN Int&apos;l.,ExamOne,Guaranteed Rate,Harman International,Heartland Payment,Iheartmedia,Jones Lang LaSalle,Keysight Technologies</value>
+    </filters>
+    <label>FY24 ENT Named Account - Retargeting</label>
+</ListView>

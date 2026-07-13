@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KnowledgeManagement__c</fullName>
+    <label>Knowledge Management</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Guru</fullName>
+                <default>false</default>
+                <label>Guru</label>
+            </value>
+            <value>
+                <fullName>Intradiem</fullName>
+                <default>false</default>
+                <label>Intradiem</label>
+            </value>
+            <value>
+                <fullName>MaestroQA</fullName>
+                <default>false</default>
+                <label>MaestroQA</label>
+            </value>
+            <value>
+                <fullName>Observe.ai</fullName>
+                <default>false</default>
+                <label>Observe.ai</label>
+            </value>
+            <value>
+                <fullName>20-20 Technologies</fullName>
+                <default>false</default>
+                <label>20-20 Technologies</label>
+            </value>
+            <value>
+                <fullName>AMTELCO</fullName>
+                <default>false</default>
+                <label>AMTELCO</label>
+            </value>
+            <value>
+                <fullName>Amity</fullName>
+                <default>false</default>
+                <label>Amity</label>
+            </value>
+            <value>
+                <fullName>Ansira</fullName>
+                <default>false</default>
+                <label>Ansira</label>
+            </value>
+            <value>
+                <fullName>AnswerConnect</fullName>
+                <default>false</default>
+                <label>AnswerConnect</label>
+            </value>
+            <value>
+                <fullName>Aspect Software, Inc.</fullName>
+                <default>false</default>
+                <label>Aspect Software, Inc.</label>
+            </value>
+            <value>
+                <fullName>Atlassian</fullName>
+                <default>false</default>
+                <label>Atlassian</label>
+            </value>
+            <value>
+                <fullName>Baltic Hospitality and Retail Systems</fullName>
+                <default>false</default>
+                <label>Baltic Hospitality and Retail Systems</label>
+            </value>
+            <value>
+                <fullName>Bomgar Corporation</fullName>
+                <default>false</default>
+                <label>Bomgar Corporation</label>
+            </value>
+            <value>
+                <fullName>CIS Technology</fullName>
+                <default>false</default>
+                <label>CIS Technology</label>
+            </value>
+            <value>
+                <fullName>CM.com</fullName>
+                <default>false</default>
+                <label>CM.com</label>
+            </value>
+            <value>
+                <fullName>CUSTIFY SRL</fullName>
+                <default>false</default>
+                <label>CUSTIFY SRL</label>
+            </value>
+            <value>
+                <fullName>Calix</fullName>
+                <default>false</default>
+                <label>Calix</label>
+            </value>
+            <value>
+                <fullName>Cayzu</fullName>
+                <default>false</default>
+                <label>Cayzu</label>
+            </value>
+            <value>
+                <fullName>Centro Rocks</fullName>
+                <default>false</default>
+                <label>Centro Rocks</label>
+            </value>
+            <value>
+                <fullName>ChurnZero, Inc</fullName>
+                <default>false</default>
+                <label>ChurnZero, Inc</label>
+            </value>
+            <value>
+                <fullName>Cisco Systems, Inc</fullName>
+                <default>false</default>
+                <label>Cisco Systems, Inc</label>
+            </value>
+            <value>
+                <fullName>ClientSuccess</fullName>
+                <default>false</default>
+                <label>ClientSuccess</label>
+            </value>
+            <value>
+                <fullName>ConnectWise Inc</fullName>
+                <default>false</default>
+                <label>ConnectWise Inc</label>
+            </value>
+            <value>
+                <fullName>Conversocial, Inc.</fullName>
+                <default>false</default>
+                <label>Conversocial, Inc.</label>
+            </value>
+            <value>
+                <fullName>Convo Technologies, Inc.</fullName>
+                <default>false</default>
+                <label>Convo Technologies, Inc.</label>
+            </value>
+            <value>
+                <fullName>Cresta</fullName>
+                <default>false</default>
+                <label>Cresta</label>
+            </value>
+            <value>
+                <fullName>Crunchbase</fullName>
+                <default>false</default>
+                <label>Crunchbase</label>
+            </value>
+            <value>
+                <fullName>Deliverect</fullName>
+                <default>false</default>
+                <label>Deliverect</label>
+            </value>
+            <value>
+                <fullName>DeskNet Inc.</fullName>
+                <default>false</default>
+                <label>DeskNet Inc.</label>
+            </value>
+            <value>
+                <fullName>Electronic Team, Inc</fullName>
+                <default>false</default>
+                <label>Electronic Team, Inc</label>
+            </value>
+            <value>
+                <fullName>Empathy Logic</fullName>
+                <default>false</default>
+                <label>Empathy Logic</label>
+            </value>
+            <value>
+                <fullName>FormalisTech Corp</fullName>
+                <default>false</default>
+                <label>FormalisTech Corp</label>
+            </value>
+            <value>
+                <fullName>Freshworks</fullName>
+                <default>false</default>
+                <label>Freshworks</label>
+            </value>
+            <value>
+                <fullName>Gladly Software, Inc</fullName>
+                <default>false</default>
+                <label>Gladly Software, Inc</label>
+            </value>
+            <value>
+                <fullName>Guru Technologies, Inc.</fullName>
+                <default>false</default>
+                <label>Guru Technologies, Inc.</label>
+            </value>
+            <value>
+                <fullName>IBM</fullName>
+                <default>false</default>
+                <label>IBM</label>
+            </value>
+            <value>
+                <fullName>IFS Americas, Inc.</fullName>
+                <default>false</default>
+                <label>IFS Americas, Inc.</label>
+            </value>
+            <value>
+                <fullName>ISI Telemanagement Solutions</fullName>
+                <default>false</default>
+                <label>ISI Telemanagement Solutions</label>
+            </value>
+            <value>
+                <fullName>Instabot</fullName>
+                <default>false</default>
+                <label>Instabot</label>
+            </value>
+            <value>
+                <fullName>Instruqt B.V.</fullName>
+                <default>false</default>
+                <label>Instruqt B.V.</label>
+            </value>
+            <value>
+                <fullName>Insuresoft</fullName>
+                <default>false</default>
+                <label>Insuresoft</label>
+            </value>
+            <value>
+                <fullName>LogMeIn, Inc.</fullName>
+                <default>false</default>
+                <label>LogMeIn, Inc.</label>
+            </value>
+            <value>
+                <fullName>MPP Global Solutions</fullName>
+                <default>false</default>
+                <label>MPP Global Solutions</label>
+            </value>
+            <value>
+                <fullName>Mindsay</fullName>
+                <default>false</default>
+                <label>Mindsay</label>
+            </value>
+            <value>
+                <fullName>Nickelled Ltd</fullName>
+                <default>false</default>
+                <label>Nickelled Ltd</label>
+            </value>
+            <value>
+                <fullName>Open Loyalty</fullName>
+                <default>false</default>
+                <label>Open Loyalty</label>
+            </value>
+            <value>
+                <fullName>Oracle Corporation</fullName>
+                <default>false</default>
+                <label>Oracle Corporation</label>
+            </value>
+            <value>
+                <fullName>PDCflow</fullName>
+                <default>false</default>
+                <label>PDCflow</label>
+            </value>
+            <value>
+                <fullName>Parlance</fullName>
+                <default>false</default>
+                <label>Parlance</label>
+            </value>
+            <value>
+                <fullName>Pegasystems Inc.</fullName>
+                <default>false</default>
+                <label>Pegasystems Inc.</label>
+            </value>
+            <value>
+                <fullName>Pingback</fullName>
+                <default>false</default>
+                <label>Pingback</label>
+            </value>
+            <value>
+                <fullName>PossibleNOW, Inc</fullName>
+                <default>false</default>
+                <label>PossibleNOW, Inc</label>
+            </value>
+            <value>
+                <fullName>Rakus Co Ltd</fullName>
+                <default>false</default>
+                <label>Rakus Co Ltd</label>
+            </value>
+            <value>
+                <fullName>RealVNC Ltd</fullName>
+                <default>false</default>
+                <label>RealVNC Ltd</label>
+            </value>
+            <value>
+                <fullName>Responsa Srl</fullName>
+                <default>false</default>
+                <label>Responsa Srl</label>
+            </value>
+            <value>
+                <fullName>SAP SE</fullName>
+                <default>false</default>
+                <label>SAP SE</label>
+            </value>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+            <value>
+                <fullName>Senvee Inc.</fullName>
+                <default>false</default>
+                <label>Senvee Inc.</label>
+            </value>
+            <value>
+                <fullName>Skilljar Inc.</fullName>
+                <default>false</default>
+                <label>Skilljar Inc.</label>
+            </value>
+            <value>
+                <fullName>SolarWinds Worldwide, LLC</fullName>
+                <default>false</default>
+                <label>SolarWinds Worldwide, LLC</label>
+            </value>
+            <value>
+                <fullName>St. Clair Interactive</fullName>
+                <default>false</default>
+                <label>St. Clair Interactive</label>
+            </value>
+            <value>
+                <fullName>StellaService, Inc.</fullName>
+                <default>false</default>
+                <label>StellaService, Inc.</label>
+            </value>
+            <value>
+                <fullName>TCWGlobal</fullName>
+                <default>false</default>
+                <label>TCWGlobal</label>
+            </value>
+            <value>
+                <fullName>TTEC</fullName>
+                <default>false</default>
+                <label>TTEC</label>
+            </value>
+            <value>
+                <fullName>TeamViewer GmbH</fullName>
+                <default>false</default>
+                <label>TeamViewer GmbH</label>
+            </value>
+            <value>
+                <fullName>TechExcel</fullName>
+                <default>false</default>
+                <label>TechExcel</label>
+            </value>
+            <value>
+                <fullName>Teradata Corporation</fullName>
+                <default>false</default>
+                <label>Teradata Corporation</label>
+            </value>
+            <value>
+                <fullName>Valtech</fullName>
+                <default>false</default>
+                <label>Valtech</label>
+            </value>
+            <value>
+                <fullName>Verint Systems Inc.</fullName>
+                <default>false</default>
+                <label>Verint Systems Inc.</label>
+            </value>
+            <value>
+                <fullName>Vitally</fullName>
+                <default>false</default>
+                <label>Vitally</label>
+            </value>
+            <value>
+                <fullName>Watermelon</fullName>
+                <default>false</default>
+                <label>Watermelon</label>
+            </value>
+            <value>
+                <fullName>Xerox Corporation</fullName>
+                <default>false</default>
+                <label>Xerox Corporation</label>
+            </value>
+            <value>
+                <fullName>Yonyx</fullName>
+                <default>false</default>
+                <label>Yonyx</label>
+            </value>
+            <value>
+                <fullName>Zendesk, Inc.</fullName>
+                <default>false</default>
+                <label>Zendesk, Inc.</label>
+            </value>
+            <value>
+                <fullName>Zoho Corporation Private Limited</fullName>
+                <default>false</default>
+                <label>Zoho Corporation Private Limited</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

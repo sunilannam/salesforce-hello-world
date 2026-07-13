@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Intelligence__c</fullName>
+    <description>REQ7071</description>
+    <label>Customer Intelligence</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apollo</fullName>
+                <default>false</default>
+                <label>Apollo</label>
+            </value>
+            <value>
+                <fullName>Artesian</fullName>
+                <default>false</default>
+                <label>Artesian</label>
+            </value>
+            <value>
+                <fullName>atEvent</fullName>
+                <default>false</default>
+                <label>atEvent</label>
+            </value>
+            <value>
+                <fullName>BuiltWith</fullName>
+                <default>false</default>
+                <label>BuiltWith</label>
+            </value>
+            <value>
+                <fullName>Callidus Quota Management</fullName>
+                <default>false</default>
+                <label>Callidus Quota Management</label>
+            </value>
+            <value>
+                <fullName>Camcard</fullName>
+                <default>false</default>
+                <label>Camcard</label>
+            </value>
+            <value>
+                <fullName>CIENCE</fullName>
+                <default>false</default>
+                <label>CIENCE</label>
+            </value>
+            <value>
+                <fullName>Clari</fullName>
+                <default>false</default>
+                <label>Clari</label>
+            </value>
+            <value>
+                <fullName>Clearbit</fullName>
+                <default>false</default>
+                <label>Clearbit</label>
+            </value>
+            <value>
+                <fullName>Datafox</fullName>
+                <default>false</default>
+                <label>Datafox</label>
+            </value>
+            <value>
+                <fullName>Datahug</fullName>
+                <default>false</default>
+                <label>Datahug</label>
+            </value>
+            <value>
+                <fullName>Datanyze</fullName>
+                <default>false</default>
+                <label>Datanyze</label>
+            </value>
+            <value>
+                <fullName>DemandScience / Pure b2b</fullName>
+                <default>false</default>
+                <label>DemandScience / Pure b2b</label>
+            </value>
+            <value>
+                <fullName>EasyLeadz</fullName>
+                <default>false</default>
+                <label>EasyLeadz</label>
+            </value>
+            <value>
+                <fullName>etailinsights</fullName>
+                <default>false</default>
+                <label>etailinsights</label>
+            </value>
+            <value>
+                <fullName>Experian AutoCount</fullName>
+                <default>false</default>
+                <label>Experian AutoCount</label>
+            </value>
+            <value>
+                <fullName>FullContact</fullName>
+                <default>false</default>
+                <label>FullContact</label>
+            </value>
+            <value>
+                <fullName>Gong</fullName>
+                <default>false</default>
+                <label>Gong</label>
+            </value>
+            <value>
+                <fullName>GovTech Navigator</fullName>
+                <default>false</default>
+                <label>GovTech Navigator</label>
+            </value>
+            <value>
+                <fullName>Growbots</fullName>
+                <default>false</default>
+                <label>Growbots</label>
+            </value>
+            <value>
+                <fullName>Gryphon Sales Intelligence</fullName>
+                <default>false</default>
+                <label>Gryphon Sales Intelligence</label>
+            </value>
+            <value>
+                <fullName>HG Data</fullName>
+                <default>false</default>
+                <label>HG Data</label>
+            </value>
+            <value>
+                <fullName>InsideView</fullName>
+                <default>false</default>
+                <label>InsideView</label>
+            </value>
+            <value>
+                <fullName>InsideView Insights</fullName>
+                <default>false</default>
+                <label>InsideView Insights</label>
+            </value>
+            <value>
+                <fullName>Introhive</fullName>
+                <default>false</default>
+                <label>Introhive</label>
+            </value>
+            <value>
+                <fullName>LeadIQ</fullName>
+                <default>false</default>
+                <label>LeadIQ</label>
+            </value>
+            <value>
+                <fullName>LinkedIn Sales Navigator</fullName>
+                <default>false</default>
+                <label>LinkedIn Sales Navigator</label>
+            </value>
+            <value>
+                <fullName>Lusha</fullName>
+                <default>false</default>
+                <label>Lusha</label>
+            </value>
+            <value>
+                <fullName>MediaRadar</fullName>
+                <default>false</default>
+                <label>MediaRadar</label>
+            </value>
+            <value>
+                <fullName>Mobivity</fullName>
+                <default>false</default>
+                <label>Mobivity</label>
+            </value>
+            <value>
+                <fullName>OneMoreLead</fullName>
+                <default>false</default>
+                <label>OneMoreLead</label>
+            </value>
+            <value>
+                <fullName>Outreach Kaia</fullName>
+                <default>false</default>
+                <label>Outreach Kaia</label>
+            </value>
+            <value>
+                <fullName>Owler</fullName>
+                <default>false</default>
+                <label>Owler</label>
+            </value>
+            <value>
+                <fullName>Pearlfinders</fullName>
+                <default>false</default>
+                <label>Pearlfinders</label>
+            </value>
+            <value>
+                <fullName>People.ai</fullName>
+                <default>false</default>
+                <label>People.ai</label>
+            </value>
+            <value>
+                <fullName>Pervasive Btrieve</fullName>
+                <default>false</default>
+                <label>Pervasive Btrieve</label>
+            </value>
+            <value>
+                <fullName>PriceSpider</fullName>
+                <default>false</default>
+                <label>PriceSpider</label>
+            </value>
+            <value>
+                <fullName>Prospect.io</fullName>
+                <default>false</default>
+                <label>Prospect.io</label>
+            </value>
+            <value>
+                <fullName>ReadyContacts</fullName>
+                <default>false</default>
+                <label>ReadyContacts</label>
+            </value>
+            <value>
+                <fullName>Sales Genie</fullName>
+                <default>false</default>
+                <label>Sales Genie</label>
+            </value>
+            <value>
+                <fullName>SalesIntel</fullName>
+                <default>false</default>
+                <label>SalesIntel</label>
+            </value>
+            <value>
+                <fullName>SalesOptimize</fullName>
+                <default>false</default>
+                <label>SalesOptimize</label>
+            </value>
+            <value>
+                <fullName>SAS Size Optimization</fullName>
+                <default>false</default>
+                <label>SAS Size Optimization</label>
+            </value>
+            <value>
+                <fullName>Seamless.AI</fullName>
+                <default>false</default>
+                <label>Seamless.AI</label>
+            </value>
+            <value>
+                <fullName>SellHack</fullName>
+                <default>false</default>
+                <label>SellHack</label>
+            </value>
+            <value>
+                <fullName>SparxIQ</fullName>
+                <default>false</default>
+                <label>SparxIQ</label>
+            </value>
+            <value>
+                <fullName>Synthio</fullName>
+                <default>false</default>
+                <label>Synthio</label>
+            </value>
+            <value>
+                <fullName>TappCtrl</fullName>
+                <default>false</default>
+                <label>TappCtrl</label>
+            </value>
+            <value>
+                <fullName>Winmo</fullName>
+                <default>false</default>
+                <label>Winmo</label>
+            </value>
+            <value>
+                <fullName>ZenProspect</fullName>
+                <default>false</default>
+                <label>ZenProspect</label>
+            </value>
+            <value>
+                <fullName>ZoomInfo</fullName>
+                <default>false</default>
+                <label>ZoomInfo</label>
+            </value>
+            <value>
+                <fullName>Zoom IQ</fullName>
+                <default>false</default>
+                <label>Zoom IQ</label>
+            </value>
+            <value>
+                <fullName>Zymewire</fullName>
+                <default>false</default>
+                <label>Zymewire</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

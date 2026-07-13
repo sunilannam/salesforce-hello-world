@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Status__c</fullName>
+    <description>An account record can only be a single status at a time, as defined by their tracked interactions with sales (i.e. opportunity stages) and marketing (i.e. lead scoring and campaign interactions.)</description>
+    <label>Account Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Open</fullName>
+                <default>true</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Ready to Work</fullName>
+                <default>false</default>
+                <label>Ready to Work</label>
+            </value>
+            <value>
+                <fullName>Attempting</fullName>
+                <default>false</default>
+                <label>Attempting</label>
+            </value>
+            <value>
+                <fullName>Working</fullName>
+                <default>false</default>
+                <label>Working</label>
+            </value>
+            <value>
+                <fullName>Recycled</fullName>
+                <default>false</default>
+                <label>Recycled</label>
+            </value>
+            <value>
+                <fullName>Disqualified</fullName>
+                <default>false</default>
+                <label>Disqualified</label>
+            </value>
+            <value>
+                <fullName>Closed Won</fullName>
+                <default>false</default>
+                <label>Closed Won</label>
+            </value>
+            <value>
+                <fullName>Closed Lost</fullName>
+                <default>false</default>
+                <label>Closed Lost</label>
+            </value>
+            <value>
+                <fullName>Recycle</fullName>
+                <default>false</default>
+                <label>Recycle</label>
+            </value>
+            <value>
+                <fullName>Customer Qualified Account</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customer Qualified Account</label>
+            </value>
+            <value>
+                <fullName>Engaged</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Engaged</label>
+            </value>
+            <value>
+                <fullName>Excluded</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Excluded</label>
+            </value>
+            <value>
+                <fullName>Marketing Qualified Account</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Marketing Qualified Account</label>
+            </value>
+            <value>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Prospect</label>
+            </value>
+            <value>
+                <fullName>Sales Qualified Account</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sales Qualified Account</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

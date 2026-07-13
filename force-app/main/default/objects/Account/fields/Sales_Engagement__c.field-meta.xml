@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Engagement__c</fullName>
+    <description>REQ7071</description>
+    <label>Sales Engagement</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>15Five</fullName>
+                <default>false</default>
+                <label>15Five</label>
+            </value>
+            <value>
+                <fullName>ActekSoft ACom3</fullName>
+                <default>false</default>
+                <label>ActekSoft ACom3</label>
+            </value>
+            <value>
+                <fullName>AFS Ignition DSD</fullName>
+                <default>false</default>
+                <label>AFS Ignition DSD</label>
+            </value>
+            <value>
+                <fullName>Altify</fullName>
+                <default>false</default>
+                <label>Altify</label>
+            </value>
+            <value>
+                <fullName>Ambition</fullName>
+                <default>false</default>
+                <label>Ambition</label>
+            </value>
+            <value>
+                <fullName>Ascend Retail Management Software</fullName>
+                <default>false</default>
+                <label>Ascend Retail Management Software</label>
+            </value>
+            <value>
+                <fullName>Bridgevine</fullName>
+                <default>false</default>
+                <label>Bridgevine</label>
+            </value>
+            <value>
+                <fullName>CallidusCloud</fullName>
+                <default>false</default>
+                <label>CallidusCloud</label>
+            </value>
+            <value>
+                <fullName>Callidus Monaco</fullName>
+                <default>false</default>
+                <label>Callidus Monaco</label>
+            </value>
+            <value>
+                <fullName>Callidus Objective Management</fullName>
+                <default>false</default>
+                <label>Callidus Objective Management</label>
+            </value>
+            <value>
+                <fullName>Callidus On-Demand</fullName>
+                <default>false</default>
+                <label>Callidus On-Demand</label>
+            </value>
+            <value>
+                <fullName>Callidus Sales Performance Management</fullName>
+                <default>false</default>
+                <label>Callidus Sales Performance Management</label>
+            </value>
+            <value>
+                <fullName>Callidus TrueComp Manager</fullName>
+                <default>false</default>
+                <label>Callidus TrueComp Manager</label>
+            </value>
+            <value>
+                <fullName>CaptivateIQ</fullName>
+                <default>false</default>
+                <label>CaptivateIQ</label>
+            </value>
+            <value>
+                <fullName>ExecVision</fullName>
+                <default>false</default>
+                <label>ExecVision</label>
+            </value>
+            <value>
+                <fullName>Gong</fullName>
+                <default>false</default>
+                <label>Gong</label>
+            </value>
+            <value>
+                <fullName>Groove</fullName>
+                <default>false</default>
+                <label>Groove</label>
+            </value>
+            <value>
+                <fullName>Growth Dynamics</fullName>
+                <default>false</default>
+                <label>Growth Dynamics</label>
+            </value>
+            <value>
+                <fullName>IBM Incentive Compensation Management</fullName>
+                <default>false</default>
+                <label>IBM Incentive Compensation Management</label>
+            </value>
+            <value>
+                <fullName>IBM Sales Performance Management</fullName>
+                <default>false</default>
+                <label>IBM Sales Performance Management</label>
+            </value>
+            <value>
+                <fullName>Infor d/EPM</fullName>
+                <default>false</default>
+                <label>Infor d/EPM</label>
+            </value>
+            <value>
+                <fullName>JDA Performance Analysis</fullName>
+                <default>false</default>
+                <label>JDA Performance Analysis</label>
+            </value>
+            <value>
+                <fullName>Kixie PowerCall</fullName>
+                <default>false</default>
+                <label>Kixie PowerCall</label>
+            </value>
+            <value>
+                <fullName>KORE ProSports Ticketing</fullName>
+                <default>false</default>
+                <label>KORE ProSports Ticketing</label>
+            </value>
+            <value>
+                <fullName>N2Hive</fullName>
+                <default>false</default>
+                <label>N2Hive</label>
+            </value>
+            <value>
+                <fullName>Octiv</fullName>
+                <default>false</default>
+                <label>Octiv</label>
+            </value>
+            <value>
+                <fullName>Optymyze</fullName>
+                <default>false</default>
+                <label>Optymyze</label>
+            </value>
+            <value>
+                <fullName>OpusCapita</fullName>
+                <default>false</default>
+                <label>OpusCapita</label>
+            </value>
+            <value>
+                <fullName>Oracle Sales Performance Management</fullName>
+                <default>false</default>
+                <label>Oracle Sales Performance Management</label>
+            </value>
+            <value>
+                <fullName>Performio</fullName>
+                <default>false</default>
+                <label>Performio</label>
+            </value>
+            <value>
+                <fullName>Pixeleze</fullName>
+                <default>false</default>
+                <label>Pixeleze</label>
+            </value>
+            <value>
+                <fullName>QCommission</fullName>
+                <default>false</default>
+                <label>QCommission</label>
+            </value>
+            <value>
+                <fullName>Salesforce Work.com</fullName>
+                <default>false</default>
+                <label>Salesforce Work.com</label>
+            </value>
+            <value>
+                <fullName>Salesloft</fullName>
+                <default>false</default>
+                <label>Salesloft</label>
+            </value>
+            <value>
+                <fullName>Salesvue</fullName>
+                <default>false</default>
+                <label>Salesvue</label>
+            </value>
+            <value>
+                <fullName>SAP Direct Store Delivery (DSD)</fullName>
+                <default>false</default>
+                <label>SAP Direct Store Delivery (DSD)</label>
+            </value>
+            <value>
+                <fullName>Symmetrics</fullName>
+                <default>false</default>
+                <label>Symmetrics</label>
+            </value>
+            <value>
+                <fullName>Synygy</fullName>
+                <default>false</default>
+                <label>Synygy</label>
+            </value>
+            <value>
+                <fullName>Trackmax</fullName>
+                <default>false</default>
+                <label>Trackmax</label>
+            </value>
+            <value>
+                <fullName>Varicent</fullName>
+                <default>false</default>
+                <label>Varicent</label>
+            </value>
+            <value>
+                <fullName>Xactly</fullName>
+                <default>false</default>
+                <label>Xactly</label>
+            </value>
+            <value>
+                <fullName>Xactly Incent Enterprise</fullName>
+                <default>false</default>
+                <label>Xactly Incent Enterprise</label>
+            </value>
+            <value>
+                <fullName>Xant</fullName>
+                <default>false</default>
+                <label>Xant</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

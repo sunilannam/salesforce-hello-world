@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Named_Targets__c</fullName>
+    <businessOwnerUser>mnamasivayam@seismic.com.devsa4</businessOwnerUser>
+    <businessStatus>DeprecateCandidate</businessStatus>
+    <label>Named Targets</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Core Commercial</fullName>
+                <default>false</default>
+                <label>Core Commercial</label>
+            </value>
+            <value>
+                <fullName>Core Mid-Market</fullName>
+                <default>false</default>
+                <label>Core Mid-Market</label>
+            </value>
+            <value>
+                <fullName>Core Enterprise</fullName>
+                <default>false</default>
+                <label>Core Enterprise</label>
+            </value>
+            <value>
+                <fullName>Core Global</fullName>
+                <default>false</default>
+                <label>Core Global</label>
+            </value>
+            <value>
+                <fullName>FS Enterprise</fullName>
+                <default>false</default>
+                <label>FS Enterprise</label>
+            </value>
+            <value>
+                <fullName>FS Global</fullName>
+                <default>false</default>
+                <label>FS Global</label>
+            </value>
+            <value>
+                <fullName>FS Mid-Market</fullName>
+                <default>false</default>
+                <label>FS Mid-Market</label>
+            </value>
+            <value>
+                <fullName>FS Commercial</fullName>
+                <default>false</default>
+                <label>FS Commercial</label>
+            </value>
+            <value>
+                <fullName>Core</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Core</label>
+            </value>
+            <value>
+                <fullName>Core Enterprise Mid-Market</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Core Enterprise Mid-Market</label>
+            </value>
+            <value>
+                <fullName>Core Enterprise SMB</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Core Enterprise SMB</label>
+            </value>
+            <value>
+                <fullName>Core Global LS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Core Global LS</label>
+            </value>
+            <value>
+                <fullName>FS Enterprise Mid-Market</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FS Enterprise Mid-Market</label>
+            </value>
+            <value>
+                <fullName>FS Enterprise SMB</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FS Enterprise SMB</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

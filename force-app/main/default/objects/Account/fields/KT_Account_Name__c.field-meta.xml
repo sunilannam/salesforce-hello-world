@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KT_Account_Name__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>support KT License Management; this is the unique Account name in Odin</description>
+    <externalId>false</externalId>
+    <label>KT Account Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

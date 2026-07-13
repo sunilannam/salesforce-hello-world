@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal_ARR__c</fullName>
+    <businessStatus>DeprecateCandidate</businessStatus>
+    <description>INTEGRATION FIELD: Field used by Gainsight for triggering CTAs (LMS 3/11/2021: NEED TO CHECK IF THIS IS STILL TRUE)
+
+LMS 3/11/2021: this field is no longer in user; CS used this field for forecasting PRIOR to using Gainsight Renewal Center</description>
+    <inlineHelpText>To Be Deprecated: ARR of the next renewal</inlineHelpText>
+    <label>Renewal ARR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Currency</type>
+</CustomField>

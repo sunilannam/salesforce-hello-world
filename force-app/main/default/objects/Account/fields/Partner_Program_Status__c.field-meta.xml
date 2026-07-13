@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Program_Status__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>Used by the Partner team to identify partner accounts as actively involved in program and to identify which partners were enrolled at some point, but are no longer actively working with us.
+Required on Partner Page Layout.</description>
+    <inlineHelpText>Used by the Partner team to identify partner accounts as actively involved in program and to identify which partners were enrolled at some point, but are no longer actively working with us.</inlineHelpText>
+    <label>Partner Program Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+                <label>Inactive</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

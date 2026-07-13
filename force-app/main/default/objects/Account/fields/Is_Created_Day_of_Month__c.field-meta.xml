@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Created_Day_of_Month__c</fullName>
+    <description>Used to segment data for incremental processing for enrichment</description>
+    <formula>Day(Today())=Day(Datevalue(CreatedDate))</formula>
+    <inlineHelpText>Used to segment data for incremental processing for enrichment</inlineHelpText>
+    <label>Is Created Day of Month</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

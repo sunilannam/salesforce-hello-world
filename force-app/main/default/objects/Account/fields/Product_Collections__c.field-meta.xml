@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Collections__c</fullName>
+    <description>Used in DLRS to show Product Collections for Active Subscriptions</description>
+    <label>Product Collections</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advanced</fullName>
+                <default>false</default>
+                <label>Advanced</label>
+            </value>
+            <value>
+                <fullName>Essential</fullName>
+                <default>false</default>
+                <label>Essential</label>
+            </value>
+            <value>
+                <fullName>Ultimate</fullName>
+                <default>false</default>
+                <label>Ultimate</label>
+            </value>
+            <value>
+                <fullName>Buyer &amp; Customer Engagement</fullName>
+                <default>false</default>
+                <label>Buyer &amp; Customer Engagement</label>
+            </value>
+            <value>
+                <fullName>Coaching &amp; Development</fullName>
+                <default>false</default>
+                <label>Coaching &amp; Development</label>
+            </value>
+            <value>
+                <fullName>Connectors</fullName>
+                <default>false</default>
+                <label>Connectors</label>
+            </value>
+            <value>
+                <fullName>Enablement Execution</fullName>
+                <default>false</default>
+                <label>Enablement Execution</label>
+            </value>
+            <value>
+                <fullName>MicroApps</fullName>
+                <default>false</default>
+                <label>MicroApps</label>
+            </value>
+            <value>
+                <fullName>Platinum Support</fullName>
+                <default>false</default>
+                <label>Platinum Support</label>
+            </value>
+            <value>
+                <fullName>Production Clone</fullName>
+                <default>false</default>
+                <label>Production Clone</label>
+            </value>
+            <value>
+                <fullName>Sandbox</fullName>
+                <default>false</default>
+                <label>Sandbox</label>
+            </value>
+            <value>
+                <fullName>Services Solutions</fullName>
+                <default>false</default>
+                <label>Services Solutions</label>
+            </value>
+            <value>
+                <fullName>UpContent</fullName>
+                <default>false</default>
+                <label>UpContent</label>
+            </value>
+            <value>
+                <fullName>Proofpoint</fullName>
+                <default>false</default>
+                <label>Proofpoint</label>
+            </value>
+            <value>
+                <fullName>Tutorials</fullName>
+                <default>false</default>
+                <label>Tutorials</label>
+            </value>
+            <value>
+                <fullName>Other Add-Ons</fullName>
+                <default>false</default>
+                <label>Other Add-Ons</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
